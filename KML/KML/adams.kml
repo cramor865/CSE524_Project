@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="adams" id="adams">
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="area_m" type="float"></SimpleField>
+	<SimpleField name="area_m_1" type="float"></SimpleField>
+</Schema>
+<Folder><name>adams</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#adams">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">23.97792690810</SimpleData>
+		<SimpleData name="area_m_1">23.28995869140</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>92.5485735623372,-66.5460328206555 92.5486198212171,-66.5460376922702 92.5486230535074,-66.5460410501482 92.5486366173042,-66.5460601624091 92.548647456528,-66.5460804613919 92.5486413135491,-66.5461021999572 92.5486102006244,-66.5461050285435 92.5485749669414,-66.546096546193 92.5485640008527,-66.5460751110536 92.5485617162628,-66.5460546603546 92.5485735623372,-66.5460328206555</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#adams">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">53.57775038340</SimpleData>
+		<SimpleData name="area_m_1">52.04042236630</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>92.5495124882541,-66.5457930395199 92.5495129273572,-66.545771402119 92.549550123585,-66.5457718806049 92.5495770566228,-66.5457827867739 92.5496044975747,-66.5457982375302 92.5496271244029,-66.545821742501 92.549650005227,-66.5458475197663 92.549661480127,-66.5458734993986 92.5496084444934,-66.5458846859707 92.5495475473285,-66.545876659181 92.5495311313861,-66.5458575976077 92.5495337871186,-66.5458302288718 92.5495259256802,-66.5458110155323 92.5495124882541,-66.5457930395199</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#adams">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">70.07085490060</SimpleData>
+		<SimpleData name="area_m_1">68.06023650030</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>92.5498474860129,-66.5456971621806 92.5498723873472,-66.5456898899336 92.54992681926,-66.5456912008915 92.5499783997086,-66.5456925624269 92.5500315040755,-66.5457075577105 92.5500769430555,-66.5457306578069 92.5500777744409,-66.5457636566802 92.5500624434893,-66.5457798663451 92.5499978753469,-66.5457901193088 92.5499413536437,-66.5457956758608 92.5499227208877,-66.545782345673 92.5499495848485,-66.5457670697803 92.5499796812227,-66.5457551517276 92.5499722004047,-66.5457393468597 92.5499396912672,-66.5457296781088 92.5498851322762,-66.5457272310082 92.5498470472284,-66.5457187995767 92.5498474860129,-66.5456971621806</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

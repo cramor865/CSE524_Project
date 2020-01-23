@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="alasheyev" id="alasheyev">
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="area_m" type="float"></SimpleField>
+</Schema>
+<Folder><name>alasheyev</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">61.52318142610</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1088245186244,-67.65437677819 46.1087539649752,-67.654404688142 46.108655983128,-67.6544078998057 46.1085700698675,-67.6543911023264 46.1085939539002,-67.6543461059821 46.1087175913281,-67.6543327453021 46.1088245186244,-67.65437677819</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">36.18407730510</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1091114596257,-67.6544223898606 46.1091389725967,-67.6544487474322 46.1091222064119,-67.6544621511043 46.1090531155525,-67.6544759402762 46.1089960084654,-67.6544680609022 46.1089773852192,-67.6544449578503 46.1089633756078,-67.6544268008632 46.1090150248665,-67.6544131402286 46.1091114596257,-67.6544223898606</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">59.75843218000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1091220889773,-67.6541168684754 46.1092147531213,-67.654137765916 46.1092504799478,-67.6541541028199 46.1092383276619,-67.654172452544 46.1091995068334,-67.6541810386766 46.1091165761683,-67.6541799897016 46.109038259072,-67.6541838867401 46.1089888605282,-67.6541560303928 46.1090222237518,-67.6541259043162 46.1091220889773,-67.6541168684754</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">82.27031106850</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1077620921291,-67.6535342577986 46.1079070749591,-67.6535547709525 46.1079263709007,-67.6535911492014 46.107844285716,-67.6536066934446 46.107717923758,-67.6536092833707 46.1076073166475,-67.6535785570252 46.10763623639,-67.6535468040042 46.1077620921291,-67.6535342577986</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">545.53388308600</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1081200756924,-67.6536262436648 46.1082424992221,-67.6536319824602 46.1082908834034,-67.6536399263028 46.1084268095337,-67.6536538656004 46.1085454636719,-67.6536712519983 46.108597111403,-67.6536575915415 46.1087041762086,-67.6536186227225 46.1087647129191,-67.6536082167645 46.1088488229091,-67.6536324974094 46.1089026647114,-67.6536619810259 46.1089217936089,-67.6536950403769 46.1088543929505,-67.653742017259 46.1088649701408,-67.6537784596471 46.1087625182593,-67.6538223746625 46.1085918775739,-67.6538120113364 46.1085376983371,-67.6537758900248 46.1084448676523,-67.653751673408 46.1083537243106,-67.653760644581 46.1082309626391,-67.653748268304 46.1080963854418,-67.653760879104 46.1080341613347,-67.6537380969487 46.1080191409868,-67.6537000272094 46.1081200756924,-67.6536262436648</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">517.46975298200</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1077996837328,-67.6533297997626 46.1078653390945,-67.6533342966006 46.1078702894855,-67.6533458802428 46.1078453089364,-67.6533693042459 46.1078550410833,-67.6533891527535 46.1079290796882,-67.6533869478231 46.1080109953268,-67.6533680847642 46.1080493091826,-67.6533495426196 46.1080298445884,-67.6533098456355 46.1080327711213,-67.6532816039117 46.1081635756336,-67.6532806410154 46.1082916226416,-67.6533112385143 46.1082710870944,-67.6533362898732 46.1082638850449,-67.6533662230986 46.1083816939115,-67.6533670157063 46.1085046222561,-67.6533827106249 46.1084801485377,-67.6534160910783 46.1084775600269,-67.6534509703857 46.1083569932832,-67.6534817383804 46.1082643327496,-67.6534608404575 46.1081639641246,-67.6534599193646 46.10815608716,-67.6534765774697 46.1081021878082,-67.6535317546415 46.1080818205072,-67.6535601247756 46.1080611158169,-67.6535818573435 46.1079585541623,-67.6535377919372 46.1078915490343,-67.6535067448763 46.1078510425055,-67.6534821428189 46.1078488502516,-67.6534389986538 46.1077950104248,-67.6534095146821 46.1077107338551,-67.6533819146851 46.107709216339,-67.6533520456555 46.1077996837328,-67.6533297997626</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">25.39045883010</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1093338567263,-67.6539924668914 46.1094181377104,-67.6540200660356 46.1094239334763,-67.6540482435861 46.109354506382,-67.6540553953034 46.1092835595222,-67.6540326779081 46.1093338567263,-67.6539924668914</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">212.88636440700</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1087912049968,-67.6548067193002 46.1088830277414,-67.6548110230137 46.1089338004348,-67.654831565257 46.1089353197314,-67.6548614344211 46.1088474803027,-67.6548839937183 46.1088591607873,-67.6549078119695 46.1088193257545,-67.654947945868 46.1087158893704,-67.6549726119961 46.1086371980691,-67.6549692074814 46.1085962829581,-67.6549366403916 46.1086098542874,-67.6548947079468 46.1085687368507,-67.6548581583017 46.1085760631008,-67.6547963516274 46.1086656239029,-67.6548076442109 46.1087912049968,-67.6548067193002</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">97.85775048360</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1090046264845,-67.6549376167919 46.1090462845007,-67.6549333258493 46.1090683290914,-67.6549550757116 46.109090373726,-67.6549768255721 46.1091613682075,-67.6549832745972 46.109243131854,-67.6549956203129 46.109275641894,-67.6550172930373 46.1092668991029,-67.6550512218873 46.1092059314823,-67.6550875275745 46.1091423296845,-67.6550720599844 46.1091328092298,-67.6550392617118 46.1090949654016,-67.6550156362272 46.1090080704659,-67.6550053202565 46.1089488913301,-67.6549738838136 46.1090046264845,-67.6549376167919</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">11.49664956560</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1093509706582,-67.6541830765893 46.1093990754673,-67.6542026422761 46.1094313818221,-67.6542203323634 46.1094162925768,-67.6542323956886 46.1093766948944,-67.6542257154405 46.1093258218753,-67.6542031821149 46.1093509706582,-67.6541830765893</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alasheyev">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">9.11589923793</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.1088749911632,-67.6540869825607 46.1089016594249,-67.6540967462069 46.1088891355216,-67.6541077945659 46.1088713792251,-67.6541188814671 46.1088296214567,-67.6541211810769 46.1088001851022,-67.6541084497781 46.1088749911632,-67.6540869825607</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

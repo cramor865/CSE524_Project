@@ -1,0 +1,3085 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ef2af2f088e049e2940d76753af86fa9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ef2af2f088e049e2940d76753af86fa9" ></div>
+        
+</body>
+<script>    
+    
+            var map_ef2af2f088e049e2940d76753af86fa9 = L.map(
+                "map_ef2af2f088e049e2940d76753af86fa9",
+                {
+                    center: [-67.65418408429494, 46.1085193492348],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7e307aa7223d419f8af2d866b0511e9f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var feature_group_71d7b397c01144a191c204e18bb69ec1 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_7eaad3beeed0477ea489bbce379e2699 = L.polygon(
+                [[-67.6543327453021, 46.1087175913281], [-67.65437677819, 46.1088245186244], [-67.654404688142, 46.1087539649752], [-67.6544078998057, 46.108655983128], [-67.6543911023264, 46.1085700698675], [-67.6543461059821, 46.1085939539002]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_71d7b397c01144a191c204e18bb69ec1);
+        
+    
+        var popup_16ebf106cae742528bcd4fafe9fd1d22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bea07f7f35b4442695bc98a05b1e82a7 = $(`<div id="html_bea07f7f35b4442695bc98a05b1e82a7" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_1</div>`)[0];
+            popup_16ebf106cae742528bcd4fafe9fd1d22.setContent(html_bea07f7f35b4442695bc98a05b1e82a7);
+        
+
+        polygon_7eaad3beeed0477ea489bbce379e2699.bindPopup(popup_16ebf106cae742528bcd4fafe9fd1d22)
+        ;
+
+        
+    
+    
+            var feature_group_caad4b181e964629b9273ecd0738310a = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_8b69d2c47e004a41b007b6d83a7808dc = L.circleMarker(
+                [-67.65437677819, 46.1088245186244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_caad4b181e964629b9273ecd0738310a);
+        
+    
+        var popup_b90a606b0b734ffc859bbc6a41619b37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_447c2a9e45c341f0a448b59b9c28db38 = $(`<div id="html_447c2a9e45c341f0a448b59b9c28db38" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_1</div>`)[0];
+            popup_b90a606b0b734ffc859bbc6a41619b37.setContent(html_447c2a9e45c341f0a448b59b9c28db38);
+        
+
+        circle_marker_8b69d2c47e004a41b007b6d83a7808dc.bindPopup(popup_b90a606b0b734ffc859bbc6a41619b37)
+        ;
+
+        
+    
+    
+            var circle_marker_b4bfcc35dc1649f09b91ccaa60ad94e6 = L.circleMarker(
+                [-67.654404688142, 46.1087539649752],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_caad4b181e964629b9273ecd0738310a);
+        
+    
+        var popup_ba057b54e1c7484d860ad634e3658372 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eed9aaabba94810b9b9739f9f061a90 = $(`<div id="html_6eed9aaabba94810b9b9739f9f061a90" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_1</div>`)[0];
+            popup_ba057b54e1c7484d860ad634e3658372.setContent(html_6eed9aaabba94810b9b9739f9f061a90);
+        
+
+        circle_marker_b4bfcc35dc1649f09b91ccaa60ad94e6.bindPopup(popup_ba057b54e1c7484d860ad634e3658372)
+        ;
+
+        
+    
+    
+            var circle_marker_400cccedd4b040b787c90255ce93ceaa = L.circleMarker(
+                [-67.6544078998057, 46.108655983128],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_caad4b181e964629b9273ecd0738310a);
+        
+    
+        var popup_abbb2c7261e54e42886499977a096b79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00578d2e10e7428d8227b3df131a584e = $(`<div id="html_00578d2e10e7428d8227b3df131a584e" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_1</div>`)[0];
+            popup_abbb2c7261e54e42886499977a096b79.setContent(html_00578d2e10e7428d8227b3df131a584e);
+        
+
+        circle_marker_400cccedd4b040b787c90255ce93ceaa.bindPopup(popup_abbb2c7261e54e42886499977a096b79)
+        ;
+
+        
+    
+    
+            var circle_marker_a4dd3981d7c348d68be4b48bcab46025 = L.circleMarker(
+                [-67.6543911023264, 46.1085700698675],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_caad4b181e964629b9273ecd0738310a);
+        
+    
+        var popup_cb75ea2b888c4f1a80abb041e1e839a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_455278ef70554258927b5f697e59dfe0 = $(`<div id="html_455278ef70554258927b5f697e59dfe0" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_1</div>`)[0];
+            popup_cb75ea2b888c4f1a80abb041e1e839a5.setContent(html_455278ef70554258927b5f697e59dfe0);
+        
+
+        circle_marker_a4dd3981d7c348d68be4b48bcab46025.bindPopup(popup_cb75ea2b888c4f1a80abb041e1e839a5)
+        ;
+
+        
+    
+    
+            var circle_marker_cdd3bd21c6834464ac7ddbd2c08dd94a = L.circleMarker(
+                [-67.6543461059821, 46.1085939539002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_caad4b181e964629b9273ecd0738310a);
+        
+    
+        var popup_189c754dc28f4c0d9358a703a5e0e936 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fa5b48296b840d8a4ab996b740bc042 = $(`<div id="html_9fa5b48296b840d8a4ab996b740bc042" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_1</div>`)[0];
+            popup_189c754dc28f4c0d9358a703a5e0e936.setContent(html_9fa5b48296b840d8a4ab996b740bc042);
+        
+
+        circle_marker_cdd3bd21c6834464ac7ddbd2c08dd94a.bindPopup(popup_189c754dc28f4c0d9358a703a5e0e936)
+        ;
+
+        
+    
+    
+            var circle_marker_00acb64c62b8430d8716ef23fc7d28f3 = L.circleMarker(
+                [-67.6543327453021, 46.1087175913281],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_caad4b181e964629b9273ecd0738310a);
+        
+    
+        var popup_0aee9db4273c46fba845539cf3a90a7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9c6f992041c4d808e6873384977a20e = $(`<div id="html_d9c6f992041c4d808e6873384977a20e" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_1</div>`)[0];
+            popup_0aee9db4273c46fba845539cf3a90a7c.setContent(html_d9c6f992041c4d808e6873384977a20e);
+        
+
+        circle_marker_00acb64c62b8430d8716ef23fc7d28f3.bindPopup(popup_0aee9db4273c46fba845539cf3a90a7c)
+        ;
+
+        
+    
+    
+            var circle_marker_79ef18f920ce4dfc9fdca7fb7cc1b846 = L.circleMarker(
+                [-67.65437677819, 46.1088245186244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_caad4b181e964629b9273ecd0738310a);
+        
+    
+        var popup_2b2ebe6b97eb48e88d4a2c489d2c00d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baf6f012222343738d41e4392edf8e4a = $(`<div id="html_baf6f012222343738d41e4392edf8e4a" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_1</div>`)[0];
+            popup_2b2ebe6b97eb48e88d4a2c489d2c00d5.setContent(html_baf6f012222343738d41e4392edf8e4a);
+        
+
+        circle_marker_79ef18f920ce4dfc9fdca7fb7cc1b846.bindPopup(popup_2b2ebe6b97eb48e88d4a2c489d2c00d5)
+        ;
+
+        
+    
+    
+            var feature_group_b4de0329bc8146e0904f5eaacbf4e544 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_8e21b737a38148df9d2b27a129455ed2 = L.polygon(
+                [[-67.6542031821149, 46.1093258218753], [-67.6541830765893, 46.1093509706582], [-67.6542026422761, 46.1093990754673], [-67.6542203323634, 46.1094313818221], [-67.6542323956886, 46.1094162925768], [-67.6542257154405, 46.1093766948944]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_b4de0329bc8146e0904f5eaacbf4e544);
+        
+    
+        var popup_43df8401098e49dd9d4313d0e4d252ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2091d845cfd64aebb6f4126956a9465b = $(`<div id="html_2091d845cfd64aebb6f4126956a9465b" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_10</div>`)[0];
+            popup_43df8401098e49dd9d4313d0e4d252ac.setContent(html_2091d845cfd64aebb6f4126956a9465b);
+        
+
+        polygon_8e21b737a38148df9d2b27a129455ed2.bindPopup(popup_43df8401098e49dd9d4313d0e4d252ac)
+        ;
+
+        
+    
+    
+            var feature_group_6fb0767bf9774db2a93b7d5e7be1ace3 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_3fdec5a66a17423d92cad2434ea7cf5d = L.circleMarker(
+                [-67.6541830765893, 46.1093509706582],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6fb0767bf9774db2a93b7d5e7be1ace3);
+        
+    
+        var popup_a7388c385b7c4df986b7b3a21b6b7b7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12ad5d34c2e14da899ba7bad6d660ed4 = $(`<div id="html_12ad5d34c2e14da899ba7bad6d660ed4" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_10</div>`)[0];
+            popup_a7388c385b7c4df986b7b3a21b6b7b7c.setContent(html_12ad5d34c2e14da899ba7bad6d660ed4);
+        
+
+        circle_marker_3fdec5a66a17423d92cad2434ea7cf5d.bindPopup(popup_a7388c385b7c4df986b7b3a21b6b7b7c)
+        ;
+
+        
+    
+    
+            var circle_marker_9d7420994f21419fa856b2db4f2040de = L.circleMarker(
+                [-67.6542026422761, 46.1093990754673],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6fb0767bf9774db2a93b7d5e7be1ace3);
+        
+    
+        var popup_92a7788b7ff249b5a822f5ff55ec279e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2b747f044da4b2a972fbd32e6fb7d31 = $(`<div id="html_e2b747f044da4b2a972fbd32e6fb7d31" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_10</div>`)[0];
+            popup_92a7788b7ff249b5a822f5ff55ec279e.setContent(html_e2b747f044da4b2a972fbd32e6fb7d31);
+        
+
+        circle_marker_9d7420994f21419fa856b2db4f2040de.bindPopup(popup_92a7788b7ff249b5a822f5ff55ec279e)
+        ;
+
+        
+    
+    
+            var circle_marker_03792ca91f304d55951cbf86549717ca = L.circleMarker(
+                [-67.6542203323634, 46.1094313818221],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6fb0767bf9774db2a93b7d5e7be1ace3);
+        
+    
+        var popup_ad0fc2cedcf64f5e8b9c23186920924b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_640e411613bb4bccbb4e040e9aff11a8 = $(`<div id="html_640e411613bb4bccbb4e040e9aff11a8" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_10</div>`)[0];
+            popup_ad0fc2cedcf64f5e8b9c23186920924b.setContent(html_640e411613bb4bccbb4e040e9aff11a8);
+        
+
+        circle_marker_03792ca91f304d55951cbf86549717ca.bindPopup(popup_ad0fc2cedcf64f5e8b9c23186920924b)
+        ;
+
+        
+    
+    
+            var circle_marker_b4ec6880ec724995ad91ad5d4a3b6d18 = L.circleMarker(
+                [-67.6542323956886, 46.1094162925768],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6fb0767bf9774db2a93b7d5e7be1ace3);
+        
+    
+        var popup_d5cf2f91c2dc46fe88ad57f6070d34ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7051ff8d81dd4e5e937fbc5e19a850fe = $(`<div id="html_7051ff8d81dd4e5e937fbc5e19a850fe" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_10</div>`)[0];
+            popup_d5cf2f91c2dc46fe88ad57f6070d34ac.setContent(html_7051ff8d81dd4e5e937fbc5e19a850fe);
+        
+
+        circle_marker_b4ec6880ec724995ad91ad5d4a3b6d18.bindPopup(popup_d5cf2f91c2dc46fe88ad57f6070d34ac)
+        ;
+
+        
+    
+    
+            var circle_marker_d6a63b625ae54521bceb0e3e14d8d5e3 = L.circleMarker(
+                [-67.6542257154405, 46.1093766948944],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6fb0767bf9774db2a93b7d5e7be1ace3);
+        
+    
+        var popup_4076d42847bf45dabcea0c8f2cdda0d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82a58efea0d4459a832927611ff5df05 = $(`<div id="html_82a58efea0d4459a832927611ff5df05" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_10</div>`)[0];
+            popup_4076d42847bf45dabcea0c8f2cdda0d4.setContent(html_82a58efea0d4459a832927611ff5df05);
+        
+
+        circle_marker_d6a63b625ae54521bceb0e3e14d8d5e3.bindPopup(popup_4076d42847bf45dabcea0c8f2cdda0d4)
+        ;
+
+        
+    
+    
+            var circle_marker_0935d3a72939440b84f6f1c522fa2247 = L.circleMarker(
+                [-67.6542031821149, 46.1093258218753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6fb0767bf9774db2a93b7d5e7be1ace3);
+        
+    
+        var popup_ee13c40dbc5247b4970a5905cdebdb48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e4be4b451b04f9daf24cbea061b8c16 = $(`<div id="html_1e4be4b451b04f9daf24cbea061b8c16" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_10</div>`)[0];
+            popup_ee13c40dbc5247b4970a5905cdebdb48.setContent(html_1e4be4b451b04f9daf24cbea061b8c16);
+        
+
+        circle_marker_0935d3a72939440b84f6f1c522fa2247.bindPopup(popup_ee13c40dbc5247b4970a5905cdebdb48)
+        ;
+
+        
+    
+    
+            var circle_marker_f5687213359b49acad7d21816c2386c0 = L.circleMarker(
+                [-67.6541830765893, 46.1093509706582],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6fb0767bf9774db2a93b7d5e7be1ace3);
+        
+    
+        var popup_f7dc33d54a1545fb824ecaf4162b4370 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_147d447199ef4833b629cc0f14acbd1b = $(`<div id="html_147d447199ef4833b629cc0f14acbd1b" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_10</div>`)[0];
+            popup_f7dc33d54a1545fb824ecaf4162b4370.setContent(html_147d447199ef4833b629cc0f14acbd1b);
+        
+
+        circle_marker_f5687213359b49acad7d21816c2386c0.bindPopup(popup_f7dc33d54a1545fb824ecaf4162b4370)
+        ;
+
+        
+    
+    
+            var feature_group_3680b0dec9c34c65aca23b5e5e7a5bb2 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_4ac3e10f586049658acd09444d0358e1 = L.polygon(
+                [[-67.6541211810769, 46.1088296214567], [-67.6541084497781, 46.1088001851022], [-67.6540869825607, 46.1088749911632], [-67.6540967462069, 46.1089016594249], [-67.6541077945659, 46.1088891355216], [-67.6541188814671, 46.1088713792251]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_3680b0dec9c34c65aca23b5e5e7a5bb2);
+        
+    
+        var popup_33e0ae742192417bbeb936767918443a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f073b529c4d04a669b2bb4bc305b613a = $(`<div id="html_f073b529c4d04a669b2bb4bc305b613a" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_11</div>`)[0];
+            popup_33e0ae742192417bbeb936767918443a.setContent(html_f073b529c4d04a669b2bb4bc305b613a);
+        
+
+        polygon_4ac3e10f586049658acd09444d0358e1.bindPopup(popup_33e0ae742192417bbeb936767918443a)
+        ;
+
+        
+    
+    
+            var feature_group_5e2f62cf18954c03851a3fa92817d98e = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_76b2b367ad8e477687e215b380bddc20 = L.circleMarker(
+                [-67.6540869825607, 46.1088749911632],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5e2f62cf18954c03851a3fa92817d98e);
+        
+    
+        var popup_b6f2792d25ce441cb50ac3d316895ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cb07d9e9eb3427fbce1db0784a0f582 = $(`<div id="html_1cb07d9e9eb3427fbce1db0784a0f582" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_11</div>`)[0];
+            popup_b6f2792d25ce441cb50ac3d316895ca5.setContent(html_1cb07d9e9eb3427fbce1db0784a0f582);
+        
+
+        circle_marker_76b2b367ad8e477687e215b380bddc20.bindPopup(popup_b6f2792d25ce441cb50ac3d316895ca5)
+        ;
+
+        
+    
+    
+            var circle_marker_3c6b1488d335473d87b5a5e054b8ef61 = L.circleMarker(
+                [-67.6540967462069, 46.1089016594249],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5e2f62cf18954c03851a3fa92817d98e);
+        
+    
+        var popup_02ebd7e6cbca46cc84831b13c14eb85b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61889132b37d49e3bf30c708c44fdc88 = $(`<div id="html_61889132b37d49e3bf30c708c44fdc88" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_11</div>`)[0];
+            popup_02ebd7e6cbca46cc84831b13c14eb85b.setContent(html_61889132b37d49e3bf30c708c44fdc88);
+        
+
+        circle_marker_3c6b1488d335473d87b5a5e054b8ef61.bindPopup(popup_02ebd7e6cbca46cc84831b13c14eb85b)
+        ;
+
+        
+    
+    
+            var circle_marker_10a97b586fc144df8dd91599c1362003 = L.circleMarker(
+                [-67.6541077945659, 46.1088891355216],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5e2f62cf18954c03851a3fa92817d98e);
+        
+    
+        var popup_8e2656abf19a4e22b48a11eed370c955 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0519a2389e354c77b1e8effae2caad95 = $(`<div id="html_0519a2389e354c77b1e8effae2caad95" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_11</div>`)[0];
+            popup_8e2656abf19a4e22b48a11eed370c955.setContent(html_0519a2389e354c77b1e8effae2caad95);
+        
+
+        circle_marker_10a97b586fc144df8dd91599c1362003.bindPopup(popup_8e2656abf19a4e22b48a11eed370c955)
+        ;
+
+        
+    
+    
+            var circle_marker_845a5d883adc471baf7e34176d94f198 = L.circleMarker(
+                [-67.6541188814671, 46.1088713792251],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5e2f62cf18954c03851a3fa92817d98e);
+        
+    
+        var popup_2e2b382dcf284d00bbc2dbf124a79640 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e381a506de3a4d878f8f388e4c5d8747 = $(`<div id="html_e381a506de3a4d878f8f388e4c5d8747" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_11</div>`)[0];
+            popup_2e2b382dcf284d00bbc2dbf124a79640.setContent(html_e381a506de3a4d878f8f388e4c5d8747);
+        
+
+        circle_marker_845a5d883adc471baf7e34176d94f198.bindPopup(popup_2e2b382dcf284d00bbc2dbf124a79640)
+        ;
+
+        
+    
+    
+            var circle_marker_a2bf964ada694d5c9fd3a42546500ec4 = L.circleMarker(
+                [-67.6541211810769, 46.1088296214567],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5e2f62cf18954c03851a3fa92817d98e);
+        
+    
+        var popup_2de796bc760c4efda98b13f3fd5c6cd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1e8788d18624eada970466a72cada55 = $(`<div id="html_a1e8788d18624eada970466a72cada55" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_11</div>`)[0];
+            popup_2de796bc760c4efda98b13f3fd5c6cd1.setContent(html_a1e8788d18624eada970466a72cada55);
+        
+
+        circle_marker_a2bf964ada694d5c9fd3a42546500ec4.bindPopup(popup_2de796bc760c4efda98b13f3fd5c6cd1)
+        ;
+
+        
+    
+    
+            var circle_marker_eb73ad02071a40049d980a92358673d9 = L.circleMarker(
+                [-67.6541084497781, 46.1088001851022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5e2f62cf18954c03851a3fa92817d98e);
+        
+    
+        var popup_6c5829300441479ca27bbf19983466c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_034355bb2e45401ea9f2501c3e384a6c = $(`<div id="html_034355bb2e45401ea9f2501c3e384a6c" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_11</div>`)[0];
+            popup_6c5829300441479ca27bbf19983466c9.setContent(html_034355bb2e45401ea9f2501c3e384a6c);
+        
+
+        circle_marker_eb73ad02071a40049d980a92358673d9.bindPopup(popup_6c5829300441479ca27bbf19983466c9)
+        ;
+
+        
+    
+    
+            var circle_marker_ec6d79963918465ba952c5bd5816e1ce = L.circleMarker(
+                [-67.6540869825607, 46.1088749911632],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5e2f62cf18954c03851a3fa92817d98e);
+        
+    
+        var popup_b89cdaf7835547e8bd9c1fa23e44fcb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a05e6e2b5d9846fbbff4c3cd1ca1f96d = $(`<div id="html_a05e6e2b5d9846fbbff4c3cd1ca1f96d" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_11</div>`)[0];
+            popup_b89cdaf7835547e8bd9c1fa23e44fcb6.setContent(html_a05e6e2b5d9846fbbff4c3cd1ca1f96d);
+        
+
+        circle_marker_ec6d79963918465ba952c5bd5816e1ce.bindPopup(popup_b89cdaf7835547e8bd9c1fa23e44fcb6)
+        ;
+
+        
+    
+    
+            var feature_group_5ba47fd593774fa4b311a335cb5bb84f = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_d1e00864dd524874a9f08530f07d4beb = L.polygon(
+                [[-67.6544268008632, 46.1089633756078], [-67.6544131402286, 46.1090150248665], [-67.6544223898606, 46.1091114596257], [-67.6544487474322, 46.1091389725967], [-67.6544621511043, 46.1091222064119], [-67.6544759402762, 46.1090531155525], [-67.6544680609022, 46.1089960084654], [-67.6544449578503, 46.1089773852192]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5ba47fd593774fa4b311a335cb5bb84f);
+        
+    
+        var popup_a03e7d549cb241338b11b92e1e045fae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91d2349b0bc8476e973af430b8de9470 = $(`<div id="html_91d2349b0bc8476e973af430b8de9470" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_2</div>`)[0];
+            popup_a03e7d549cb241338b11b92e1e045fae.setContent(html_91d2349b0bc8476e973af430b8de9470);
+        
+
+        polygon_d1e00864dd524874a9f08530f07d4beb.bindPopup(popup_a03e7d549cb241338b11b92e1e045fae)
+        ;
+
+        
+    
+    
+            var feature_group_8cad6b17a60c4958810f0c3ec19d025b = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_85d9f0c720734e35a55c6262a2ee1d71 = L.circleMarker(
+                [-67.6544223898606, 46.1091114596257],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_02e5914cf57042278f9a378afdbc19d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e82f03c2d67d4b0caa13b7dcbefc9f51 = $(`<div id="html_e82f03c2d67d4b0caa13b7dcbefc9f51" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_02e5914cf57042278f9a378afdbc19d1.setContent(html_e82f03c2d67d4b0caa13b7dcbefc9f51);
+        
+
+        circle_marker_85d9f0c720734e35a55c6262a2ee1d71.bindPopup(popup_02e5914cf57042278f9a378afdbc19d1)
+        ;
+
+        
+    
+    
+            var circle_marker_d1da9c927d2e4ea5bb01a3f6d48dd4d2 = L.circleMarker(
+                [-67.6544487474322, 46.1091389725967],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_b0ff0fa5fffa49219e5b00740b20f45e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec99035ebf5d484992f4db30f6ec79a5 = $(`<div id="html_ec99035ebf5d484992f4db30f6ec79a5" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_b0ff0fa5fffa49219e5b00740b20f45e.setContent(html_ec99035ebf5d484992f4db30f6ec79a5);
+        
+
+        circle_marker_d1da9c927d2e4ea5bb01a3f6d48dd4d2.bindPopup(popup_b0ff0fa5fffa49219e5b00740b20f45e)
+        ;
+
+        
+    
+    
+            var circle_marker_db7e063f15cf49cc8cb33078d1f0c03d = L.circleMarker(
+                [-67.6544621511043, 46.1091222064119],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_26d1966a297c41e1ab73d9d17b918f97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5f2375dc2514a538cadda6ffa29da8d = $(`<div id="html_c5f2375dc2514a538cadda6ffa29da8d" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_26d1966a297c41e1ab73d9d17b918f97.setContent(html_c5f2375dc2514a538cadda6ffa29da8d);
+        
+
+        circle_marker_db7e063f15cf49cc8cb33078d1f0c03d.bindPopup(popup_26d1966a297c41e1ab73d9d17b918f97)
+        ;
+
+        
+    
+    
+            var circle_marker_90ba56714a424857bc83218092d61af7 = L.circleMarker(
+                [-67.6544759402762, 46.1090531155525],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_c56cc67ce4294476af91631c0d4bf738 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5bc68456bf54b2b9a90ec54089e3286 = $(`<div id="html_a5bc68456bf54b2b9a90ec54089e3286" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_c56cc67ce4294476af91631c0d4bf738.setContent(html_a5bc68456bf54b2b9a90ec54089e3286);
+        
+
+        circle_marker_90ba56714a424857bc83218092d61af7.bindPopup(popup_c56cc67ce4294476af91631c0d4bf738)
+        ;
+
+        
+    
+    
+            var circle_marker_3aca6b6b39f8444e9128164154ec1404 = L.circleMarker(
+                [-67.6544680609022, 46.1089960084654],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_30a772ac786b41708845a5a46195cbca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1771b8686e3948f9be6f393d6aa410cd = $(`<div id="html_1771b8686e3948f9be6f393d6aa410cd" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_30a772ac786b41708845a5a46195cbca.setContent(html_1771b8686e3948f9be6f393d6aa410cd);
+        
+
+        circle_marker_3aca6b6b39f8444e9128164154ec1404.bindPopup(popup_30a772ac786b41708845a5a46195cbca)
+        ;
+
+        
+    
+    
+            var circle_marker_284a035792ce412792288ce28a9bc94d = L.circleMarker(
+                [-67.6544449578503, 46.1089773852192],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_3866c760c67447c7a74471b9c4126963 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d25991cbcce4f9384c774e2d5da752d = $(`<div id="html_3d25991cbcce4f9384c774e2d5da752d" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_3866c760c67447c7a74471b9c4126963.setContent(html_3d25991cbcce4f9384c774e2d5da752d);
+        
+
+        circle_marker_284a035792ce412792288ce28a9bc94d.bindPopup(popup_3866c760c67447c7a74471b9c4126963)
+        ;
+
+        
+    
+    
+            var circle_marker_61b093a2d8c6486da132fe0f64aae9b9 = L.circleMarker(
+                [-67.6544268008632, 46.1089633756078],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_046d043437b74207ba9902e305fa0220 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2983aaf1fbd34bf29ad35ab5cecc8e51 = $(`<div id="html_2983aaf1fbd34bf29ad35ab5cecc8e51" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_046d043437b74207ba9902e305fa0220.setContent(html_2983aaf1fbd34bf29ad35ab5cecc8e51);
+        
+
+        circle_marker_61b093a2d8c6486da132fe0f64aae9b9.bindPopup(popup_046d043437b74207ba9902e305fa0220)
+        ;
+
+        
+    
+    
+            var circle_marker_2ae51d6ae6f64e8a889c8222ba8ee596 = L.circleMarker(
+                [-67.6544131402286, 46.1090150248665],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_744beb99f6634392a2cf45edad517a64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf4c7386cc6647f4a7bf34531bd2dc75 = $(`<div id="html_cf4c7386cc6647f4a7bf34531bd2dc75" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_744beb99f6634392a2cf45edad517a64.setContent(html_cf4c7386cc6647f4a7bf34531bd2dc75);
+        
+
+        circle_marker_2ae51d6ae6f64e8a889c8222ba8ee596.bindPopup(popup_744beb99f6634392a2cf45edad517a64)
+        ;
+
+        
+    
+    
+            var circle_marker_0c91d22fdbb74ad78d356f0c9eac7799 = L.circleMarker(
+                [-67.6544223898606, 46.1091114596257],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8cad6b17a60c4958810f0c3ec19d025b);
+        
+    
+        var popup_e7b48aa15c334465ad25c0daf81981b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed8fabe862cc4b77a21fb2ee576f0f0b = $(`<div id="html_ed8fabe862cc4b77a21fb2ee576f0f0b" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_2</div>`)[0];
+            popup_e7b48aa15c334465ad25c0daf81981b9.setContent(html_ed8fabe862cc4b77a21fb2ee576f0f0b);
+        
+
+        circle_marker_0c91d22fdbb74ad78d356f0c9eac7799.bindPopup(popup_e7b48aa15c334465ad25c0daf81981b9)
+        ;
+
+        
+    
+    
+            var feature_group_8d7f694cc570440e8ce311f3cdd2d0f3 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_0c68d1a7bb804c92b5940b5d9549b94c = L.polygon(
+                [[-67.6541259043162, 46.1090222237518], [-67.6541168684754, 46.1091220889773], [-67.654137765916, 46.1092147531213], [-67.6541541028199, 46.1092504799478], [-67.654172452544, 46.1092383276619], [-67.6541810386766, 46.1091995068334], [-67.6541838867401, 46.109038259072], [-67.6541560303928, 46.1089888605282]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_8d7f694cc570440e8ce311f3cdd2d0f3);
+        
+    
+        var popup_b5f3ee96217044648f62434e3d201841 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3686c44e4809449d9761ef3367353ac6 = $(`<div id="html_3686c44e4809449d9761ef3367353ac6" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_3</div>`)[0];
+            popup_b5f3ee96217044648f62434e3d201841.setContent(html_3686c44e4809449d9761ef3367353ac6);
+        
+
+        polygon_0c68d1a7bb804c92b5940b5d9549b94c.bindPopup(popup_b5f3ee96217044648f62434e3d201841)
+        ;
+
+        
+    
+    
+            var feature_group_d66ec958362a4c26b9ba4b6b10261a1a = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_6ef9efa097944de293b383afd107aa32 = L.circleMarker(
+                [-67.6541168684754, 46.1091220889773],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_8f4cd40d914a4963a8568f0ab1b5ec47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d12833120a349488c05863ff7884f45 = $(`<div id="html_7d12833120a349488c05863ff7884f45" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_8f4cd40d914a4963a8568f0ab1b5ec47.setContent(html_7d12833120a349488c05863ff7884f45);
+        
+
+        circle_marker_6ef9efa097944de293b383afd107aa32.bindPopup(popup_8f4cd40d914a4963a8568f0ab1b5ec47)
+        ;
+
+        
+    
+    
+            var circle_marker_bc539c81d7774529af9e757220bb558b = L.circleMarker(
+                [-67.654137765916, 46.1092147531213],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_73dbfe24e44a469bb1e6c9a37500557f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1c2130c436e4dbd9123c52f5b8af32c = $(`<div id="html_e1c2130c436e4dbd9123c52f5b8af32c" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_73dbfe24e44a469bb1e6c9a37500557f.setContent(html_e1c2130c436e4dbd9123c52f5b8af32c);
+        
+
+        circle_marker_bc539c81d7774529af9e757220bb558b.bindPopup(popup_73dbfe24e44a469bb1e6c9a37500557f)
+        ;
+
+        
+    
+    
+            var circle_marker_63bf44dc76154afc85311c5d191c9c20 = L.circleMarker(
+                [-67.6541541028199, 46.1092504799478],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_c25361ba424d4401b9568aec929cb613 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88dc0c301d3e42d3a9c49214fc6953a1 = $(`<div id="html_88dc0c301d3e42d3a9c49214fc6953a1" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_c25361ba424d4401b9568aec929cb613.setContent(html_88dc0c301d3e42d3a9c49214fc6953a1);
+        
+
+        circle_marker_63bf44dc76154afc85311c5d191c9c20.bindPopup(popup_c25361ba424d4401b9568aec929cb613)
+        ;
+
+        
+    
+    
+            var circle_marker_ffed15cc0cee4f74886ec6273f038541 = L.circleMarker(
+                [-67.654172452544, 46.1092383276619],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_c156d75a99eb466d8a6af007dd56aea2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_982724dff8bf46b5a1ff0146185c5931 = $(`<div id="html_982724dff8bf46b5a1ff0146185c5931" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_c156d75a99eb466d8a6af007dd56aea2.setContent(html_982724dff8bf46b5a1ff0146185c5931);
+        
+
+        circle_marker_ffed15cc0cee4f74886ec6273f038541.bindPopup(popup_c156d75a99eb466d8a6af007dd56aea2)
+        ;
+
+        
+    
+    
+            var circle_marker_6e2b3b63f9ec462e92006a592105f004 = L.circleMarker(
+                [-67.6541810386766, 46.1091995068334],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_a272dd6bc25947b4ad81d481768b85c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2afb77d38eb14e68a2e216727b750eee = $(`<div id="html_2afb77d38eb14e68a2e216727b750eee" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_a272dd6bc25947b4ad81d481768b85c5.setContent(html_2afb77d38eb14e68a2e216727b750eee);
+        
+
+        circle_marker_6e2b3b63f9ec462e92006a592105f004.bindPopup(popup_a272dd6bc25947b4ad81d481768b85c5)
+        ;
+
+        
+    
+    
+            var circle_marker_3a71caf763c0446f9e7a4ade9cead0a7 = L.circleMarker(
+                [-67.6541799897016, 46.1091165761683],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_60593eec61274ca6ab723b1320b7f1cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b602f140470f4c979385b19fc0eae7c9 = $(`<div id="html_b602f140470f4c979385b19fc0eae7c9" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_60593eec61274ca6ab723b1320b7f1cd.setContent(html_b602f140470f4c979385b19fc0eae7c9);
+        
+
+        circle_marker_3a71caf763c0446f9e7a4ade9cead0a7.bindPopup(popup_60593eec61274ca6ab723b1320b7f1cd)
+        ;
+
+        
+    
+    
+            var circle_marker_b5595b1b19764addb0bc98d88c4c606c = L.circleMarker(
+                [-67.6541838867401, 46.109038259072],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_12c71876756e4600950c13d498a48caa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b23a7e726a2c4a07b13292077e38fb8d = $(`<div id="html_b23a7e726a2c4a07b13292077e38fb8d" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_12c71876756e4600950c13d498a48caa.setContent(html_b23a7e726a2c4a07b13292077e38fb8d);
+        
+
+        circle_marker_b5595b1b19764addb0bc98d88c4c606c.bindPopup(popup_12c71876756e4600950c13d498a48caa)
+        ;
+
+        
+    
+    
+            var circle_marker_6ace62981d6b48fa97b076c26134b041 = L.circleMarker(
+                [-67.6541560303928, 46.1089888605282],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_e061cdc65e2c49379f319f0d44c1cc61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39d6675f3e8f4a22be7c40b1fd7e627d = $(`<div id="html_39d6675f3e8f4a22be7c40b1fd7e627d" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_e061cdc65e2c49379f319f0d44c1cc61.setContent(html_39d6675f3e8f4a22be7c40b1fd7e627d);
+        
+
+        circle_marker_6ace62981d6b48fa97b076c26134b041.bindPopup(popup_e061cdc65e2c49379f319f0d44c1cc61)
+        ;
+
+        
+    
+    
+            var circle_marker_2e0c04b4563846449a19503fd33c7d2a = L.circleMarker(
+                [-67.6541259043162, 46.1090222237518],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_5fd31699e5cd410d89de7949042e9882 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_090d865292f8406ba05f700052b2e794 = $(`<div id="html_090d865292f8406ba05f700052b2e794" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_5fd31699e5cd410d89de7949042e9882.setContent(html_090d865292f8406ba05f700052b2e794);
+        
+
+        circle_marker_2e0c04b4563846449a19503fd33c7d2a.bindPopup(popup_5fd31699e5cd410d89de7949042e9882)
+        ;
+
+        
+    
+    
+            var circle_marker_7c42263512be4b69a78315694e65f76d = L.circleMarker(
+                [-67.6541168684754, 46.1091220889773],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d66ec958362a4c26b9ba4b6b10261a1a);
+        
+    
+        var popup_2a92e072cca04b439193a6a1da2e214c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8432537086ff4d6b9c7d62bb9a7772c8 = $(`<div id="html_8432537086ff4d6b9c7d62bb9a7772c8" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_3</div>`)[0];
+            popup_2a92e072cca04b439193a6a1da2e214c.setContent(html_8432537086ff4d6b9c7d62bb9a7772c8);
+        
+
+        circle_marker_7c42263512be4b69a78315694e65f76d.bindPopup(popup_2a92e072cca04b439193a6a1da2e214c)
+        ;
+
+        
+    
+    
+            var feature_group_398965dffd0743c5a4f9a017dcfd5979 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_3ab47492d7794450bebb94b5947bb6a5 = L.polygon(
+                [[-67.6536092833707, 46.107717923758], [-67.6535785570252, 46.1076073166475], [-67.6535468040042, 46.10763623639], [-67.6535342577986, 46.1077620921291], [-67.6535547709525, 46.1079070749591], [-67.6535911492014, 46.1079263709007], [-67.6536066934446, 46.107844285716]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_398965dffd0743c5a4f9a017dcfd5979);
+        
+    
+        var popup_13692b923ac047d19aaf5c9f9503cd9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70baa55e530f4276b99c290371e5d979 = $(`<div id="html_70baa55e530f4276b99c290371e5d979" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_4</div>`)[0];
+            popup_13692b923ac047d19aaf5c9f9503cd9d.setContent(html_70baa55e530f4276b99c290371e5d979);
+        
+
+        polygon_3ab47492d7794450bebb94b5947bb6a5.bindPopup(popup_13692b923ac047d19aaf5c9f9503cd9d)
+        ;
+
+        
+    
+    
+            var feature_group_474e4d5360554ad987557fd85bd69b6c = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_12d722cfaef84f4687e76d005de01400 = L.circleMarker(
+                [-67.6535342577986, 46.1077620921291],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_474e4d5360554ad987557fd85bd69b6c);
+        
+    
+        var popup_8e0f5e7c739840309627a47ffc954365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab3577e363fd47fba6edf686cdf27c7e = $(`<div id="html_ab3577e363fd47fba6edf686cdf27c7e" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_4</div>`)[0];
+            popup_8e0f5e7c739840309627a47ffc954365.setContent(html_ab3577e363fd47fba6edf686cdf27c7e);
+        
+
+        circle_marker_12d722cfaef84f4687e76d005de01400.bindPopup(popup_8e0f5e7c739840309627a47ffc954365)
+        ;
+
+        
+    
+    
+            var circle_marker_46ceaa817c54445fb02e3c0d4325c286 = L.circleMarker(
+                [-67.6535547709525, 46.1079070749591],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_474e4d5360554ad987557fd85bd69b6c);
+        
+    
+        var popup_192be356b80d485a823c57a6050b6d02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4782274d323471d8d6f3ff5e970d846 = $(`<div id="html_c4782274d323471d8d6f3ff5e970d846" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_4</div>`)[0];
+            popup_192be356b80d485a823c57a6050b6d02.setContent(html_c4782274d323471d8d6f3ff5e970d846);
+        
+
+        circle_marker_46ceaa817c54445fb02e3c0d4325c286.bindPopup(popup_192be356b80d485a823c57a6050b6d02)
+        ;
+
+        
+    
+    
+            var circle_marker_fedef33f17c847da86108bbe2f43e258 = L.circleMarker(
+                [-67.6535911492014, 46.1079263709007],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_474e4d5360554ad987557fd85bd69b6c);
+        
+    
+        var popup_57a21cc89cc7488faef4cca220979d73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa767c904f514b69be28ef482521acb7 = $(`<div id="html_aa767c904f514b69be28ef482521acb7" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_4</div>`)[0];
+            popup_57a21cc89cc7488faef4cca220979d73.setContent(html_aa767c904f514b69be28ef482521acb7);
+        
+
+        circle_marker_fedef33f17c847da86108bbe2f43e258.bindPopup(popup_57a21cc89cc7488faef4cca220979d73)
+        ;
+
+        
+    
+    
+            var circle_marker_e0684518749d4c3c82e14ac0c5a2e084 = L.circleMarker(
+                [-67.6536066934446, 46.107844285716],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_474e4d5360554ad987557fd85bd69b6c);
+        
+    
+        var popup_92925572cb1344fd86e472f700ff40f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14dd0e75b4d142cab909c900e2aa1042 = $(`<div id="html_14dd0e75b4d142cab909c900e2aa1042" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_4</div>`)[0];
+            popup_92925572cb1344fd86e472f700ff40f2.setContent(html_14dd0e75b4d142cab909c900e2aa1042);
+        
+
+        circle_marker_e0684518749d4c3c82e14ac0c5a2e084.bindPopup(popup_92925572cb1344fd86e472f700ff40f2)
+        ;
+
+        
+    
+    
+            var circle_marker_b62fc70b879344aba8164d51daeee22b = L.circleMarker(
+                [-67.6536092833707, 46.107717923758],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_474e4d5360554ad987557fd85bd69b6c);
+        
+    
+        var popup_95985859fd9b489f9ca2cbca6b077887 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d1a385b39c74f20a2673a1ae0a09323 = $(`<div id="html_8d1a385b39c74f20a2673a1ae0a09323" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_4</div>`)[0];
+            popup_95985859fd9b489f9ca2cbca6b077887.setContent(html_8d1a385b39c74f20a2673a1ae0a09323);
+        
+
+        circle_marker_b62fc70b879344aba8164d51daeee22b.bindPopup(popup_95985859fd9b489f9ca2cbca6b077887)
+        ;
+
+        
+    
+    
+            var circle_marker_5b86d59cf43e406fab27517ba33361c1 = L.circleMarker(
+                [-67.6535785570252, 46.1076073166475],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_474e4d5360554ad987557fd85bd69b6c);
+        
+    
+        var popup_10b0ebdfc8574ef0b8024de17f3f2236 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bec8718319145669c73af3c88331610 = $(`<div id="html_6bec8718319145669c73af3c88331610" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_4</div>`)[0];
+            popup_10b0ebdfc8574ef0b8024de17f3f2236.setContent(html_6bec8718319145669c73af3c88331610);
+        
+
+        circle_marker_5b86d59cf43e406fab27517ba33361c1.bindPopup(popup_10b0ebdfc8574ef0b8024de17f3f2236)
+        ;
+
+        
+    
+    
+            var circle_marker_87f79dac629c420a9551ca44e806fa00 = L.circleMarker(
+                [-67.6535468040042, 46.10763623639],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_474e4d5360554ad987557fd85bd69b6c);
+        
+    
+        var popup_4dba47e49a5b40fc89258ca94a9f3dae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dc7d23b9c4e45679926d2c9af7aeeba = $(`<div id="html_1dc7d23b9c4e45679926d2c9af7aeeba" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_4</div>`)[0];
+            popup_4dba47e49a5b40fc89258ca94a9f3dae.setContent(html_1dc7d23b9c4e45679926d2c9af7aeeba);
+        
+
+        circle_marker_87f79dac629c420a9551ca44e806fa00.bindPopup(popup_4dba47e49a5b40fc89258ca94a9f3dae)
+        ;
+
+        
+    
+    
+            var circle_marker_1bc4ae7fbc514c13bdcc15b978d3f812 = L.circleMarker(
+                [-67.6535342577986, 46.1077620921291],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_474e4d5360554ad987557fd85bd69b6c);
+        
+    
+        var popup_6a7070254610467c9c09aa139fcdf4e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_784c5918387346aeb42a91bc16f7e762 = $(`<div id="html_784c5918387346aeb42a91bc16f7e762" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_4</div>`)[0];
+            popup_6a7070254610467c9c09aa139fcdf4e6.setContent(html_784c5918387346aeb42a91bc16f7e762);
+        
+
+        circle_marker_1bc4ae7fbc514c13bdcc15b978d3f812.bindPopup(popup_6a7070254610467c9c09aa139fcdf4e6)
+        ;
+
+        
+    
+    
+            var feature_group_6d06a88c57cf475c852e8f02d9e004ea = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_e72c26e0edfd4e70950a10a2058b52a9 = L.polygon(
+                [[-67.6536262436648, 46.1081200756924], [-67.6536082167645, 46.1087647129191], [-67.6536324974094, 46.1088488229091], [-67.6536619810259, 46.1089026647114], [-67.6536950403769, 46.1089217936089], [-67.6537784596471, 46.1088649701408], [-67.6538223746625, 46.1087625182593], [-67.6538120113364, 46.1085918775739], [-67.653760879104, 46.1080963854418], [-67.6537380969487, 46.1080341613347], [-67.6537000272094, 46.1080191409868]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_6d06a88c57cf475c852e8f02d9e004ea);
+        
+    
+        var popup_1dd8f9cb853246db9e9b49a8f43f9866 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a042d33beb4454b8e402615882264fc = $(`<div id="html_5a042d33beb4454b8e402615882264fc" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_5</div>`)[0];
+            popup_1dd8f9cb853246db9e9b49a8f43f9866.setContent(html_5a042d33beb4454b8e402615882264fc);
+        
+
+        polygon_e72c26e0edfd4e70950a10a2058b52a9.bindPopup(popup_1dd8f9cb853246db9e9b49a8f43f9866)
+        ;
+
+        
+    
+    
+            var feature_group_ea3807de6bdb44038e1b4b2beaa44c2f = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_0c4ac57e87774f4db2a487e228c0e09e = L.circleMarker(
+                [-67.6536262436648, 46.1081200756924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_6f1884838ab9432e950876cccfc5aaee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c57a184e0d484b5cae2cfc323cd2a9ce = $(`<div id="html_c57a184e0d484b5cae2cfc323cd2a9ce" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_6f1884838ab9432e950876cccfc5aaee.setContent(html_c57a184e0d484b5cae2cfc323cd2a9ce);
+        
+
+        circle_marker_0c4ac57e87774f4db2a487e228c0e09e.bindPopup(popup_6f1884838ab9432e950876cccfc5aaee)
+        ;
+
+        
+    
+    
+            var circle_marker_a3817017c97341859f68c7103db310fe = L.circleMarker(
+                [-67.6536319824602, 46.1082424992221],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_494e6aa4dad54cb39daf14bc9afeddff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d28466c5a584ce6af5356b351297a8e = $(`<div id="html_7d28466c5a584ce6af5356b351297a8e" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_494e6aa4dad54cb39daf14bc9afeddff.setContent(html_7d28466c5a584ce6af5356b351297a8e);
+        
+
+        circle_marker_a3817017c97341859f68c7103db310fe.bindPopup(popup_494e6aa4dad54cb39daf14bc9afeddff)
+        ;
+
+        
+    
+    
+            var circle_marker_96bd94114bdf42c18f123df466322dcf = L.circleMarker(
+                [-67.6536399263028, 46.1082908834034],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_8b41a81d5f4b41cca1221de7611d3c85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e04fe0b4e0b45dea04d02925e739b30 = $(`<div id="html_7e04fe0b4e0b45dea04d02925e739b30" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_8b41a81d5f4b41cca1221de7611d3c85.setContent(html_7e04fe0b4e0b45dea04d02925e739b30);
+        
+
+        circle_marker_96bd94114bdf42c18f123df466322dcf.bindPopup(popup_8b41a81d5f4b41cca1221de7611d3c85)
+        ;
+
+        
+    
+    
+            var circle_marker_b3b48153aba04a6b9fcedcbd39fe8a4b = L.circleMarker(
+                [-67.6536538656004, 46.1084268095337],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_e99042abeb6f4d3fbf9cc5eba46cf74d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77f754cfa5934c508cb57ece4fd6f05a = $(`<div id="html_77f754cfa5934c508cb57ece4fd6f05a" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_e99042abeb6f4d3fbf9cc5eba46cf74d.setContent(html_77f754cfa5934c508cb57ece4fd6f05a);
+        
+
+        circle_marker_b3b48153aba04a6b9fcedcbd39fe8a4b.bindPopup(popup_e99042abeb6f4d3fbf9cc5eba46cf74d)
+        ;
+
+        
+    
+    
+            var circle_marker_6e1883ea5b77450187a1a3e9328ae2f7 = L.circleMarker(
+                [-67.6536712519983, 46.1085454636719],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_a5fd84318eef4d9e88a2b6184b68a7b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0074d955dae246d189be458f896870b5 = $(`<div id="html_0074d955dae246d189be458f896870b5" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_a5fd84318eef4d9e88a2b6184b68a7b5.setContent(html_0074d955dae246d189be458f896870b5);
+        
+
+        circle_marker_6e1883ea5b77450187a1a3e9328ae2f7.bindPopup(popup_a5fd84318eef4d9e88a2b6184b68a7b5)
+        ;
+
+        
+    
+    
+            var circle_marker_fd425f378e23450e938673e149ed78b7 = L.circleMarker(
+                [-67.6536575915415, 46.108597111403],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_6b4e0359a7a64abab9cc0028afb0dcb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c9595545fc743888c4cfaa91fdb1e44 = $(`<div id="html_1c9595545fc743888c4cfaa91fdb1e44" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_6b4e0359a7a64abab9cc0028afb0dcb7.setContent(html_1c9595545fc743888c4cfaa91fdb1e44);
+        
+
+        circle_marker_fd425f378e23450e938673e149ed78b7.bindPopup(popup_6b4e0359a7a64abab9cc0028afb0dcb7)
+        ;
+
+        
+    
+    
+            var circle_marker_939213f3bb3b4d95a40b060cc2f5331f = L.circleMarker(
+                [-67.6536186227225, 46.1087041762086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_736e2aac345549dc887d9189f2d55703 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0110b382dd01467b95a4455e534af562 = $(`<div id="html_0110b382dd01467b95a4455e534af562" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_736e2aac345549dc887d9189f2d55703.setContent(html_0110b382dd01467b95a4455e534af562);
+        
+
+        circle_marker_939213f3bb3b4d95a40b060cc2f5331f.bindPopup(popup_736e2aac345549dc887d9189f2d55703)
+        ;
+
+        
+    
+    
+            var circle_marker_c7a7be201a934b67858c9c8072434fd6 = L.circleMarker(
+                [-67.6536082167645, 46.1087647129191],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_6692f1417d354dc1b8ac86eeb9afd0fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b932c1f1f0a457896df9752da47cde8 = $(`<div id="html_4b932c1f1f0a457896df9752da47cde8" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_6692f1417d354dc1b8ac86eeb9afd0fa.setContent(html_4b932c1f1f0a457896df9752da47cde8);
+        
+
+        circle_marker_c7a7be201a934b67858c9c8072434fd6.bindPopup(popup_6692f1417d354dc1b8ac86eeb9afd0fa)
+        ;
+
+        
+    
+    
+            var circle_marker_7288aa1e016949979e8f4069537aff52 = L.circleMarker(
+                [-67.6536324974094, 46.1088488229091],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_c95884cd969449eb99e3375d32bfbd03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e51116d248614a53a88984eff7b6480b = $(`<div id="html_e51116d248614a53a88984eff7b6480b" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_c95884cd969449eb99e3375d32bfbd03.setContent(html_e51116d248614a53a88984eff7b6480b);
+        
+
+        circle_marker_7288aa1e016949979e8f4069537aff52.bindPopup(popup_c95884cd969449eb99e3375d32bfbd03)
+        ;
+
+        
+    
+    
+            var circle_marker_9480164c41b4448c82b7ff330a056d29 = L.circleMarker(
+                [-67.6536619810259, 46.1089026647114],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_b3c1150b742449068c27aa018e600e26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc83f7b51d0f436090dfa51a5a6a8d48 = $(`<div id="html_bc83f7b51d0f436090dfa51a5a6a8d48" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_b3c1150b742449068c27aa018e600e26.setContent(html_bc83f7b51d0f436090dfa51a5a6a8d48);
+        
+
+        circle_marker_9480164c41b4448c82b7ff330a056d29.bindPopup(popup_b3c1150b742449068c27aa018e600e26)
+        ;
+
+        
+    
+    
+            var circle_marker_6c66cf2634d6484f955f09922d2c8e5b = L.circleMarker(
+                [-67.6536950403769, 46.1089217936089],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_b9ab50e6b9f440038b25511f3b320f5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bac68f15e054cc89e6a77d6e7abbc1c = $(`<div id="html_0bac68f15e054cc89e6a77d6e7abbc1c" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_b9ab50e6b9f440038b25511f3b320f5e.setContent(html_0bac68f15e054cc89e6a77d6e7abbc1c);
+        
+
+        circle_marker_6c66cf2634d6484f955f09922d2c8e5b.bindPopup(popup_b9ab50e6b9f440038b25511f3b320f5e)
+        ;
+
+        
+    
+    
+            var circle_marker_f492ff63b5d54e3e924f7633976c7e37 = L.circleMarker(
+                [-67.653742017259, 46.1088543929505],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_49e30ad9a405427d9afe8ac47bfb46c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3922bf42cbd2438daba00df65a595a53 = $(`<div id="html_3922bf42cbd2438daba00df65a595a53" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_49e30ad9a405427d9afe8ac47bfb46c5.setContent(html_3922bf42cbd2438daba00df65a595a53);
+        
+
+        circle_marker_f492ff63b5d54e3e924f7633976c7e37.bindPopup(popup_49e30ad9a405427d9afe8ac47bfb46c5)
+        ;
+
+        
+    
+    
+            var circle_marker_b7c5592af801438eaa35a22622007ade = L.circleMarker(
+                [-67.6537784596471, 46.1088649701408],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_afb9ccf67f22460eb4ed7edea753f088 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a602d501f38c428da5513738b9cab041 = $(`<div id="html_a602d501f38c428da5513738b9cab041" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_afb9ccf67f22460eb4ed7edea753f088.setContent(html_a602d501f38c428da5513738b9cab041);
+        
+
+        circle_marker_b7c5592af801438eaa35a22622007ade.bindPopup(popup_afb9ccf67f22460eb4ed7edea753f088)
+        ;
+
+        
+    
+    
+            var circle_marker_4f2949d50d204af38c8ea50284e408b0 = L.circleMarker(
+                [-67.6538223746625, 46.1087625182593],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_bb02efdc4e0b4ac6ad949926d0371351 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15f30b4a7c9542d9837875dde8cd035f = $(`<div id="html_15f30b4a7c9542d9837875dde8cd035f" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_bb02efdc4e0b4ac6ad949926d0371351.setContent(html_15f30b4a7c9542d9837875dde8cd035f);
+        
+
+        circle_marker_4f2949d50d204af38c8ea50284e408b0.bindPopup(popup_bb02efdc4e0b4ac6ad949926d0371351)
+        ;
+
+        
+    
+    
+            var circle_marker_223369092be84b94ad34ba4ede9bba71 = L.circleMarker(
+                [-67.6538120113364, 46.1085918775739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_069cca47755e446c89e438b6e5c052da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65703ca2079b40df8d9e114e49b05d36 = $(`<div id="html_65703ca2079b40df8d9e114e49b05d36" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_069cca47755e446c89e438b6e5c052da.setContent(html_65703ca2079b40df8d9e114e49b05d36);
+        
+
+        circle_marker_223369092be84b94ad34ba4ede9bba71.bindPopup(popup_069cca47755e446c89e438b6e5c052da)
+        ;
+
+        
+    
+    
+            var circle_marker_afec09b4eb7e46afaf4cbcda582e276a = L.circleMarker(
+                [-67.6537758900248, 46.1085376983371],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_47a6f5ecb10b48b095b4d44d466cf1c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab5926d6acfe4f4587cd35e7742b6031 = $(`<div id="html_ab5926d6acfe4f4587cd35e7742b6031" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_47a6f5ecb10b48b095b4d44d466cf1c7.setContent(html_ab5926d6acfe4f4587cd35e7742b6031);
+        
+
+        circle_marker_afec09b4eb7e46afaf4cbcda582e276a.bindPopup(popup_47a6f5ecb10b48b095b4d44d466cf1c7)
+        ;
+
+        
+    
+    
+            var circle_marker_847a0615f7bb409e82234d047f861df8 = L.circleMarker(
+                [-67.653751673408, 46.1084448676523],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_6ebff532687c4de3ace98dd8112c889b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_594035df5a9e4e50bfb706f081963997 = $(`<div id="html_594035df5a9e4e50bfb706f081963997" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_6ebff532687c4de3ace98dd8112c889b.setContent(html_594035df5a9e4e50bfb706f081963997);
+        
+
+        circle_marker_847a0615f7bb409e82234d047f861df8.bindPopup(popup_6ebff532687c4de3ace98dd8112c889b)
+        ;
+
+        
+    
+    
+            var circle_marker_e327a417666e4d5c8fa487d0f2a497f0 = L.circleMarker(
+                [-67.653760644581, 46.1083537243106],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_4243a80f82164fb481278eda9f8354bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_822f571fb72e4b669bc6ab3e28ce419c = $(`<div id="html_822f571fb72e4b669bc6ab3e28ce419c" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_4243a80f82164fb481278eda9f8354bf.setContent(html_822f571fb72e4b669bc6ab3e28ce419c);
+        
+
+        circle_marker_e327a417666e4d5c8fa487d0f2a497f0.bindPopup(popup_4243a80f82164fb481278eda9f8354bf)
+        ;
+
+        
+    
+    
+            var circle_marker_b75e8c3c0126409593d6494848727676 = L.circleMarker(
+                [-67.653748268304, 46.1082309626391],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_e6ea64d1de364fb99460ae59097bd461 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6043c11b017d4d65bc257bc652f08f72 = $(`<div id="html_6043c11b017d4d65bc257bc652f08f72" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_e6ea64d1de364fb99460ae59097bd461.setContent(html_6043c11b017d4d65bc257bc652f08f72);
+        
+
+        circle_marker_b75e8c3c0126409593d6494848727676.bindPopup(popup_e6ea64d1de364fb99460ae59097bd461)
+        ;
+
+        
+    
+    
+            var circle_marker_274b87eca6ac479982d94ecdc06c0218 = L.circleMarker(
+                [-67.653760879104, 46.1080963854418],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_dff5005676fb410388817e8b439dbbc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e506df63f32418e8a8de9110cffb214 = $(`<div id="html_5e506df63f32418e8a8de9110cffb214" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_dff5005676fb410388817e8b439dbbc4.setContent(html_5e506df63f32418e8a8de9110cffb214);
+        
+
+        circle_marker_274b87eca6ac479982d94ecdc06c0218.bindPopup(popup_dff5005676fb410388817e8b439dbbc4)
+        ;
+
+        
+    
+    
+            var circle_marker_3469b2597efd44ee93082c6570a2f5d0 = L.circleMarker(
+                [-67.6537380969487, 46.1080341613347],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_3d48577d9bd34590a195661319e7a0aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc21008d57434e55b36be0a7d2844686 = $(`<div id="html_bc21008d57434e55b36be0a7d2844686" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_3d48577d9bd34590a195661319e7a0aa.setContent(html_bc21008d57434e55b36be0a7d2844686);
+        
+
+        circle_marker_3469b2597efd44ee93082c6570a2f5d0.bindPopup(popup_3d48577d9bd34590a195661319e7a0aa)
+        ;
+
+        
+    
+    
+            var circle_marker_f700f49745a9455791597e9b876d8d66 = L.circleMarker(
+                [-67.6537000272094, 46.1080191409868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_0d507e8b5ff54badafb801bf4f8d7649 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04ae7d19515b4d7d88cfa11e1bd7c1ca = $(`<div id="html_04ae7d19515b4d7d88cfa11e1bd7c1ca" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_0d507e8b5ff54badafb801bf4f8d7649.setContent(html_04ae7d19515b4d7d88cfa11e1bd7c1ca);
+        
+
+        circle_marker_f700f49745a9455791597e9b876d8d66.bindPopup(popup_0d507e8b5ff54badafb801bf4f8d7649)
+        ;
+
+        
+    
+    
+            var circle_marker_ef2aaed15de548aeb1dd1899d1530cc3 = L.circleMarker(
+                [-67.6536262436648, 46.1081200756924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3807de6bdb44038e1b4b2beaa44c2f);
+        
+    
+        var popup_282531ff16db42fd9afc774610843ff5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_680ff6acccc245049a984e02801962a6 = $(`<div id="html_680ff6acccc245049a984e02801962a6" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_5</div>`)[0];
+            popup_282531ff16db42fd9afc774610843ff5.setContent(html_680ff6acccc245049a984e02801962a6);
+        
+
+        circle_marker_ef2aaed15de548aeb1dd1899d1530cc3.bindPopup(popup_282531ff16db42fd9afc774610843ff5)
+        ;
+
+        
+    
+    
+            var feature_group_02ee23dda9d74e6e9d4e84bb7a019d4f = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_0f535dffc87248f6972a2f98a150ce3c = L.polygon(
+                [[-67.6532816039117, 46.1080327711213], [-67.6532806410154, 46.1081635756336], [-67.6533112385143, 46.1082916226416], [-67.6533827106249, 46.1085046222561], [-67.6534509703857, 46.1084775600269], [-67.6535818573435, 46.1080611158169], [-67.6535377919372, 46.1079585541623], [-67.6535067448763, 46.1078915490343], [-67.6534821428189, 46.1078510425055], [-67.6533819146851, 46.1077107338551], [-67.6533520456555, 46.107709216339], [-67.6533297997626, 46.1077996837328]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_02ee23dda9d74e6e9d4e84bb7a019d4f);
+        
+    
+        var popup_bd1a46209bbd466ea88f1ae870629745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd67f60b54444f9d94aa002742fb8607 = $(`<div id="html_cd67f60b54444f9d94aa002742fb8607" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_6</div>`)[0];
+            popup_bd1a46209bbd466ea88f1ae870629745.setContent(html_cd67f60b54444f9d94aa002742fb8607);
+        
+
+        polygon_0f535dffc87248f6972a2f98a150ce3c.bindPopup(popup_bd1a46209bbd466ea88f1ae870629745)
+        ;
+
+        
+    
+    
+            var feature_group_3f5c044f9ef64c50b87eeb9d9e3771be = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_abe78d85d30b4214b7c82f0db02cd1b6 = L.circleMarker(
+                [-67.6533297997626, 46.1077996837328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_c8b84a399ab0444fa2801592691c4319 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93d3736c514b472a919c73fa86a2a4ed = $(`<div id="html_93d3736c514b472a919c73fa86a2a4ed" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_c8b84a399ab0444fa2801592691c4319.setContent(html_93d3736c514b472a919c73fa86a2a4ed);
+        
+
+        circle_marker_abe78d85d30b4214b7c82f0db02cd1b6.bindPopup(popup_c8b84a399ab0444fa2801592691c4319)
+        ;
+
+        
+    
+    
+            var circle_marker_dd18690a9a394a40bb2845e6fb5ac696 = L.circleMarker(
+                [-67.6533342966006, 46.1078653390945],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_516c0e7ae67d40d1a533e8ce3ce8805a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69fbdac35b7a426ea4dfad005da00143 = $(`<div id="html_69fbdac35b7a426ea4dfad005da00143" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_516c0e7ae67d40d1a533e8ce3ce8805a.setContent(html_69fbdac35b7a426ea4dfad005da00143);
+        
+
+        circle_marker_dd18690a9a394a40bb2845e6fb5ac696.bindPopup(popup_516c0e7ae67d40d1a533e8ce3ce8805a)
+        ;
+
+        
+    
+    
+            var circle_marker_73886bb27f444d0798ce11fafe6d53ba = L.circleMarker(
+                [-67.6533458802428, 46.1078702894855],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_049a78ad31104eb287068dbc42f2e236 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dd0456c95ee4104a06403b1ddcc7859 = $(`<div id="html_2dd0456c95ee4104a06403b1ddcc7859" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_049a78ad31104eb287068dbc42f2e236.setContent(html_2dd0456c95ee4104a06403b1ddcc7859);
+        
+
+        circle_marker_73886bb27f444d0798ce11fafe6d53ba.bindPopup(popup_049a78ad31104eb287068dbc42f2e236)
+        ;
+
+        
+    
+    
+            var circle_marker_49ca7813c9004c71aa3a75141d6b9362 = L.circleMarker(
+                [-67.6533693042459, 46.1078453089364],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_8d60d5f287494fd2868a1f788df93d35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa6a7084c6b2457cbc8e25df9c9e62d0 = $(`<div id="html_aa6a7084c6b2457cbc8e25df9c9e62d0" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_8d60d5f287494fd2868a1f788df93d35.setContent(html_aa6a7084c6b2457cbc8e25df9c9e62d0);
+        
+
+        circle_marker_49ca7813c9004c71aa3a75141d6b9362.bindPopup(popup_8d60d5f287494fd2868a1f788df93d35)
+        ;
+
+        
+    
+    
+            var circle_marker_05e9c66f50d548ebb33697ecbc5d3a96 = L.circleMarker(
+                [-67.6533891527535, 46.1078550410833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_1003a23bfef746aaa0c99cdda481a88e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6242c4d5f8a74743ab63d60cef640be4 = $(`<div id="html_6242c4d5f8a74743ab63d60cef640be4" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_1003a23bfef746aaa0c99cdda481a88e.setContent(html_6242c4d5f8a74743ab63d60cef640be4);
+        
+
+        circle_marker_05e9c66f50d548ebb33697ecbc5d3a96.bindPopup(popup_1003a23bfef746aaa0c99cdda481a88e)
+        ;
+
+        
+    
+    
+            var circle_marker_25081228f91d4751bed56e5ddde4f02c = L.circleMarker(
+                [-67.6533869478231, 46.1079290796882],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_7cfda08fef0a4ecebada27905cf43847 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14df0aab5219437e82411ddf1edf1648 = $(`<div id="html_14df0aab5219437e82411ddf1edf1648" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_7cfda08fef0a4ecebada27905cf43847.setContent(html_14df0aab5219437e82411ddf1edf1648);
+        
+
+        circle_marker_25081228f91d4751bed56e5ddde4f02c.bindPopup(popup_7cfda08fef0a4ecebada27905cf43847)
+        ;
+
+        
+    
+    
+            var circle_marker_276f43d9ca894582b3a1a2e771f7e77f = L.circleMarker(
+                [-67.6533680847642, 46.1080109953268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_b1016b5b5d494343a691f49aa191e732 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fed310f3bfb4eb2b00b69569a61a619 = $(`<div id="html_8fed310f3bfb4eb2b00b69569a61a619" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_b1016b5b5d494343a691f49aa191e732.setContent(html_8fed310f3bfb4eb2b00b69569a61a619);
+        
+
+        circle_marker_276f43d9ca894582b3a1a2e771f7e77f.bindPopup(popup_b1016b5b5d494343a691f49aa191e732)
+        ;
+
+        
+    
+    
+            var circle_marker_82895416a5df4ba5b127cd19a5c5c7f8 = L.circleMarker(
+                [-67.6533495426196, 46.1080493091826],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_3bf1f42839274d58b1885940695f9364 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd7ab99ccdc046d79807197c9224a1db = $(`<div id="html_cd7ab99ccdc046d79807197c9224a1db" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_3bf1f42839274d58b1885940695f9364.setContent(html_cd7ab99ccdc046d79807197c9224a1db);
+        
+
+        circle_marker_82895416a5df4ba5b127cd19a5c5c7f8.bindPopup(popup_3bf1f42839274d58b1885940695f9364)
+        ;
+
+        
+    
+    
+            var circle_marker_0500b5bb43a24715888a71720ffc2f52 = L.circleMarker(
+                [-67.6533098456355, 46.1080298445884],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_795a1a395c3b4a6c8ceca92aee1a48cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20876d66bef8407f9d0cdca3cb56f77e = $(`<div id="html_20876d66bef8407f9d0cdca3cb56f77e" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_795a1a395c3b4a6c8ceca92aee1a48cb.setContent(html_20876d66bef8407f9d0cdca3cb56f77e);
+        
+
+        circle_marker_0500b5bb43a24715888a71720ffc2f52.bindPopup(popup_795a1a395c3b4a6c8ceca92aee1a48cb)
+        ;
+
+        
+    
+    
+            var circle_marker_1803c6639580423594cce2cd434e1634 = L.circleMarker(
+                [-67.6532816039117, 46.1080327711213],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_67f831258ba2471886aa03dd09a4127b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0707809874674699a7eb329d8ec32f2e = $(`<div id="html_0707809874674699a7eb329d8ec32f2e" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_67f831258ba2471886aa03dd09a4127b.setContent(html_0707809874674699a7eb329d8ec32f2e);
+        
+
+        circle_marker_1803c6639580423594cce2cd434e1634.bindPopup(popup_67f831258ba2471886aa03dd09a4127b)
+        ;
+
+        
+    
+    
+            var circle_marker_34a61f3e0d94440faf898a6d2769ddec = L.circleMarker(
+                [-67.6532806410154, 46.1081635756336],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_3709a9b2be8249b5877f79eb90a6f629 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9060d0b67c3445e8a050f9b02647057 = $(`<div id="html_b9060d0b67c3445e8a050f9b02647057" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_3709a9b2be8249b5877f79eb90a6f629.setContent(html_b9060d0b67c3445e8a050f9b02647057);
+        
+
+        circle_marker_34a61f3e0d94440faf898a6d2769ddec.bindPopup(popup_3709a9b2be8249b5877f79eb90a6f629)
+        ;
+
+        
+    
+    
+            var circle_marker_245ff8d09d524760bc13e4c86d9f86c0 = L.circleMarker(
+                [-67.6533112385143, 46.1082916226416],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_300a23bc17df4d169d20c743f697834a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9964b962f35d4d59b336a1705b284486 = $(`<div id="html_9964b962f35d4d59b336a1705b284486" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_300a23bc17df4d169d20c743f697834a.setContent(html_9964b962f35d4d59b336a1705b284486);
+        
+
+        circle_marker_245ff8d09d524760bc13e4c86d9f86c0.bindPopup(popup_300a23bc17df4d169d20c743f697834a)
+        ;
+
+        
+    
+    
+            var circle_marker_8755befbd64b44eca1fbaad385fc555b = L.circleMarker(
+                [-67.6533362898732, 46.1082710870944],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_9e0fed8523ce469d84f654ae8a9e6f88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0511bfc3ca0497ba90e9126ab5bd1d5 = $(`<div id="html_f0511bfc3ca0497ba90e9126ab5bd1d5" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_9e0fed8523ce469d84f654ae8a9e6f88.setContent(html_f0511bfc3ca0497ba90e9126ab5bd1d5);
+        
+
+        circle_marker_8755befbd64b44eca1fbaad385fc555b.bindPopup(popup_9e0fed8523ce469d84f654ae8a9e6f88)
+        ;
+
+        
+    
+    
+            var circle_marker_5ae0446e452e42dea53e6e5db9e78b27 = L.circleMarker(
+                [-67.6533662230986, 46.1082638850449],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_a1a6fb0557b04e4a80a84dda60171ae4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_890401119d314c7589e0acc701c22913 = $(`<div id="html_890401119d314c7589e0acc701c22913" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_a1a6fb0557b04e4a80a84dda60171ae4.setContent(html_890401119d314c7589e0acc701c22913);
+        
+
+        circle_marker_5ae0446e452e42dea53e6e5db9e78b27.bindPopup(popup_a1a6fb0557b04e4a80a84dda60171ae4)
+        ;
+
+        
+    
+    
+            var circle_marker_c0ec5a5deb844123af979827a00f1dc1 = L.circleMarker(
+                [-67.6533670157063, 46.1083816939115],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_118b77e1f6a848c5ab330c97ffc55210 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_420594004ebb4f808d16753bd69c075c = $(`<div id="html_420594004ebb4f808d16753bd69c075c" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_118b77e1f6a848c5ab330c97ffc55210.setContent(html_420594004ebb4f808d16753bd69c075c);
+        
+
+        circle_marker_c0ec5a5deb844123af979827a00f1dc1.bindPopup(popup_118b77e1f6a848c5ab330c97ffc55210)
+        ;
+
+        
+    
+    
+            var circle_marker_61202513adeb4a3bb90bd0d99122a33a = L.circleMarker(
+                [-67.6533827106249, 46.1085046222561],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_c7322f40b26a4d48ade05cb5eaa3d745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a92b3635e574a15b72e7369c3d64460 = $(`<div id="html_9a92b3635e574a15b72e7369c3d64460" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_c7322f40b26a4d48ade05cb5eaa3d745.setContent(html_9a92b3635e574a15b72e7369c3d64460);
+        
+
+        circle_marker_61202513adeb4a3bb90bd0d99122a33a.bindPopup(popup_c7322f40b26a4d48ade05cb5eaa3d745)
+        ;
+
+        
+    
+    
+            var circle_marker_c58fddfb1603493ca09f0cc4b8858a3b = L.circleMarker(
+                [-67.6534160910783, 46.1084801485377],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_9f546d5454db406bbd25305ee1b0d91f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e52c454f29204849b586d435ad6bc9f9 = $(`<div id="html_e52c454f29204849b586d435ad6bc9f9" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_9f546d5454db406bbd25305ee1b0d91f.setContent(html_e52c454f29204849b586d435ad6bc9f9);
+        
+
+        circle_marker_c58fddfb1603493ca09f0cc4b8858a3b.bindPopup(popup_9f546d5454db406bbd25305ee1b0d91f)
+        ;
+
+        
+    
+    
+            var circle_marker_6572cedc8980479698c1e1152b6b2dd2 = L.circleMarker(
+                [-67.6534509703857, 46.1084775600269],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_251d42894a784d27814949fb2511e73b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7c63ba6c6d94fc68d275f6874928892 = $(`<div id="html_b7c63ba6c6d94fc68d275f6874928892" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_251d42894a784d27814949fb2511e73b.setContent(html_b7c63ba6c6d94fc68d275f6874928892);
+        
+
+        circle_marker_6572cedc8980479698c1e1152b6b2dd2.bindPopup(popup_251d42894a784d27814949fb2511e73b)
+        ;
+
+        
+    
+    
+            var circle_marker_0394fc1d7768449ab4823e214eeaa20f = L.circleMarker(
+                [-67.6534817383804, 46.1083569932832],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_b074dc32ae4c43188f2fe6bdaf9d6ca7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dd60b1d52eb435b8f347e11278f31ae = $(`<div id="html_6dd60b1d52eb435b8f347e11278f31ae" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_b074dc32ae4c43188f2fe6bdaf9d6ca7.setContent(html_6dd60b1d52eb435b8f347e11278f31ae);
+        
+
+        circle_marker_0394fc1d7768449ab4823e214eeaa20f.bindPopup(popup_b074dc32ae4c43188f2fe6bdaf9d6ca7)
+        ;
+
+        
+    
+    
+            var circle_marker_60a0409f9e2248259ee5e578e7fbe1a3 = L.circleMarker(
+                [-67.6534608404575, 46.1082643327496],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_724db52c81ca4aef9e22da4b81974213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb9db61bd16b4971862df2e5bda224df = $(`<div id="html_eb9db61bd16b4971862df2e5bda224df" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_724db52c81ca4aef9e22da4b81974213.setContent(html_eb9db61bd16b4971862df2e5bda224df);
+        
+
+        circle_marker_60a0409f9e2248259ee5e578e7fbe1a3.bindPopup(popup_724db52c81ca4aef9e22da4b81974213)
+        ;
+
+        
+    
+    
+            var circle_marker_b38aed2c4e9044ba96a470c6ca7da234 = L.circleMarker(
+                [-67.6534599193646, 46.1081639641246],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_59c7a922bff04fde983684665cb936c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c69ffb0d943e4a3292e3aae5676fc61f = $(`<div id="html_c69ffb0d943e4a3292e3aae5676fc61f" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_59c7a922bff04fde983684665cb936c8.setContent(html_c69ffb0d943e4a3292e3aae5676fc61f);
+        
+
+        circle_marker_b38aed2c4e9044ba96a470c6ca7da234.bindPopup(popup_59c7a922bff04fde983684665cb936c8)
+        ;
+
+        
+    
+    
+            var circle_marker_e290100eb0ad4cdf99570de9a236cf03 = L.circleMarker(
+                [-67.6534765774697, 46.10815608716],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_f0c1349381f74a69890755135a586fa3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8485ffb8f0ff4d78829925a7110cb26f = $(`<div id="html_8485ffb8f0ff4d78829925a7110cb26f" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_f0c1349381f74a69890755135a586fa3.setContent(html_8485ffb8f0ff4d78829925a7110cb26f);
+        
+
+        circle_marker_e290100eb0ad4cdf99570de9a236cf03.bindPopup(popup_f0c1349381f74a69890755135a586fa3)
+        ;
+
+        
+    
+    
+            var circle_marker_8afc1a82a0944c16959ed4cb60f8a077 = L.circleMarker(
+                [-67.6535317546415, 46.1081021878082],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_7ea2173d036b436ca2a9d2b455cc1c19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_810f7de3eb914319a93eda96d3c51c74 = $(`<div id="html_810f7de3eb914319a93eda96d3c51c74" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_7ea2173d036b436ca2a9d2b455cc1c19.setContent(html_810f7de3eb914319a93eda96d3c51c74);
+        
+
+        circle_marker_8afc1a82a0944c16959ed4cb60f8a077.bindPopup(popup_7ea2173d036b436ca2a9d2b455cc1c19)
+        ;
+
+        
+    
+    
+            var circle_marker_4a525d1893f94387814ffb33ad3ac5e5 = L.circleMarker(
+                [-67.6535601247756, 46.1080818205072],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_28d1f2c73f2349a3b089f70d6295a0e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_153b56db676a40b9992935383b7cbdd8 = $(`<div id="html_153b56db676a40b9992935383b7cbdd8" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_28d1f2c73f2349a3b089f70d6295a0e1.setContent(html_153b56db676a40b9992935383b7cbdd8);
+        
+
+        circle_marker_4a525d1893f94387814ffb33ad3ac5e5.bindPopup(popup_28d1f2c73f2349a3b089f70d6295a0e1)
+        ;
+
+        
+    
+    
+            var circle_marker_042dc20e8fb84d92ada474888b936785 = L.circleMarker(
+                [-67.6535818573435, 46.1080611158169],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_22deab8ddc884368b0148e36cc55fbc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20e4dfd46a2b4020a220b78e4a6b3162 = $(`<div id="html_20e4dfd46a2b4020a220b78e4a6b3162" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_22deab8ddc884368b0148e36cc55fbc8.setContent(html_20e4dfd46a2b4020a220b78e4a6b3162);
+        
+
+        circle_marker_042dc20e8fb84d92ada474888b936785.bindPopup(popup_22deab8ddc884368b0148e36cc55fbc8)
+        ;
+
+        
+    
+    
+            var circle_marker_91f462eb7e464a408ef120c0a5f4d595 = L.circleMarker(
+                [-67.6535377919372, 46.1079585541623],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_f2358aacc5b14c7f8ba20815c27a271b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_116002e8fbaa4a9a98e3f1c68a404dc2 = $(`<div id="html_116002e8fbaa4a9a98e3f1c68a404dc2" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_f2358aacc5b14c7f8ba20815c27a271b.setContent(html_116002e8fbaa4a9a98e3f1c68a404dc2);
+        
+
+        circle_marker_91f462eb7e464a408ef120c0a5f4d595.bindPopup(popup_f2358aacc5b14c7f8ba20815c27a271b)
+        ;
+
+        
+    
+    
+            var circle_marker_71d871863d0646168b48e71f3bee02fc = L.circleMarker(
+                [-67.6535067448763, 46.1078915490343],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_d8a40c46f3cb4198a71abfa1d1bfa89f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_571a9ad605634b7ab26d9fa1ad22acb7 = $(`<div id="html_571a9ad605634b7ab26d9fa1ad22acb7" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_d8a40c46f3cb4198a71abfa1d1bfa89f.setContent(html_571a9ad605634b7ab26d9fa1ad22acb7);
+        
+
+        circle_marker_71d871863d0646168b48e71f3bee02fc.bindPopup(popup_d8a40c46f3cb4198a71abfa1d1bfa89f)
+        ;
+
+        
+    
+    
+            var circle_marker_ddebf68a638e4897a76cd27e3c8f2090 = L.circleMarker(
+                [-67.6534821428189, 46.1078510425055],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_5dddf359058245a4935f54348596756b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62cf811f6d4e4fbea98983af8f9f8170 = $(`<div id="html_62cf811f6d4e4fbea98983af8f9f8170" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_5dddf359058245a4935f54348596756b.setContent(html_62cf811f6d4e4fbea98983af8f9f8170);
+        
+
+        circle_marker_ddebf68a638e4897a76cd27e3c8f2090.bindPopup(popup_5dddf359058245a4935f54348596756b)
+        ;
+
+        
+    
+    
+            var circle_marker_de37cdddd0fc4e79af975ef4ad392a5d = L.circleMarker(
+                [-67.6534389986538, 46.1078488502516],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_1e3f8361fa2447109d6a26ce3d5be870 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2a592546b2d45dfb168a9c317f1a9d1 = $(`<div id="html_d2a592546b2d45dfb168a9c317f1a9d1" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_1e3f8361fa2447109d6a26ce3d5be870.setContent(html_d2a592546b2d45dfb168a9c317f1a9d1);
+        
+
+        circle_marker_de37cdddd0fc4e79af975ef4ad392a5d.bindPopup(popup_1e3f8361fa2447109d6a26ce3d5be870)
+        ;
+
+        
+    
+    
+            var circle_marker_1f9fccf220c1479b85dd2a99267069df = L.circleMarker(
+                [-67.6534095146821, 46.1077950104248],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_4588cf67cbd04b4bb939ba603574d312 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c95c3445252d48c68d3a64fcfb7e6324 = $(`<div id="html_c95c3445252d48c68d3a64fcfb7e6324" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_4588cf67cbd04b4bb939ba603574d312.setContent(html_c95c3445252d48c68d3a64fcfb7e6324);
+        
+
+        circle_marker_1f9fccf220c1479b85dd2a99267069df.bindPopup(popup_4588cf67cbd04b4bb939ba603574d312)
+        ;
+
+        
+    
+    
+            var circle_marker_adcb2faffe3c4b7ca33bbd851276ece5 = L.circleMarker(
+                [-67.6533819146851, 46.1077107338551],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_0670323c6fae4683852d40fec24131ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea3ffd7b08ac4415873c37989579102a = $(`<div id="html_ea3ffd7b08ac4415873c37989579102a" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_0670323c6fae4683852d40fec24131ea.setContent(html_ea3ffd7b08ac4415873c37989579102a);
+        
+
+        circle_marker_adcb2faffe3c4b7ca33bbd851276ece5.bindPopup(popup_0670323c6fae4683852d40fec24131ea)
+        ;
+
+        
+    
+    
+            var circle_marker_d412bb40f8a24427bd86efb12627de38 = L.circleMarker(
+                [-67.6533520456555, 46.107709216339],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_c854708acf1049f4b0f7eb1be43cc506 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_048df484b13c49119cfb1ee5ead3e2ad = $(`<div id="html_048df484b13c49119cfb1ee5ead3e2ad" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_c854708acf1049f4b0f7eb1be43cc506.setContent(html_048df484b13c49119cfb1ee5ead3e2ad);
+        
+
+        circle_marker_d412bb40f8a24427bd86efb12627de38.bindPopup(popup_c854708acf1049f4b0f7eb1be43cc506)
+        ;
+
+        
+    
+    
+            var circle_marker_fc00666a39434af79e82710ee806ba4d = L.circleMarker(
+                [-67.6533297997626, 46.1077996837328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3f5c044f9ef64c50b87eeb9d9e3771be);
+        
+    
+        var popup_7420e9f0823f455aa9f6883a4b4f9cab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dc87f0c909b42a496692f039f6f888f = $(`<div id="html_0dc87f0c909b42a496692f039f6f888f" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_6</div>`)[0];
+            popup_7420e9f0823f455aa9f6883a4b4f9cab.setContent(html_0dc87f0c909b42a496692f039f6f888f);
+        
+
+        circle_marker_fc00666a39434af79e82710ee806ba4d.bindPopup(popup_7420e9f0823f455aa9f6883a4b4f9cab)
+        ;
+
+        
+    
+    
+            var feature_group_a10ab6207b1945f4bcbbbb4dea2e64e5 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_f26d4aaf83304100894953b694090ea0 = L.polygon(
+                [[-67.6540482435861, 46.1094239334763], [-67.6540553953034, 46.109354506382], [-67.6540326779081, 46.1092835595222], [-67.6539924668914, 46.1093338567263], [-67.6540200660356, 46.1094181377104]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a10ab6207b1945f4bcbbbb4dea2e64e5);
+        
+    
+        var popup_3bff0c1366ab487fbde492d13c42418f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c7be5bcc1674dc7a68971fe03d8b9d6 = $(`<div id="html_0c7be5bcc1674dc7a68971fe03d8b9d6" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_7</div>`)[0];
+            popup_3bff0c1366ab487fbde492d13c42418f.setContent(html_0c7be5bcc1674dc7a68971fe03d8b9d6);
+        
+
+        polygon_f26d4aaf83304100894953b694090ea0.bindPopup(popup_3bff0c1366ab487fbde492d13c42418f)
+        ;
+
+        
+    
+    
+            var feature_group_ca91e3b80a814bed8fb7a60795c40783 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_cf52d6ffa8174b1192e931666e092d51 = L.circleMarker(
+                [-67.6539924668914, 46.1093338567263],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ca91e3b80a814bed8fb7a60795c40783);
+        
+    
+        var popup_c5e70e07847a46509da723afb93d534e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_812f1100c66247929c485e6de0b47a0d = $(`<div id="html_812f1100c66247929c485e6de0b47a0d" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_7</div>`)[0];
+            popup_c5e70e07847a46509da723afb93d534e.setContent(html_812f1100c66247929c485e6de0b47a0d);
+        
+
+        circle_marker_cf52d6ffa8174b1192e931666e092d51.bindPopup(popup_c5e70e07847a46509da723afb93d534e)
+        ;
+
+        
+    
+    
+            var circle_marker_26662b0f0a3449939101201f191313af = L.circleMarker(
+                [-67.6540200660356, 46.1094181377104],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ca91e3b80a814bed8fb7a60795c40783);
+        
+    
+        var popup_feea16544a444eaf984a0345581d1cab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d18706217a7e4dd9a7a1fc72ec70bf87 = $(`<div id="html_d18706217a7e4dd9a7a1fc72ec70bf87" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_7</div>`)[0];
+            popup_feea16544a444eaf984a0345581d1cab.setContent(html_d18706217a7e4dd9a7a1fc72ec70bf87);
+        
+
+        circle_marker_26662b0f0a3449939101201f191313af.bindPopup(popup_feea16544a444eaf984a0345581d1cab)
+        ;
+
+        
+    
+    
+            var circle_marker_ee93b6778e684ba0a1d63a504cfa2341 = L.circleMarker(
+                [-67.6540482435861, 46.1094239334763],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ca91e3b80a814bed8fb7a60795c40783);
+        
+    
+        var popup_0b2166b504ce4209a6a9202980491405 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd151a1b94e2491997158769273c01de = $(`<div id="html_bd151a1b94e2491997158769273c01de" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_7</div>`)[0];
+            popup_0b2166b504ce4209a6a9202980491405.setContent(html_bd151a1b94e2491997158769273c01de);
+        
+
+        circle_marker_ee93b6778e684ba0a1d63a504cfa2341.bindPopup(popup_0b2166b504ce4209a6a9202980491405)
+        ;
+
+        
+    
+    
+            var circle_marker_0852d870b3cc41e0ad7960f7edd0adda = L.circleMarker(
+                [-67.6540553953034, 46.109354506382],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ca91e3b80a814bed8fb7a60795c40783);
+        
+    
+        var popup_19073a2183f14464b50f1ed1d0d4a361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5e03da1273b4168b9550c0a374435f9 = $(`<div id="html_b5e03da1273b4168b9550c0a374435f9" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_7</div>`)[0];
+            popup_19073a2183f14464b50f1ed1d0d4a361.setContent(html_b5e03da1273b4168b9550c0a374435f9);
+        
+
+        circle_marker_0852d870b3cc41e0ad7960f7edd0adda.bindPopup(popup_19073a2183f14464b50f1ed1d0d4a361)
+        ;
+
+        
+    
+    
+            var circle_marker_076e088f439246198ea7cd196edbc8a2 = L.circleMarker(
+                [-67.6540326779081, 46.1092835595222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ca91e3b80a814bed8fb7a60795c40783);
+        
+    
+        var popup_7678c631b0b747b4a7e612724294a255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3f8e291a7a543c992838a96cc024423 = $(`<div id="html_b3f8e291a7a543c992838a96cc024423" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_7</div>`)[0];
+            popup_7678c631b0b747b4a7e612724294a255.setContent(html_b3f8e291a7a543c992838a96cc024423);
+        
+
+        circle_marker_076e088f439246198ea7cd196edbc8a2.bindPopup(popup_7678c631b0b747b4a7e612724294a255)
+        ;
+
+        
+    
+    
+            var circle_marker_691b92cafdf44f7f84a45f324084831a = L.circleMarker(
+                [-67.6539924668914, 46.1093338567263],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ca91e3b80a814bed8fb7a60795c40783);
+        
+    
+        var popup_5b7910e5a3cf4cc99d6b963930b6923b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf0d50cd6754e95b7b8ccf746754f02 = $(`<div id="html_2bf0d50cd6754e95b7b8ccf746754f02" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_7</div>`)[0];
+            popup_5b7910e5a3cf4cc99d6b963930b6923b.setContent(html_2bf0d50cd6754e95b7b8ccf746754f02);
+        
+
+        circle_marker_691b92cafdf44f7f84a45f324084831a.bindPopup(popup_5b7910e5a3cf4cc99d6b963930b6923b)
+        ;
+
+        
+    
+    
+            var feature_group_d94ecc92192a4852a976eca28da4b909 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_4306b73b186c446b9676902bac01fe3b = L.polygon(
+                [[-67.654947945868, 46.1088193257545], [-67.6549726119961, 46.1087158893704], [-67.6549692074814, 46.1086371980691], [-67.6549366403916, 46.1085962829581], [-67.6548581583017, 46.1085687368507], [-67.6547963516274, 46.1085760631008], [-67.6548110230137, 46.1088830277414], [-67.654831565257, 46.1089338004348], [-67.6548614344211, 46.1089353197314]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_d94ecc92192a4852a976eca28da4b909);
+        
+    
+        var popup_42891a3c6ae54ea8b8f41b48fd1bc790 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac421fec2cb2496da0d88a957b7196af = $(`<div id="html_ac421fec2cb2496da0d88a957b7196af" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_8</div>`)[0];
+            popup_42891a3c6ae54ea8b8f41b48fd1bc790.setContent(html_ac421fec2cb2496da0d88a957b7196af);
+        
+
+        polygon_4306b73b186c446b9676902bac01fe3b.bindPopup(popup_42891a3c6ae54ea8b8f41b48fd1bc790)
+        ;
+
+        
+    
+    
+            var feature_group_811d65613cd34f95803fb9fd47ce2ebe = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_e7b105d8d3e64636883502e599a895f9 = L.circleMarker(
+                [-67.6548067193002, 46.1087912049968],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_2d7c47a376604023b75a96234d316fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af65644c2aa24e11a7f7c5fc7c8192bc = $(`<div id="html_af65644c2aa24e11a7f7c5fc7c8192bc" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_2d7c47a376604023b75a96234d316fa0.setContent(html_af65644c2aa24e11a7f7c5fc7c8192bc);
+        
+
+        circle_marker_e7b105d8d3e64636883502e599a895f9.bindPopup(popup_2d7c47a376604023b75a96234d316fa0)
+        ;
+
+        
+    
+    
+            var circle_marker_bd6e6d9db6414bd78887fde6fc876703 = L.circleMarker(
+                [-67.6548110230137, 46.1088830277414],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_6df9c58313b44c35b9e2b5168a70fefd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1238057e7ee1480e92bafabfe08e9e28 = $(`<div id="html_1238057e7ee1480e92bafabfe08e9e28" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_6df9c58313b44c35b9e2b5168a70fefd.setContent(html_1238057e7ee1480e92bafabfe08e9e28);
+        
+
+        circle_marker_bd6e6d9db6414bd78887fde6fc876703.bindPopup(popup_6df9c58313b44c35b9e2b5168a70fefd)
+        ;
+
+        
+    
+    
+            var circle_marker_d3833bcbeab14d16b1c5bb3eac18cf03 = L.circleMarker(
+                [-67.654831565257, 46.1089338004348],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_f188309e166b4338bb899f335863d0e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6739d2449a4d4191901451a24d6843d9 = $(`<div id="html_6739d2449a4d4191901451a24d6843d9" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_f188309e166b4338bb899f335863d0e1.setContent(html_6739d2449a4d4191901451a24d6843d9);
+        
+
+        circle_marker_d3833bcbeab14d16b1c5bb3eac18cf03.bindPopup(popup_f188309e166b4338bb899f335863d0e1)
+        ;
+
+        
+    
+    
+            var circle_marker_a6cd246fb3a04c789780b30624891bfa = L.circleMarker(
+                [-67.6548614344211, 46.1089353197314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_db331c4981384fc8a10b7edabcc9f62c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3b96350558442259597b48abd52e833 = $(`<div id="html_c3b96350558442259597b48abd52e833" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_db331c4981384fc8a10b7edabcc9f62c.setContent(html_c3b96350558442259597b48abd52e833);
+        
+
+        circle_marker_a6cd246fb3a04c789780b30624891bfa.bindPopup(popup_db331c4981384fc8a10b7edabcc9f62c)
+        ;
+
+        
+    
+    
+            var circle_marker_f0cbbb1162f94291a1696153a1c177a9 = L.circleMarker(
+                [-67.6548839937183, 46.1088474803027],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_833ad88205744f1d867546cb2e17df6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20d0ac66aed24bbdb9865f9643514ac0 = $(`<div id="html_20d0ac66aed24bbdb9865f9643514ac0" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_833ad88205744f1d867546cb2e17df6f.setContent(html_20d0ac66aed24bbdb9865f9643514ac0);
+        
+
+        circle_marker_f0cbbb1162f94291a1696153a1c177a9.bindPopup(popup_833ad88205744f1d867546cb2e17df6f)
+        ;
+
+        
+    
+    
+            var circle_marker_dd7a6c1fad644e4693a45679728b44b6 = L.circleMarker(
+                [-67.6549078119695, 46.1088591607873],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_bd31a713f5924e62b2300e3c01c2602e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4aad8b0651d46a8881d89e209ae038c = $(`<div id="html_a4aad8b0651d46a8881d89e209ae038c" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_bd31a713f5924e62b2300e3c01c2602e.setContent(html_a4aad8b0651d46a8881d89e209ae038c);
+        
+
+        circle_marker_dd7a6c1fad644e4693a45679728b44b6.bindPopup(popup_bd31a713f5924e62b2300e3c01c2602e)
+        ;
+
+        
+    
+    
+            var circle_marker_96ea0fafa42e4005ad6479113c2bce31 = L.circleMarker(
+                [-67.654947945868, 46.1088193257545],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_fce1f71a2ad740fdb713ae0712d50d05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df1ee3722f7c4e599f0ad5b6926a277c = $(`<div id="html_df1ee3722f7c4e599f0ad5b6926a277c" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_fce1f71a2ad740fdb713ae0712d50d05.setContent(html_df1ee3722f7c4e599f0ad5b6926a277c);
+        
+
+        circle_marker_96ea0fafa42e4005ad6479113c2bce31.bindPopup(popup_fce1f71a2ad740fdb713ae0712d50d05)
+        ;
+
+        
+    
+    
+            var circle_marker_da907255fd7046f8946263891cbe688c = L.circleMarker(
+                [-67.6549726119961, 46.1087158893704],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_7ab437f7d4754b3d8192bf590297dc3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c5c1973c10c4d54a989659c6211e37a = $(`<div id="html_9c5c1973c10c4d54a989659c6211e37a" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_7ab437f7d4754b3d8192bf590297dc3b.setContent(html_9c5c1973c10c4d54a989659c6211e37a);
+        
+
+        circle_marker_da907255fd7046f8946263891cbe688c.bindPopup(popup_7ab437f7d4754b3d8192bf590297dc3b)
+        ;
+
+        
+    
+    
+            var circle_marker_9b1cafd51ca64861b35c90f951c6d436 = L.circleMarker(
+                [-67.6549692074814, 46.1086371980691],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_9e716974c14a4074b875d9457d0a0097 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4f60decfb414d5ebed743057ef852df = $(`<div id="html_e4f60decfb414d5ebed743057ef852df" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_9e716974c14a4074b875d9457d0a0097.setContent(html_e4f60decfb414d5ebed743057ef852df);
+        
+
+        circle_marker_9b1cafd51ca64861b35c90f951c6d436.bindPopup(popup_9e716974c14a4074b875d9457d0a0097)
+        ;
+
+        
+    
+    
+            var circle_marker_183ed057f9f54669b9da7c0e8f818597 = L.circleMarker(
+                [-67.6549366403916, 46.1085962829581],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_4c4095ea39a145b2bfc653f80830737a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_906033408fcf48a39068023298b7c61f = $(`<div id="html_906033408fcf48a39068023298b7c61f" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_4c4095ea39a145b2bfc653f80830737a.setContent(html_906033408fcf48a39068023298b7c61f);
+        
+
+        circle_marker_183ed057f9f54669b9da7c0e8f818597.bindPopup(popup_4c4095ea39a145b2bfc653f80830737a)
+        ;
+
+        
+    
+    
+            var circle_marker_17cea0b2feb245ccb48f0b8fb4d77752 = L.circleMarker(
+                [-67.6548947079468, 46.1086098542874],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_cd8f77ae1b914d72924ffcb663013205 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57ae17a805fc46ba83ebc80637720593 = $(`<div id="html_57ae17a805fc46ba83ebc80637720593" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_cd8f77ae1b914d72924ffcb663013205.setContent(html_57ae17a805fc46ba83ebc80637720593);
+        
+
+        circle_marker_17cea0b2feb245ccb48f0b8fb4d77752.bindPopup(popup_cd8f77ae1b914d72924ffcb663013205)
+        ;
+
+        
+    
+    
+            var circle_marker_b7d6547e80244a87ab86f90c98753fca = L.circleMarker(
+                [-67.6548581583017, 46.1085687368507],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_a0f087918a0c4674967f10475d3568d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ece89c908c749ffaf8399ab9e4a2d2f = $(`<div id="html_6ece89c908c749ffaf8399ab9e4a2d2f" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_a0f087918a0c4674967f10475d3568d9.setContent(html_6ece89c908c749ffaf8399ab9e4a2d2f);
+        
+
+        circle_marker_b7d6547e80244a87ab86f90c98753fca.bindPopup(popup_a0f087918a0c4674967f10475d3568d9)
+        ;
+
+        
+    
+    
+            var circle_marker_660b5777319448f39954256970593ce0 = L.circleMarker(
+                [-67.6547963516274, 46.1085760631008],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_77f123720ea84f048f80df9331a5bc4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c192771a839a4bc798178c9b93295497 = $(`<div id="html_c192771a839a4bc798178c9b93295497" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_77f123720ea84f048f80df9331a5bc4c.setContent(html_c192771a839a4bc798178c9b93295497);
+        
+
+        circle_marker_660b5777319448f39954256970593ce0.bindPopup(popup_77f123720ea84f048f80df9331a5bc4c)
+        ;
+
+        
+    
+    
+            var circle_marker_45d00fa220db47fb84261430fc15e180 = L.circleMarker(
+                [-67.6548076442109, 46.1086656239029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_4212cda5ee994c6d9202473ea0b3d36c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb7c21cf869f4c498c608dde7ba2f46b = $(`<div id="html_fb7c21cf869f4c498c608dde7ba2f46b" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_4212cda5ee994c6d9202473ea0b3d36c.setContent(html_fb7c21cf869f4c498c608dde7ba2f46b);
+        
+
+        circle_marker_45d00fa220db47fb84261430fc15e180.bindPopup(popup_4212cda5ee994c6d9202473ea0b3d36c)
+        ;
+
+        
+    
+    
+            var circle_marker_b1031135bb654517a5d0f789c8bb77e0 = L.circleMarker(
+                [-67.6548067193002, 46.1087912049968],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_811d65613cd34f95803fb9fd47ce2ebe);
+        
+    
+        var popup_9e8cee92b6264a29b1eccf02bfd010a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_394a57d5e2a54b5ea81d1b4096705239 = $(`<div id="html_394a57d5e2a54b5ea81d1b4096705239" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_8</div>`)[0];
+            popup_9e8cee92b6264a29b1eccf02bfd010a4.setContent(html_394a57d5e2a54b5ea81d1b4096705239);
+        
+
+        circle_marker_b1031135bb654517a5d0f789c8bb77e0.bindPopup(popup_9e8cee92b6264a29b1eccf02bfd010a4)
+        ;
+
+        
+    
+    
+            var feature_group_d90efd821c89493aaaeb1ae55dfce302 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var polygon_22cd9e55515045d3b3d660acc3c100cb = L.polygon(
+                [[-67.6550512218873, 46.1092668991029], [-67.6550875275745, 46.1092059314823], [-67.6550720599844, 46.1091423296845], [-67.6550053202565, 46.1090080704659], [-67.6549738838136, 46.1089488913301], [-67.6549376167919, 46.1090046264845], [-67.6549333258493, 46.1090462845007], [-67.6549956203129, 46.109243131854], [-67.6550172930373, 46.109275641894]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_d90efd821c89493aaaeb1ae55dfce302);
+        
+    
+        var popup_4059fa4bb0dc451d9b9aa826f948ff8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_389f9a7295f94ac9895870a7737d36ce = $(`<div id="html_389f9a7295f94ac9895870a7737d36ce" style="width: 100.0%; height: 100.0%;">Example convex hullalasheyev_region_9</div>`)[0];
+            popup_4059fa4bb0dc451d9b9aa826f948ff8b.setContent(html_389f9a7295f94ac9895870a7737d36ce);
+        
+
+        polygon_22cd9e55515045d3b3d660acc3c100cb.bindPopup(popup_4059fa4bb0dc451d9b9aa826f948ff8b)
+        ;
+
+        
+    
+    
+            var feature_group_e567225d6c1d49c589f9ef645241f606 = L.featureGroup(
+                {}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var circle_marker_cc63592ef8524e71ae3cb41749f80ff7 = L.circleMarker(
+                [-67.6549376167919, 46.1090046264845],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_c6b3b5be582b465e9805526ab479030f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea12a24fa1bb455b953663acab0aaca6 = $(`<div id="html_ea12a24fa1bb455b953663acab0aaca6" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_c6b3b5be582b465e9805526ab479030f.setContent(html_ea12a24fa1bb455b953663acab0aaca6);
+        
+
+        circle_marker_cc63592ef8524e71ae3cb41749f80ff7.bindPopup(popup_c6b3b5be582b465e9805526ab479030f)
+        ;
+
+        
+    
+    
+            var circle_marker_36de5dc55429410ca8c3edf36271736b = L.circleMarker(
+                [-67.6549333258493, 46.1090462845007],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_df9ad5bfcc5f48ddbe2d3fbeda9cb8fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fff7d979ae8141189cc957477c0be7e9 = $(`<div id="html_fff7d979ae8141189cc957477c0be7e9" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_df9ad5bfcc5f48ddbe2d3fbeda9cb8fe.setContent(html_fff7d979ae8141189cc957477c0be7e9);
+        
+
+        circle_marker_36de5dc55429410ca8c3edf36271736b.bindPopup(popup_df9ad5bfcc5f48ddbe2d3fbeda9cb8fe)
+        ;
+
+        
+    
+    
+            var circle_marker_be3259145e4548deb1f62a3d245cda43 = L.circleMarker(
+                [-67.6549550757116, 46.1090683290914],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_798f082cdd6147cb95f7029479a98028 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3809b1dab36647feb97ecce816d5768f = $(`<div id="html_3809b1dab36647feb97ecce816d5768f" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_798f082cdd6147cb95f7029479a98028.setContent(html_3809b1dab36647feb97ecce816d5768f);
+        
+
+        circle_marker_be3259145e4548deb1f62a3d245cda43.bindPopup(popup_798f082cdd6147cb95f7029479a98028)
+        ;
+
+        
+    
+    
+            var circle_marker_3c2560b2638345889fa7b92ae3745665 = L.circleMarker(
+                [-67.6549768255721, 46.109090373726],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_b1c7392bbe3b437389d7224f88b2add3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a35a6d30d354d47a47b075e5588c8a7 = $(`<div id="html_5a35a6d30d354d47a47b075e5588c8a7" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_b1c7392bbe3b437389d7224f88b2add3.setContent(html_5a35a6d30d354d47a47b075e5588c8a7);
+        
+
+        circle_marker_3c2560b2638345889fa7b92ae3745665.bindPopup(popup_b1c7392bbe3b437389d7224f88b2add3)
+        ;
+
+        
+    
+    
+            var circle_marker_6b05ae41747e42779786f2a400a0f20a = L.circleMarker(
+                [-67.6549832745972, 46.1091613682075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_f1825c9f8c464135853bf66a8ea9130c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ba793afe0134cf2b087cdf0c8e434cc = $(`<div id="html_1ba793afe0134cf2b087cdf0c8e434cc" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_f1825c9f8c464135853bf66a8ea9130c.setContent(html_1ba793afe0134cf2b087cdf0c8e434cc);
+        
+
+        circle_marker_6b05ae41747e42779786f2a400a0f20a.bindPopup(popup_f1825c9f8c464135853bf66a8ea9130c)
+        ;
+
+        
+    
+    
+            var circle_marker_2d62a2527968416cbfe5feb5572365ea = L.circleMarker(
+                [-67.6549956203129, 46.109243131854],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_887ba0e3e6e140c78fb10324e632fd62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83bb6af551ab45688bca1982adb048b6 = $(`<div id="html_83bb6af551ab45688bca1982adb048b6" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_887ba0e3e6e140c78fb10324e632fd62.setContent(html_83bb6af551ab45688bca1982adb048b6);
+        
+
+        circle_marker_2d62a2527968416cbfe5feb5572365ea.bindPopup(popup_887ba0e3e6e140c78fb10324e632fd62)
+        ;
+
+        
+    
+    
+            var circle_marker_b7096b63745d44b58ca932f5ba36a0de = L.circleMarker(
+                [-67.6550172930373, 46.109275641894],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_4447b321bab945aa902602cf31dab3e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7d129bac3ce4a2b860f0f785be59792 = $(`<div id="html_f7d129bac3ce4a2b860f0f785be59792" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_4447b321bab945aa902602cf31dab3e0.setContent(html_f7d129bac3ce4a2b860f0f785be59792);
+        
+
+        circle_marker_b7096b63745d44b58ca932f5ba36a0de.bindPopup(popup_4447b321bab945aa902602cf31dab3e0)
+        ;
+
+        
+    
+    
+            var circle_marker_02f9a7c7e9ba4ea98163a25ad94190db = L.circleMarker(
+                [-67.6550512218873, 46.1092668991029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_7d86f11ae85b4e4f89cac60e6ac32a83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b8df312fe6246da9c066254db1c8ed7 = $(`<div id="html_8b8df312fe6246da9c066254db1c8ed7" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_7d86f11ae85b4e4f89cac60e6ac32a83.setContent(html_8b8df312fe6246da9c066254db1c8ed7);
+        
+
+        circle_marker_02f9a7c7e9ba4ea98163a25ad94190db.bindPopup(popup_7d86f11ae85b4e4f89cac60e6ac32a83)
+        ;
+
+        
+    
+    
+            var circle_marker_f1181cdc9dd943b9b593232ce62d8513 = L.circleMarker(
+                [-67.6550875275745, 46.1092059314823],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_2d02ba2b4cea4fd1b3db0e8efb905f5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1732935cdc494b32ad2a425da4c3ccb4 = $(`<div id="html_1732935cdc494b32ad2a425da4c3ccb4" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_2d02ba2b4cea4fd1b3db0e8efb905f5c.setContent(html_1732935cdc494b32ad2a425da4c3ccb4);
+        
+
+        circle_marker_f1181cdc9dd943b9b593232ce62d8513.bindPopup(popup_2d02ba2b4cea4fd1b3db0e8efb905f5c)
+        ;
+
+        
+    
+    
+            var circle_marker_d4e7aa0517824d9f9eae457969dac29a = L.circleMarker(
+                [-67.6550720599844, 46.1091423296845],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_923fc05e96f846adab39a1af4cdff455 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09ec9d37f57342e890bebee7669fee95 = $(`<div id="html_09ec9d37f57342e890bebee7669fee95" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_923fc05e96f846adab39a1af4cdff455.setContent(html_09ec9d37f57342e890bebee7669fee95);
+        
+
+        circle_marker_d4e7aa0517824d9f9eae457969dac29a.bindPopup(popup_923fc05e96f846adab39a1af4cdff455)
+        ;
+
+        
+    
+    
+            var circle_marker_4a97dccc8613437c86cde5711d250954 = L.circleMarker(
+                [-67.6550392617118, 46.1091328092298],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_a9dcbaee3cbe4a9ca1c64138af903d1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23996cac6dd74f2ab4175c7ef66d0149 = $(`<div id="html_23996cac6dd74f2ab4175c7ef66d0149" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_a9dcbaee3cbe4a9ca1c64138af903d1e.setContent(html_23996cac6dd74f2ab4175c7ef66d0149);
+        
+
+        circle_marker_4a97dccc8613437c86cde5711d250954.bindPopup(popup_a9dcbaee3cbe4a9ca1c64138af903d1e)
+        ;
+
+        
+    
+    
+            var circle_marker_a992b7c2f9ff4312a0ae65ba83f9562e = L.circleMarker(
+                [-67.6550156362272, 46.1090949654016],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_49827a5c91c643059e8f70c3c950838a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa3d1336e56e408dbde9626a75d36c59 = $(`<div id="html_fa3d1336e56e408dbde9626a75d36c59" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_49827a5c91c643059e8f70c3c950838a.setContent(html_fa3d1336e56e408dbde9626a75d36c59);
+        
+
+        circle_marker_a992b7c2f9ff4312a0ae65ba83f9562e.bindPopup(popup_49827a5c91c643059e8f70c3c950838a)
+        ;
+
+        
+    
+    
+            var circle_marker_a2f58d9f092c446e86148bb7439b4215 = L.circleMarker(
+                [-67.6550053202565, 46.1090080704659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_4f2416a299924416bca6abbddd912534 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a87900cf46ce46eb839fdd3b93147f2d = $(`<div id="html_a87900cf46ce46eb839fdd3b93147f2d" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_4f2416a299924416bca6abbddd912534.setContent(html_a87900cf46ce46eb839fdd3b93147f2d);
+        
+
+        circle_marker_a2f58d9f092c446e86148bb7439b4215.bindPopup(popup_4f2416a299924416bca6abbddd912534)
+        ;
+
+        
+    
+    
+            var circle_marker_4ee57dab25e2452d961e033e26bfd676 = L.circleMarker(
+                [-67.6549738838136, 46.1089488913301],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_97475521cb9949ca83eb043d723b62ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a090948909144489cde4b4031cdd7f3 = $(`<div id="html_2a090948909144489cde4b4031cdd7f3" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_97475521cb9949ca83eb043d723b62ff.setContent(html_2a090948909144489cde4b4031cdd7f3);
+        
+
+        circle_marker_4ee57dab25e2452d961e033e26bfd676.bindPopup(popup_97475521cb9949ca83eb043d723b62ff)
+        ;
+
+        
+    
+    
+            var circle_marker_e85a7806acfc4707bf288e8e739c7213 = L.circleMarker(
+                [-67.6549376167919, 46.1090046264845],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e567225d6c1d49c589f9ef645241f606);
+        
+    
+        var popup_d8032ca9241345a5b8720e2e744b12d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9403c1424314f438951aa6923225cea = $(`<div id="html_e9403c1424314f438951aa6923225cea" style="width: 100.0%; height: 100.0%;">Example point for convex hullalasheyev_region_9</div>`)[0];
+            popup_d8032ca9241345a5b8720e2e744b12d6.setContent(html_e9403c1424314f438951aa6923225cea);
+        
+
+        circle_marker_e85a7806acfc4707bf288e8e739c7213.bindPopup(popup_d8032ca9241345a5b8720e2e744b12d6)
+        ;
+
+        
+    
+    
+            var tile_layer_47c6d49a28734b9d86e1c9e26bc65418 = L.tileLayer(
+                "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/8431fac8956555b58b45e25f1347f253-c2259eb5757f3dc87b07a1c9d1d90ed8/tiles/{z}/{x}/{y}",
+                {"attribution": "Map Data \u0026copy; \u003ca href=\"https://earthengine.google.com/\"\u003eGoogle Earth Engine\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+    
+            var layer_control_6c855a4c22a84a2f8955c7d4d8372587 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_7e307aa7223d419f8af2d866b0511e9f,
+                },
+                overlays :  {
+                    "Example convex hullalasheyev_region_1" : feature_group_71d7b397c01144a191c204e18bb69ec1,
+                    "Example points for convex hullalasheyev_region_1" : feature_group_caad4b181e964629b9273ecd0738310a,
+                    "Example convex hullalasheyev_region_10" : feature_group_b4de0329bc8146e0904f5eaacbf4e544,
+                    "Example points for convex hullalasheyev_region_10" : feature_group_6fb0767bf9774db2a93b7d5e7be1ace3,
+                    "Example convex hullalasheyev_region_11" : feature_group_3680b0dec9c34c65aca23b5e5e7a5bb2,
+                    "Example points for convex hullalasheyev_region_11" : feature_group_5e2f62cf18954c03851a3fa92817d98e,
+                    "Example convex hullalasheyev_region_2" : feature_group_5ba47fd593774fa4b311a335cb5bb84f,
+                    "Example points for convex hullalasheyev_region_2" : feature_group_8cad6b17a60c4958810f0c3ec19d025b,
+                    "Example convex hullalasheyev_region_3" : feature_group_8d7f694cc570440e8ce311f3cdd2d0f3,
+                    "Example points for convex hullalasheyev_region_3" : feature_group_d66ec958362a4c26b9ba4b6b10261a1a,
+                    "Example convex hullalasheyev_region_4" : feature_group_398965dffd0743c5a4f9a017dcfd5979,
+                    "Example points for convex hullalasheyev_region_4" : feature_group_474e4d5360554ad987557fd85bd69b6c,
+                    "Example convex hullalasheyev_region_5" : feature_group_6d06a88c57cf475c852e8f02d9e004ea,
+                    "Example points for convex hullalasheyev_region_5" : feature_group_ea3807de6bdb44038e1b4b2beaa44c2f,
+                    "Example convex hullalasheyev_region_6" : feature_group_02ee23dda9d74e6e9d4e84bb7a019d4f,
+                    "Example points for convex hullalasheyev_region_6" : feature_group_3f5c044f9ef64c50b87eeb9d9e3771be,
+                    "Example convex hullalasheyev_region_7" : feature_group_a10ab6207b1945f4bcbbbb4dea2e64e5,
+                    "Example points for convex hullalasheyev_region_7" : feature_group_ca91e3b80a814bed8fb7a60795c40783,
+                    "Example convex hullalasheyev_region_8" : feature_group_d94ecc92192a4852a976eca28da4b909,
+                    "Example points for convex hullalasheyev_region_8" : feature_group_811d65613cd34f95803fb9fd47ce2ebe,
+                    "Example convex hullalasheyev_region_9" : feature_group_d90efd821c89493aaaeb1ae55dfce302,
+                    "Example points for convex hullalasheyev_region_9" : feature_group_e567225d6c1d49c589f9ef645241f606,
+                    "median composite" : tile_layer_47c6d49a28734b9d86e1c9e26bc65418,
+                },
+            };
+            L.control.layers(
+                layer_control_6c855a4c22a84a2f8955c7d4d8372587.base_layers,
+                layer_control_6c855a4c22a84a2f8955c7d4d8372587.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_ef2af2f088e049e2940d76753af86fa9);
+        
+</script>

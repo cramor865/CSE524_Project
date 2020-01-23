@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="waites" id="waites">
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="area_m" type="float"></SimpleField>
+</Schema>
+<Folder><name>waites</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">41.50072751140</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.431727313466,-72.7126959475489 -103.431839529996,-72.7126879789678 -103.431899173463,-72.7126719870903 -103.431881306996,-72.7126497427764 -103.431853949854,-72.7126320912505 -103.431696884042,-72.7126334475496 -103.431666086314,-72.7126689446148 -103.431727313466,-72.7126959475489</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">17.97987380590</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.431407968277,-72.7126265315461 -103.43147654487,-72.7126216619797 -103.431523441074,-72.7126144130711 -103.431499340936,-72.7125926114151 -103.431428065794,-72.7125859161253 -103.431373446592,-72.7125917539996 -103.4313494405,-72.7126110933806 -103.431407968277,-72.7126265315461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">24.32418801670</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.446909400011,-72.714993937269 -103.446971988244,-72.7149916173444 -103.446984212415,-72.7149801026728 -103.44697125458,-72.714963990634 -103.446872146477,-72.7149476151406 -103.446796009861,-72.714950898118 -103.446766702177,-72.7149678854156 -103.446835473758,-72.7149821591303 -103.446909400011,-72.714993937269</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">17.67578061800</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.449310581948,-72.7152724874002 -103.449376705114,-72.7152656570884 -103.449433107947,-72.7152467428403 -103.449423387679,-72.7152346589264 -103.449361093049,-72.7152284420706 -103.449294970021,-72.7152352723765 -103.449267284366,-72.7152542740535 -103.449310581948,-72.7152724874002</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">129.25931823200</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.451033333121,-72.7130446777774 -103.451194261058,-72.7130271096335 -103.451253125171,-72.7130106760745 -103.45129525965,-72.7129862467136 -103.451284032705,-72.712959488543 -103.45117498046,-72.7129519347309 -103.45099308634,-72.7129434373582 -103.450883612463,-72.7129481607354 -103.450818823231,-72.7129956339061 -103.450919621144,-72.713031331486 -103.451033333121,-72.7130446777774</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">98.17315618740</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.451114892715,-72.7132868869294 -103.451287893156,-72.7132715221683 -103.451375979655,-72.7132530104469 -103.45149561732,-72.7132353167077 -103.45146998985,-72.7132034589206 -103.451332557519,-72.7131734286049 -103.451198520168,-72.7131860226086 -103.451133730909,-72.713233495914 -103.451114892715,-72.7132868869294</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">193.64062032700</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.451774696348,-72.7131726033721 -103.45190323123,-72.7131787713801 -103.451959344246,-72.7131717188049 -103.451988986734,-72.7131573632261 -103.451985169191,-72.7131270161895 -103.451969281396,-72.7130944657383 -103.452004004481,-72.7130736251108 -103.451915695385,-72.7130278541564 -103.451802404033,-72.7130022310283 -103.451641476958,-72.7130197996789 -103.45168150445,-72.7130567570229 -103.451707132096,-72.71308861477 -103.451650597934,-72.7131079446308 -103.451540280393,-72.7131372231052 -103.451612280537,-72.7131627211213 -103.451774696348,-72.7131726033721</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">59.63273627630</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.44924044716,-72.7132609622732 -103.449396297209,-72.7132498806014 -103.449445000307,-72.7132464175531 -103.449540499842,-72.7132243178738 -103.449493065446,-72.7131909488688 -103.449435044842,-72.713182827181 -103.449342720769,-72.7131832682775 -103.449226893873,-72.7132313077745 -103.44924044716,-72.7132609622732</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">144.00189734100</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.449448383555,-72.7131481986844 -103.449528214603,-72.7131578313246 -103.449586657971,-72.7131536756262 -103.449662252966,-72.7131452384836 -103.449709048969,-72.7131266018287 -103.449792054845,-72.7131145758284 -103.449877390086,-72.7131054459737 -103.449982628772,-72.7130826534506 -103.450038742266,-72.7130756014364 -103.450176376262,-72.7130290723534 -103.450191198139,-72.7130218947044 -103.450340478997,-72.712989846392 -103.450329253549,-72.7129630881656 -103.450224860745,-72.7129613261646 -103.450136774503,-72.712979837346 -103.45007282797,-72.7130027555608 -103.449981144312,-72.7130552025596 -103.449946841333,-72.713063765466 -103.449714976016,-72.7130955621255 -103.449605923596,-72.7130880074227 -103.449478873881,-72.7131092887804 -103.449448383555,-72.7131481986844</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">33.90236602320</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.449327701628,-72.7135486929958 -103.449408803311,-72.7135214935883 -103.449436119095,-72.7135042421997 -103.449480163977,-72.7134949867616 -103.449473175578,-72.7134862981955 -103.449424894729,-72.7134774838855 -103.449329816623,-72.7134873061543 -103.449258878804,-72.7135015355567 -103.449231562845,-72.71351878692 -103.449327701628,-72.7135486929958</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">65.37516407220</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.450537867906,-72.7133248589263 -103.450632944409,-72.7133150360658 -103.450660258623,-72.7132977845127 -103.450650940065,-72.7132861998207 -103.450627643727,-72.7132572380902 -103.450684179545,-72.7132379085222 -103.450658131554,-72.7132183279886 -103.450561148095,-72.7132129773238 -103.450442994833,-72.7132581213815 -103.450456550259,-72.7132877757968 -103.450537867906,-72.7133248589263</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waites">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="area_m">36.11091836050</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-103.450788354137,-72.7131753872957 -103.450898251359,-72.7131583866093 -103.450930646219,-72.7131346500028 -103.450904598103,-72.7131150695076 -103.450776064063,-72.7131089008345 -103.450702799404,-72.7131202345845 -103.450747906336,-72.7131507071147 -103.450788354137,-72.7131753872957</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

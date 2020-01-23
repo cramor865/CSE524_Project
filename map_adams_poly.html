@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2d2c37ed4f814704865fab4a40384a2a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2d2c37ed4f814704865fab4a40384a2a" ></div>
+        
+</body>
+<script>    
+    
+            var map_2d2c37ed4f814704865fab4a40384a2a = L.map(
+                "map_2d2c37ed4f814704865fab4a40384a2a",
+                {
+                    center: [-66.54589745923855, 92.54931974535185],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0c56e4a7a8d247389ba2e772820ac974 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+    
+            var feature_group_a72de63bf0704f52b36097d8558adbcc = L.featureGroup(
+                {}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+    
+            var polygon_735cdacf14134ec693c272fbe3dbd743 = L.polygon(
+                [[-66.5461021999572, 92.5486413135491], [-66.5461050285435, 92.5486102006244], [-66.546096546193, 92.5485749669414], [-66.5460751110536, 92.5485640008527], [-66.5460546603546, 92.5485617162628], [-66.5460328206555, 92.5485735623372], [-66.5460376922702, 92.5486198212171], [-66.5460410501482, 92.5486230535074], [-66.5460601624091, 92.5486366173042], [-66.5460804613919, 92.548647456528]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a72de63bf0704f52b36097d8558adbcc);
+        
+    
+        var popup_6b47ebd6e5ac4d53a2e0bd24ed805dff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e37129b16974fa792977388e5898dae = $(`<div id="html_2e37129b16974fa792977388e5898dae" style="width: 100.0%; height: 100.0%;">Example convex hulladams_region_1</div>`)[0];
+            popup_6b47ebd6e5ac4d53a2e0bd24ed805dff.setContent(html_2e37129b16974fa792977388e5898dae);
+        
+
+        polygon_735cdacf14134ec693c272fbe3dbd743.bindPopup(popup_6b47ebd6e5ac4d53a2e0bd24ed805dff)
+        ;
+
+        
+    
+    
+            var feature_group_b1766159b1154990bb647f81d0700f82 = L.featureGroup(
+                {}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+    
+            var circle_marker_17f9ef46858a4b51928a97da2e968527 = L.circleMarker(
+                [-66.5460328206555, 92.5485735623372],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_063b9d9f356c405c81089569fdbb218e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db329a66e71c46fbbe090baf506f4950 = $(`<div id="html_db329a66e71c46fbbe090baf506f4950" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_063b9d9f356c405c81089569fdbb218e.setContent(html_db329a66e71c46fbbe090baf506f4950);
+        
+
+        circle_marker_17f9ef46858a4b51928a97da2e968527.bindPopup(popup_063b9d9f356c405c81089569fdbb218e)
+        ;
+
+        
+    
+    
+            var circle_marker_370c90f59c0d4fa2a45d5a10dee507f5 = L.circleMarker(
+                [-66.5460376922702, 92.5486198212171],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_d89af1a8fa0a43d3b8d7efbf2f21c055 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99aa54d19d424fb18a8e41d1806fa48b = $(`<div id="html_99aa54d19d424fb18a8e41d1806fa48b" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_d89af1a8fa0a43d3b8d7efbf2f21c055.setContent(html_99aa54d19d424fb18a8e41d1806fa48b);
+        
+
+        circle_marker_370c90f59c0d4fa2a45d5a10dee507f5.bindPopup(popup_d89af1a8fa0a43d3b8d7efbf2f21c055)
+        ;
+
+        
+    
+    
+            var circle_marker_f779ca6abaac4bc08a26921b50a41810 = L.circleMarker(
+                [-66.5460410501482, 92.5486230535074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_3b2de728be5b4002b2103e8c6e7bd4b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd68b222ea4b4d3d8e5d3284f5ffb6f1 = $(`<div id="html_cd68b222ea4b4d3d8e5d3284f5ffb6f1" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_3b2de728be5b4002b2103e8c6e7bd4b1.setContent(html_cd68b222ea4b4d3d8e5d3284f5ffb6f1);
+        
+
+        circle_marker_f779ca6abaac4bc08a26921b50a41810.bindPopup(popup_3b2de728be5b4002b2103e8c6e7bd4b1)
+        ;
+
+        
+    
+    
+            var circle_marker_af247d79a6384dd3bc47768432441167 = L.circleMarker(
+                [-66.5460601624091, 92.5486366173042],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_30e88b63c4be48e79cdc19b62c022561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e5e910a6adf4a9895bdae499f1683e3 = $(`<div id="html_7e5e910a6adf4a9895bdae499f1683e3" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_30e88b63c4be48e79cdc19b62c022561.setContent(html_7e5e910a6adf4a9895bdae499f1683e3);
+        
+
+        circle_marker_af247d79a6384dd3bc47768432441167.bindPopup(popup_30e88b63c4be48e79cdc19b62c022561)
+        ;
+
+        
+    
+    
+            var circle_marker_85b1b7d2631040fcb2673d540efc4a82 = L.circleMarker(
+                [-66.5460804613919, 92.548647456528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_01eb7d999b29437e8e09d3afdb54e398 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23893db8373c4785872748cab4a9de44 = $(`<div id="html_23893db8373c4785872748cab4a9de44" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_01eb7d999b29437e8e09d3afdb54e398.setContent(html_23893db8373c4785872748cab4a9de44);
+        
+
+        circle_marker_85b1b7d2631040fcb2673d540efc4a82.bindPopup(popup_01eb7d999b29437e8e09d3afdb54e398)
+        ;
+
+        
+    
+    
+            var circle_marker_647834f7d8564605bd075f416c2e1de6 = L.circleMarker(
+                [-66.5461021999572, 92.5486413135491],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_bfc69e76dd2c497095017b7200c5e500 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcb4bbd568714dc29d700e735b92bb2d = $(`<div id="html_dcb4bbd568714dc29d700e735b92bb2d" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_bfc69e76dd2c497095017b7200c5e500.setContent(html_dcb4bbd568714dc29d700e735b92bb2d);
+        
+
+        circle_marker_647834f7d8564605bd075f416c2e1de6.bindPopup(popup_bfc69e76dd2c497095017b7200c5e500)
+        ;
+
+        
+    
+    
+            var circle_marker_07029a3152b34c76b2eaf8cd0c84b7a8 = L.circleMarker(
+                [-66.5461050285435, 92.5486102006244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_0829f9e85ff349e49c0f3cd2238c874d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_862d8a82173148539eeaf984adc22e7b = $(`<div id="html_862d8a82173148539eeaf984adc22e7b" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_0829f9e85ff349e49c0f3cd2238c874d.setContent(html_862d8a82173148539eeaf984adc22e7b);
+        
+
+        circle_marker_07029a3152b34c76b2eaf8cd0c84b7a8.bindPopup(popup_0829f9e85ff349e49c0f3cd2238c874d)
+        ;
+
+        
+    
+    
+            var circle_marker_ec2772e3ae824feb8de3af485490b525 = L.circleMarker(
+                [-66.546096546193, 92.5485749669414],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_664102ff746f4e009f3d73c4f541bc41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_900f80694c2b46719bda9637c31b3497 = $(`<div id="html_900f80694c2b46719bda9637c31b3497" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_664102ff746f4e009f3d73c4f541bc41.setContent(html_900f80694c2b46719bda9637c31b3497);
+        
+
+        circle_marker_ec2772e3ae824feb8de3af485490b525.bindPopup(popup_664102ff746f4e009f3d73c4f541bc41)
+        ;
+
+        
+    
+    
+            var circle_marker_843d05742b7846239cbee35eb92333ed = L.circleMarker(
+                [-66.5460751110536, 92.5485640008527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_4a62a14a3f314b6e8732680124b12cda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d19acf1f03a2488393159dd10962a802 = $(`<div id="html_d19acf1f03a2488393159dd10962a802" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_4a62a14a3f314b6e8732680124b12cda.setContent(html_d19acf1f03a2488393159dd10962a802);
+        
+
+        circle_marker_843d05742b7846239cbee35eb92333ed.bindPopup(popup_4a62a14a3f314b6e8732680124b12cda)
+        ;
+
+        
+    
+    
+            var circle_marker_36b5794f2dca4b7e8dd5ecbb28b15b56 = L.circleMarker(
+                [-66.5460546603546, 92.5485617162628],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_6aa2dc3b8808496abd774b504e2b979a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62b59f4b377549f486e3a82311ea9caa = $(`<div id="html_62b59f4b377549f486e3a82311ea9caa" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_6aa2dc3b8808496abd774b504e2b979a.setContent(html_62b59f4b377549f486e3a82311ea9caa);
+        
+
+        circle_marker_36b5794f2dca4b7e8dd5ecbb28b15b56.bindPopup(popup_6aa2dc3b8808496abd774b504e2b979a)
+        ;
+
+        
+    
+    
+            var circle_marker_e2a6b73450ee494fae9ceda0f410e9bc = L.circleMarker(
+                [-66.5460328206555, 92.5485735623372],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1766159b1154990bb647f81d0700f82);
+        
+    
+        var popup_db11c4a9005346bab5c34207aa305f2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8058bdb66c894e2ba540b771b065e6d6 = $(`<div id="html_8058bdb66c894e2ba540b771b065e6d6" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_1</div>`)[0];
+            popup_db11c4a9005346bab5c34207aa305f2e.setContent(html_8058bdb66c894e2ba540b771b065e6d6);
+        
+
+        circle_marker_e2a6b73450ee494fae9ceda0f410e9bc.bindPopup(popup_db11c4a9005346bab5c34207aa305f2e)
+        ;
+
+        
+    
+    
+            var feature_group_aaafde5c1a454ba1a72e62d583ea49bf = L.featureGroup(
+                {}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+    
+            var polygon_92c724bcd1ef45b0bf0e7bcc9f8a930f = L.polygon(
+                [[-66.5458734993986, 92.549661480127], [-66.5458846859707, 92.5496084444934], [-66.545876659181, 92.5495475473285], [-66.5458575976077, 92.5495311313861], [-66.5457930395199, 92.5495124882541], [-66.545771402119, 92.5495129273572], [-66.5457718806049, 92.549550123585], [-66.5457827867739, 92.5495770566228], [-66.5457982375302, 92.5496044975747], [-66.545821742501, 92.5496271244029], [-66.5458475197663, 92.549650005227]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_aaafde5c1a454ba1a72e62d583ea49bf);
+        
+    
+        var popup_6acafd918ddc40e087236b14a3244dea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1a84f8216a042b3a07af422b1b31322 = $(`<div id="html_f1a84f8216a042b3a07af422b1b31322" style="width: 100.0%; height: 100.0%;">Example convex hulladams_region_2</div>`)[0];
+            popup_6acafd918ddc40e087236b14a3244dea.setContent(html_f1a84f8216a042b3a07af422b1b31322);
+        
+
+        polygon_92c724bcd1ef45b0bf0e7bcc9f8a930f.bindPopup(popup_6acafd918ddc40e087236b14a3244dea)
+        ;
+
+        
+    
+    
+            var feature_group_adb2a3aa06064903ba0d015a2b0e69d7 = L.featureGroup(
+                {}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+    
+            var circle_marker_f0ff51e4bdb44853abbd06d6f58abf47 = L.circleMarker(
+                [-66.5457930395199, 92.5495124882541],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_06f1160191774a4b94f181762acdf3bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8001baa61307491396ef3f4597a9827d = $(`<div id="html_8001baa61307491396ef3f4597a9827d" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_06f1160191774a4b94f181762acdf3bb.setContent(html_8001baa61307491396ef3f4597a9827d);
+        
+
+        circle_marker_f0ff51e4bdb44853abbd06d6f58abf47.bindPopup(popup_06f1160191774a4b94f181762acdf3bb)
+        ;
+
+        
+    
+    
+            var circle_marker_ea9813d547d24e8ea9aee789a6a0ac9b = L.circleMarker(
+                [-66.545771402119, 92.5495129273572],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_7c715999852348b793ff355c20e88582 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e02c6e8286d4328a6518b926838f050 = $(`<div id="html_0e02c6e8286d4328a6518b926838f050" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_7c715999852348b793ff355c20e88582.setContent(html_0e02c6e8286d4328a6518b926838f050);
+        
+
+        circle_marker_ea9813d547d24e8ea9aee789a6a0ac9b.bindPopup(popup_7c715999852348b793ff355c20e88582)
+        ;
+
+        
+    
+    
+            var circle_marker_248b8fc9cc344e1598b6c23688f8b0fd = L.circleMarker(
+                [-66.5457718806049, 92.549550123585],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_026c8b5194fb456abd97d15df0a17c8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16fcb163baaf47dfb54a1940a9f7b5bc = $(`<div id="html_16fcb163baaf47dfb54a1940a9f7b5bc" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_026c8b5194fb456abd97d15df0a17c8f.setContent(html_16fcb163baaf47dfb54a1940a9f7b5bc);
+        
+
+        circle_marker_248b8fc9cc344e1598b6c23688f8b0fd.bindPopup(popup_026c8b5194fb456abd97d15df0a17c8f)
+        ;
+
+        
+    
+    
+            var circle_marker_ada4d31916ae4cdb8a6cd1c08af1ed61 = L.circleMarker(
+                [-66.5457827867739, 92.5495770566228],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_44208328a5954af88b333fc39935fbae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6a10fdc97cf4179a01ea56a6fe2fddd = $(`<div id="html_f6a10fdc97cf4179a01ea56a6fe2fddd" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_44208328a5954af88b333fc39935fbae.setContent(html_f6a10fdc97cf4179a01ea56a6fe2fddd);
+        
+
+        circle_marker_ada4d31916ae4cdb8a6cd1c08af1ed61.bindPopup(popup_44208328a5954af88b333fc39935fbae)
+        ;
+
+        
+    
+    
+            var circle_marker_dd281c66843749f09d5d95e5c71b4d51 = L.circleMarker(
+                [-66.5457982375302, 92.5496044975747],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_582807fa1332486ba93f159b2af61543 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c91cf6645a5d41818cd72e2cd02e7af8 = $(`<div id="html_c91cf6645a5d41818cd72e2cd02e7af8" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_582807fa1332486ba93f159b2af61543.setContent(html_c91cf6645a5d41818cd72e2cd02e7af8);
+        
+
+        circle_marker_dd281c66843749f09d5d95e5c71b4d51.bindPopup(popup_582807fa1332486ba93f159b2af61543)
+        ;
+
+        
+    
+    
+            var circle_marker_b4cb9360d49b45dbabb06b1a09611937 = L.circleMarker(
+                [-66.545821742501, 92.5496271244029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_57ba2befbde14293905975f4f459b5df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_715de0ea7dbe4c68b4ebfc5bf3a0e6c9 = $(`<div id="html_715de0ea7dbe4c68b4ebfc5bf3a0e6c9" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_57ba2befbde14293905975f4f459b5df.setContent(html_715de0ea7dbe4c68b4ebfc5bf3a0e6c9);
+        
+
+        circle_marker_b4cb9360d49b45dbabb06b1a09611937.bindPopup(popup_57ba2befbde14293905975f4f459b5df)
+        ;
+
+        
+    
+    
+            var circle_marker_dff61b00e1a643ffb899d53bac5fa89c = L.circleMarker(
+                [-66.5458475197663, 92.549650005227],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_eb6a746596d44d629277952fc1bb13d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_830834117aa04cfe9ced46fd65adf8a2 = $(`<div id="html_830834117aa04cfe9ced46fd65adf8a2" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_eb6a746596d44d629277952fc1bb13d8.setContent(html_830834117aa04cfe9ced46fd65adf8a2);
+        
+
+        circle_marker_dff61b00e1a643ffb899d53bac5fa89c.bindPopup(popup_eb6a746596d44d629277952fc1bb13d8)
+        ;
+
+        
+    
+    
+            var circle_marker_577d1b1947144c89bf19c2f5ff546366 = L.circleMarker(
+                [-66.5458734993986, 92.549661480127],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_3b6d9d85c6414a6ea472e60744bc9b35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc695fed14ea4331bb824e32a076168c = $(`<div id="html_dc695fed14ea4331bb824e32a076168c" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_3b6d9d85c6414a6ea472e60744bc9b35.setContent(html_dc695fed14ea4331bb824e32a076168c);
+        
+
+        circle_marker_577d1b1947144c89bf19c2f5ff546366.bindPopup(popup_3b6d9d85c6414a6ea472e60744bc9b35)
+        ;
+
+        
+    
+    
+            var circle_marker_39b8172db58c446f92d79bd31af77d7b = L.circleMarker(
+                [-66.5458846859707, 92.5496084444934],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_1ded5a771c444c9bb55caa4b7ea4b217 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24544158ae2b4d138f7d49057ad16597 = $(`<div id="html_24544158ae2b4d138f7d49057ad16597" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_1ded5a771c444c9bb55caa4b7ea4b217.setContent(html_24544158ae2b4d138f7d49057ad16597);
+        
+
+        circle_marker_39b8172db58c446f92d79bd31af77d7b.bindPopup(popup_1ded5a771c444c9bb55caa4b7ea4b217)
+        ;
+
+        
+    
+    
+            var circle_marker_3428b426e76645d59fe0b7cba6c090d7 = L.circleMarker(
+                [-66.545876659181, 92.5495475473285],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_9357b930a7654a3ca36967ddd32e47e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edcb5e0de5444118abee6b55a9c92c5f = $(`<div id="html_edcb5e0de5444118abee6b55a9c92c5f" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_9357b930a7654a3ca36967ddd32e47e7.setContent(html_edcb5e0de5444118abee6b55a9c92c5f);
+        
+
+        circle_marker_3428b426e76645d59fe0b7cba6c090d7.bindPopup(popup_9357b930a7654a3ca36967ddd32e47e7)
+        ;
+
+        
+    
+    
+            var circle_marker_019940049ad547f5926e53295e4157c0 = L.circleMarker(
+                [-66.5458575976077, 92.5495311313861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_1fccf5601c314b659ee2d63274c824cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24d3761e9fe84c7181360e7dd1b195bd = $(`<div id="html_24d3761e9fe84c7181360e7dd1b195bd" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_1fccf5601c314b659ee2d63274c824cc.setContent(html_24d3761e9fe84c7181360e7dd1b195bd);
+        
+
+        circle_marker_019940049ad547f5926e53295e4157c0.bindPopup(popup_1fccf5601c314b659ee2d63274c824cc)
+        ;
+
+        
+    
+    
+            var circle_marker_127f233aee9c4efda43a871213b66a39 = L.circleMarker(
+                [-66.5458302288718, 92.5495337871186],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_b52cc30fff1846c8a065acded026182e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92c0006b167d482b87993a8c780abfb1 = $(`<div id="html_92c0006b167d482b87993a8c780abfb1" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_b52cc30fff1846c8a065acded026182e.setContent(html_92c0006b167d482b87993a8c780abfb1);
+        
+
+        circle_marker_127f233aee9c4efda43a871213b66a39.bindPopup(popup_b52cc30fff1846c8a065acded026182e)
+        ;
+
+        
+    
+    
+            var circle_marker_cd5e4619a6d94412aef64c83f68b9627 = L.circleMarker(
+                [-66.5458110155323, 92.5495259256802],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_a23e6a6101a44df690fb70cd588a614c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1912a03e03a491e8a4e16d1dc6b5354 = $(`<div id="html_d1912a03e03a491e8a4e16d1dc6b5354" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_a23e6a6101a44df690fb70cd588a614c.setContent(html_d1912a03e03a491e8a4e16d1dc6b5354);
+        
+
+        circle_marker_cd5e4619a6d94412aef64c83f68b9627.bindPopup(popup_a23e6a6101a44df690fb70cd588a614c)
+        ;
+
+        
+    
+    
+            var circle_marker_6d5fd261c0d34af8a344aadd09cf626b = L.circleMarker(
+                [-66.5457930395199, 92.5495124882541],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_adb2a3aa06064903ba0d015a2b0e69d7);
+        
+    
+        var popup_e64ff407f0164e1b9177eebceccb7d3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4da050e694cf4b04b006a4e7956ae145 = $(`<div id="html_4da050e694cf4b04b006a4e7956ae145" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_2</div>`)[0];
+            popup_e64ff407f0164e1b9177eebceccb7d3f.setContent(html_4da050e694cf4b04b006a4e7956ae145);
+        
+
+        circle_marker_6d5fd261c0d34af8a344aadd09cf626b.bindPopup(popup_e64ff407f0164e1b9177eebceccb7d3f)
+        ;
+
+        
+    
+    
+            var feature_group_c59a7da3416144e29df5288a353dc5bb = L.featureGroup(
+                {}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+    
+            var polygon_63c9a86192b543fdb8ec8b2a361c74bd = L.polygon(
+                [[-66.5457636566802, 92.5500777744409], [-66.5457798663451, 92.5500624434893], [-66.5457901193088, 92.5499978753469], [-66.5457956758608, 92.5499413536437], [-66.545782345673, 92.5499227208877], [-66.5457187995767, 92.5498470472284], [-66.5456971621806, 92.5498474860129], [-66.5456898899336, 92.5498723873472], [-66.5456912008915, 92.54992681926], [-66.5456925624269, 92.5499783997086], [-66.5457075577105, 92.5500315040755], [-66.5457306578069, 92.5500769430555]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_c59a7da3416144e29df5288a353dc5bb);
+        
+    
+        var popup_1a63e1f4f87a43a2a72ba980c6f621be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe54595dc2a491c9ed044c0132a346a = $(`<div id="html_bfe54595dc2a491c9ed044c0132a346a" style="width: 100.0%; height: 100.0%;">Example convex hulladams_region_3</div>`)[0];
+            popup_1a63e1f4f87a43a2a72ba980c6f621be.setContent(html_bfe54595dc2a491c9ed044c0132a346a);
+        
+
+        polygon_63c9a86192b543fdb8ec8b2a361c74bd.bindPopup(popup_1a63e1f4f87a43a2a72ba980c6f621be)
+        ;
+
+        
+    
+    
+            var feature_group_5740dca5871f4e71a48a6223cc59fc7d = L.featureGroup(
+                {}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+    
+            var circle_marker_a5caed86c9e340968be8d1f26eacf8bd = L.circleMarker(
+                [-66.5456971621806, 92.5498474860129],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_34e3274f1da749df841e3dfb74bccb64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f355d45ceba84fb99120ae9a62007b2d = $(`<div id="html_f355d45ceba84fb99120ae9a62007b2d" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_34e3274f1da749df841e3dfb74bccb64.setContent(html_f355d45ceba84fb99120ae9a62007b2d);
+        
+
+        circle_marker_a5caed86c9e340968be8d1f26eacf8bd.bindPopup(popup_34e3274f1da749df841e3dfb74bccb64)
+        ;
+
+        
+    
+    
+            var circle_marker_6947ad3a647947b4b3cf00a8e3b0a32a = L.circleMarker(
+                [-66.5456898899336, 92.5498723873472],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_be7117f3e6ee444ab649af54ef859f09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d58fd7cba4e24d19bdf2538dad34cd59 = $(`<div id="html_d58fd7cba4e24d19bdf2538dad34cd59" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_be7117f3e6ee444ab649af54ef859f09.setContent(html_d58fd7cba4e24d19bdf2538dad34cd59);
+        
+
+        circle_marker_6947ad3a647947b4b3cf00a8e3b0a32a.bindPopup(popup_be7117f3e6ee444ab649af54ef859f09)
+        ;
+
+        
+    
+    
+            var circle_marker_2083f45ca6544020b5885bf5b59fc138 = L.circleMarker(
+                [-66.5456912008915, 92.54992681926],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_d84df59229644a5b89af4f1e1b7634b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6e3c10ee5ae46439484d46f23769677 = $(`<div id="html_e6e3c10ee5ae46439484d46f23769677" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_d84df59229644a5b89af4f1e1b7634b6.setContent(html_e6e3c10ee5ae46439484d46f23769677);
+        
+
+        circle_marker_2083f45ca6544020b5885bf5b59fc138.bindPopup(popup_d84df59229644a5b89af4f1e1b7634b6)
+        ;
+
+        
+    
+    
+            var circle_marker_6734ff026fe040b185e82a27d09c8f4e = L.circleMarker(
+                [-66.5456925624269, 92.5499783997086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_ea4edee0e19543e1bc2ef4f05e6fa39b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35c54776366b4c0cb7cf2b2edad93e17 = $(`<div id="html_35c54776366b4c0cb7cf2b2edad93e17" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_ea4edee0e19543e1bc2ef4f05e6fa39b.setContent(html_35c54776366b4c0cb7cf2b2edad93e17);
+        
+
+        circle_marker_6734ff026fe040b185e82a27d09c8f4e.bindPopup(popup_ea4edee0e19543e1bc2ef4f05e6fa39b)
+        ;
+
+        
+    
+    
+            var circle_marker_34f39e9d756f4ec5801ed99fb26f0471 = L.circleMarker(
+                [-66.5457075577105, 92.5500315040755],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_80a54345922142b48cb7d8aa1d483b49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36cb232db3f4433babdeb5840303a745 = $(`<div id="html_36cb232db3f4433babdeb5840303a745" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_80a54345922142b48cb7d8aa1d483b49.setContent(html_36cb232db3f4433babdeb5840303a745);
+        
+
+        circle_marker_34f39e9d756f4ec5801ed99fb26f0471.bindPopup(popup_80a54345922142b48cb7d8aa1d483b49)
+        ;
+
+        
+    
+    
+            var circle_marker_982dbf28fde94313b0cc5e29d3a99e2c = L.circleMarker(
+                [-66.5457306578069, 92.5500769430555],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_fd42a9d629e94df5b5dfee3f80f85db3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c74498b3c229465ea786ee361b5ac554 = $(`<div id="html_c74498b3c229465ea786ee361b5ac554" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_fd42a9d629e94df5b5dfee3f80f85db3.setContent(html_c74498b3c229465ea786ee361b5ac554);
+        
+
+        circle_marker_982dbf28fde94313b0cc5e29d3a99e2c.bindPopup(popup_fd42a9d629e94df5b5dfee3f80f85db3)
+        ;
+
+        
+    
+    
+            var circle_marker_f24128c2007b4e8d9ff850d9e8bc10e2 = L.circleMarker(
+                [-66.5457636566802, 92.5500777744409],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_9e375ee2194e41bb8c7e4c2ee6af96d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_201f4716811d4b07aa90484b9c1b204a = $(`<div id="html_201f4716811d4b07aa90484b9c1b204a" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_9e375ee2194e41bb8c7e4c2ee6af96d8.setContent(html_201f4716811d4b07aa90484b9c1b204a);
+        
+
+        circle_marker_f24128c2007b4e8d9ff850d9e8bc10e2.bindPopup(popup_9e375ee2194e41bb8c7e4c2ee6af96d8)
+        ;
+
+        
+    
+    
+            var circle_marker_15495a47b439462191ad3ccad14df761 = L.circleMarker(
+                [-66.5457798663451, 92.5500624434893],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_e5b37135b2334df5b94313d406c8fa92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b3b8a4192f947e29bc1347478e933b9 = $(`<div id="html_1b3b8a4192f947e29bc1347478e933b9" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_e5b37135b2334df5b94313d406c8fa92.setContent(html_1b3b8a4192f947e29bc1347478e933b9);
+        
+
+        circle_marker_15495a47b439462191ad3ccad14df761.bindPopup(popup_e5b37135b2334df5b94313d406c8fa92)
+        ;
+
+        
+    
+    
+            var circle_marker_7479d6cca3874e20b3df99c6573e04a5 = L.circleMarker(
+                [-66.5457901193088, 92.5499978753469],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_95ac5b1728d64f55b940c95e219afbb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f3d2ec3d482440f8eb072339d4b8e89 = $(`<div id="html_0f3d2ec3d482440f8eb072339d4b8e89" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_95ac5b1728d64f55b940c95e219afbb3.setContent(html_0f3d2ec3d482440f8eb072339d4b8e89);
+        
+
+        circle_marker_7479d6cca3874e20b3df99c6573e04a5.bindPopup(popup_95ac5b1728d64f55b940c95e219afbb3)
+        ;
+
+        
+    
+    
+            var circle_marker_b241e1b2290642d5b7619942060faa3a = L.circleMarker(
+                [-66.5457956758608, 92.5499413536437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_8f51a0f2b3844f1c8181f5776119902b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2da86cc8528f475e98d77a3d1a3d5839 = $(`<div id="html_2da86cc8528f475e98d77a3d1a3d5839" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_8f51a0f2b3844f1c8181f5776119902b.setContent(html_2da86cc8528f475e98d77a3d1a3d5839);
+        
+
+        circle_marker_b241e1b2290642d5b7619942060faa3a.bindPopup(popup_8f51a0f2b3844f1c8181f5776119902b)
+        ;
+
+        
+    
+    
+            var circle_marker_496388b3f38e4e3cab75807a62d58c12 = L.circleMarker(
+                [-66.545782345673, 92.5499227208877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_037d7783a5044b61a54ab2a5d94c1f5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b4666ef341644b79c47027603c24b37 = $(`<div id="html_9b4666ef341644b79c47027603c24b37" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_037d7783a5044b61a54ab2a5d94c1f5a.setContent(html_9b4666ef341644b79c47027603c24b37);
+        
+
+        circle_marker_496388b3f38e4e3cab75807a62d58c12.bindPopup(popup_037d7783a5044b61a54ab2a5d94c1f5a)
+        ;
+
+        
+    
+    
+            var circle_marker_c76c83a939cf4697a2adcd7b52e87945 = L.circleMarker(
+                [-66.5457670697803, 92.5499495848485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_1dd6f4e937f8484999f08753120b7208 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff63cb8fadfe4974a34f829897c47e0a = $(`<div id="html_ff63cb8fadfe4974a34f829897c47e0a" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_1dd6f4e937f8484999f08753120b7208.setContent(html_ff63cb8fadfe4974a34f829897c47e0a);
+        
+
+        circle_marker_c76c83a939cf4697a2adcd7b52e87945.bindPopup(popup_1dd6f4e937f8484999f08753120b7208)
+        ;
+
+        
+    
+    
+            var circle_marker_ad90f58c79a64545b5d1154bf700a96f = L.circleMarker(
+                [-66.5457551517276, 92.5499796812227],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_cb1fe0caff374e68b38873b38cd86e82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ed80dd0697c41c4ae1b705f3bd0b6ba = $(`<div id="html_6ed80dd0697c41c4ae1b705f3bd0b6ba" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_cb1fe0caff374e68b38873b38cd86e82.setContent(html_6ed80dd0697c41c4ae1b705f3bd0b6ba);
+        
+
+        circle_marker_ad90f58c79a64545b5d1154bf700a96f.bindPopup(popup_cb1fe0caff374e68b38873b38cd86e82)
+        ;
+
+        
+    
+    
+            var circle_marker_5d1863136dc24464a4fce0b97a331058 = L.circleMarker(
+                [-66.5457393468597, 92.5499722004047],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_7416364269934113a029eee5c65b3538 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e39aafcd06464a0196596670eb91e62c = $(`<div id="html_e39aafcd06464a0196596670eb91e62c" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_7416364269934113a029eee5c65b3538.setContent(html_e39aafcd06464a0196596670eb91e62c);
+        
+
+        circle_marker_5d1863136dc24464a4fce0b97a331058.bindPopup(popup_7416364269934113a029eee5c65b3538)
+        ;
+
+        
+    
+    
+            var circle_marker_66eea3f8d1eb42e7b79162856177a323 = L.circleMarker(
+                [-66.5457296781088, 92.5499396912672],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_64d6ac6fe7494b76b60c160e1e92bd28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5dcccf4f4c34759a3b04e0f82ff430e = $(`<div id="html_d5dcccf4f4c34759a3b04e0f82ff430e" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_64d6ac6fe7494b76b60c160e1e92bd28.setContent(html_d5dcccf4f4c34759a3b04e0f82ff430e);
+        
+
+        circle_marker_66eea3f8d1eb42e7b79162856177a323.bindPopup(popup_64d6ac6fe7494b76b60c160e1e92bd28)
+        ;
+
+        
+    
+    
+            var circle_marker_84f34a9e8da5448cbcd2d5fafe0edf1e = L.circleMarker(
+                [-66.5457272310082, 92.5498851322762],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_b10bff028f104266b2c20b36ffe21c59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00f067c779994b3887446800cf29b6f9 = $(`<div id="html_00f067c779994b3887446800cf29b6f9" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_b10bff028f104266b2c20b36ffe21c59.setContent(html_00f067c779994b3887446800cf29b6f9);
+        
+
+        circle_marker_84f34a9e8da5448cbcd2d5fafe0edf1e.bindPopup(popup_b10bff028f104266b2c20b36ffe21c59)
+        ;
+
+        
+    
+    
+            var circle_marker_88e84e8da69448af86e9ed60e0829520 = L.circleMarker(
+                [-66.5457187995767, 92.5498470472284],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_96f87d191ba44bf5b8252bbf28bc8bc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85013e4158044f679388fdd51b37c7a0 = $(`<div id="html_85013e4158044f679388fdd51b37c7a0" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_96f87d191ba44bf5b8252bbf28bc8bc8.setContent(html_85013e4158044f679388fdd51b37c7a0);
+        
+
+        circle_marker_88e84e8da69448af86e9ed60e0829520.bindPopup(popup_96f87d191ba44bf5b8252bbf28bc8bc8)
+        ;
+
+        
+    
+    
+            var circle_marker_a60d252a8f874888913bda6511e07b03 = L.circleMarker(
+                [-66.5456971621806, 92.5498474860129],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5740dca5871f4e71a48a6223cc59fc7d);
+        
+    
+        var popup_cb4c1324f47f40169d97d91d7e450966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_466f76ce73bf408e9e13e9d2d1626e67 = $(`<div id="html_466f76ce73bf408e9e13e9d2d1626e67" style="width: 100.0%; height: 100.0%;">Example point for convex hulladams_region_3</div>`)[0];
+            popup_cb4c1324f47f40169d97d91d7e450966.setContent(html_466f76ce73bf408e9e13e9d2d1626e67);
+        
+
+        circle_marker_a60d252a8f874888913bda6511e07b03.bindPopup(popup_cb4c1324f47f40169d97d91d7e450966)
+        ;
+
+        
+    
+    
+            var tile_layer_ffe74a5bb68e490fb7955840f6425b14 = L.tileLayer(
+                "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/bfb970088ecb7962d60b24d3966079d0-5eb6b16ce77d8264918ddfc93d29586e/tiles/{z}/{x}/{y}",
+                {"attribution": "Map Data \u0026copy; \u003ca href=\"https://earthengine.google.com/\"\u003eGoogle Earth Engine\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+    
+            var layer_control_2bfb6fe6ae674632a23726d8c93789ec = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_0c56e4a7a8d247389ba2e772820ac974,
+                },
+                overlays :  {
+                    "Example convex hulladams_region_1" : feature_group_a72de63bf0704f52b36097d8558adbcc,
+                    "Example points for convex hulladams_region_1" : feature_group_b1766159b1154990bb647f81d0700f82,
+                    "Example convex hulladams_region_2" : feature_group_aaafde5c1a454ba1a72e62d583ea49bf,
+                    "Example points for convex hulladams_region_2" : feature_group_adb2a3aa06064903ba0d015a2b0e69d7,
+                    "Example convex hulladams_region_3" : feature_group_c59a7da3416144e29df5288a353dc5bb,
+                    "Example points for convex hulladams_region_3" : feature_group_5740dca5871f4e71a48a6223cc59fc7d,
+                    "median composite" : tile_layer_ffe74a5bb68e490fb7955840f6425b14,
+                },
+            };
+            L.control.layers(
+                layer_control_2bfb6fe6ae674632a23726d8c93789ec.base_layers,
+                layer_control_2bfb6fe6ae674632a23726d8c93789ec.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_2d2c37ed4f814704865fab4a40384a2a);
+        
+</script>

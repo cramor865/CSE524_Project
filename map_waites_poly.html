@@ -1,0 +1,2907 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9949ff99ee974776be82ad7197d7df10 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9949ff99ee974776be82ad7197d7df10" ></div>
+        
+</body>
+<script>    
+    
+            var map_9949ff99ee974776be82ad7197d7df10 = L.map(
+                "map_9949ff99ee974776be82ad7197d7df10",
+                {
+                    center: [-72.71392920176275, -103.4416767224905],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_79a570935276434f9b8aa85eabfe4d8c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var feature_group_c0ad8dc142244b17b29682975800b145 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_d5c0252313094c06a05e6f8af0b5583c = L.polygon(
+                [[-72.7126320912505, -103.431853949854], [-72.7126334475496, -103.431696884042], [-72.7126689446148, -103.431666086314], [-72.7126959475489, -103.431727313466], [-72.7126879789678, -103.431839529996], [-72.7126719870903, -103.431899173463], [-72.7126497427764, -103.431881306996]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_c0ad8dc142244b17b29682975800b145);
+        
+    
+        var popup_f1df319eb7fd400a88104e3cd569fa87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_418753243c064819a68b1add86fab289 = $(`<div id="html_418753243c064819a68b1add86fab289" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_1</div>`)[0];
+            popup_f1df319eb7fd400a88104e3cd569fa87.setContent(html_418753243c064819a68b1add86fab289);
+        
+
+        polygon_d5c0252313094c06a05e6f8af0b5583c.bindPopup(popup_f1df319eb7fd400a88104e3cd569fa87)
+        ;
+
+        
+    
+    
+            var feature_group_ff7869ddf91b40bda7d487fee05e5dfb = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_8520f2fe343643eb98a436308e998d7a = L.circleMarker(
+                [-72.7126959475489, -103.431727313466],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff7869ddf91b40bda7d487fee05e5dfb);
+        
+    
+        var popup_861fd1c09d954fc69814c5a1c515565c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f61abe26916347c98417b0a50940791c = $(`<div id="html_f61abe26916347c98417b0a50940791c" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_1</div>`)[0];
+            popup_861fd1c09d954fc69814c5a1c515565c.setContent(html_f61abe26916347c98417b0a50940791c);
+        
+
+        circle_marker_8520f2fe343643eb98a436308e998d7a.bindPopup(popup_861fd1c09d954fc69814c5a1c515565c)
+        ;
+
+        
+    
+    
+            var circle_marker_68dd25aeb8094fbea3579f031696ad3e = L.circleMarker(
+                [-72.7126879789678, -103.431839529996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff7869ddf91b40bda7d487fee05e5dfb);
+        
+    
+        var popup_bf3f5602feb14006b9dff3b1f38dbab3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51ad6f469223448d9ed2fafb06335e7b = $(`<div id="html_51ad6f469223448d9ed2fafb06335e7b" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_1</div>`)[0];
+            popup_bf3f5602feb14006b9dff3b1f38dbab3.setContent(html_51ad6f469223448d9ed2fafb06335e7b);
+        
+
+        circle_marker_68dd25aeb8094fbea3579f031696ad3e.bindPopup(popup_bf3f5602feb14006b9dff3b1f38dbab3)
+        ;
+
+        
+    
+    
+            var circle_marker_096fee94bc394339a63c8d9ee11ff436 = L.circleMarker(
+                [-72.7126719870903, -103.431899173463],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff7869ddf91b40bda7d487fee05e5dfb);
+        
+    
+        var popup_c211282126994b09b93a52413dced822 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2f8d2140edb491c8d12f1d5a3ed89d4 = $(`<div id="html_e2f8d2140edb491c8d12f1d5a3ed89d4" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_1</div>`)[0];
+            popup_c211282126994b09b93a52413dced822.setContent(html_e2f8d2140edb491c8d12f1d5a3ed89d4);
+        
+
+        circle_marker_096fee94bc394339a63c8d9ee11ff436.bindPopup(popup_c211282126994b09b93a52413dced822)
+        ;
+
+        
+    
+    
+            var circle_marker_048bda410c5045d8b4ef842bffce44ec = L.circleMarker(
+                [-72.7126497427764, -103.431881306996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff7869ddf91b40bda7d487fee05e5dfb);
+        
+    
+        var popup_b16271bfe1464ab1ba828a1aa3e2f1a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c780f9ae758543e59b99340c062efc1c = $(`<div id="html_c780f9ae758543e59b99340c062efc1c" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_1</div>`)[0];
+            popup_b16271bfe1464ab1ba828a1aa3e2f1a7.setContent(html_c780f9ae758543e59b99340c062efc1c);
+        
+
+        circle_marker_048bda410c5045d8b4ef842bffce44ec.bindPopup(popup_b16271bfe1464ab1ba828a1aa3e2f1a7)
+        ;
+
+        
+    
+    
+            var circle_marker_67400ac5cd60477ebc4205dcb5a42c84 = L.circleMarker(
+                [-72.7126320912505, -103.431853949854],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff7869ddf91b40bda7d487fee05e5dfb);
+        
+    
+        var popup_80fad49f2cc444c1af9f84f82163d77d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c4d75f842574c0f97862cc121fc4c9a = $(`<div id="html_9c4d75f842574c0f97862cc121fc4c9a" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_1</div>`)[0];
+            popup_80fad49f2cc444c1af9f84f82163d77d.setContent(html_9c4d75f842574c0f97862cc121fc4c9a);
+        
+
+        circle_marker_67400ac5cd60477ebc4205dcb5a42c84.bindPopup(popup_80fad49f2cc444c1af9f84f82163d77d)
+        ;
+
+        
+    
+    
+            var circle_marker_9eb01c4fc8a34deb99b2df2d9b9e0715 = L.circleMarker(
+                [-72.7126334475496, -103.431696884042],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff7869ddf91b40bda7d487fee05e5dfb);
+        
+    
+        var popup_bc678d252dfc40569e2b57144de7a6fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97d156952117426a9263d6d7a8f8897c = $(`<div id="html_97d156952117426a9263d6d7a8f8897c" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_1</div>`)[0];
+            popup_bc678d252dfc40569e2b57144de7a6fe.setContent(html_97d156952117426a9263d6d7a8f8897c);
+        
+
+        circle_marker_9eb01c4fc8a34deb99b2df2d9b9e0715.bindPopup(popup_bc678d252dfc40569e2b57144de7a6fe)
+        ;
+
+        
+    
+    
+            var circle_marker_18e4b282067148b8a5e6a77976d92bba = L.circleMarker(
+                [-72.7126689446148, -103.431666086314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff7869ddf91b40bda7d487fee05e5dfb);
+        
+    
+        var popup_61f70939711747b5a795c26ec378074f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed0c6662dd1348d89e9175f056ada37d = $(`<div id="html_ed0c6662dd1348d89e9175f056ada37d" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_1</div>`)[0];
+            popup_61f70939711747b5a795c26ec378074f.setContent(html_ed0c6662dd1348d89e9175f056ada37d);
+        
+
+        circle_marker_18e4b282067148b8a5e6a77976d92bba.bindPopup(popup_61f70939711747b5a795c26ec378074f)
+        ;
+
+        
+    
+    
+            var circle_marker_a5a5ba3b881a4a60add2c978c35fdcbf = L.circleMarker(
+                [-72.7126959475489, -103.431727313466],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff7869ddf91b40bda7d487fee05e5dfb);
+        
+    
+        var popup_035bff15c29b415c8a2e1f17845024fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb24aa60575d4a75b3a730990796afcd = $(`<div id="html_cb24aa60575d4a75b3a730990796afcd" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_1</div>`)[0];
+            popup_035bff15c29b415c8a2e1f17845024fc.setContent(html_cb24aa60575d4a75b3a730990796afcd);
+        
+
+        circle_marker_a5a5ba3b881a4a60add2c978c35fdcbf.bindPopup(popup_035bff15c29b415c8a2e1f17845024fc)
+        ;
+
+        
+    
+    
+            var feature_group_e4f5ae545e6041b882284d4e3a0c9447 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_4e043eb279874c8f832c883b9cb9db36 = L.polygon(
+                [[-72.71351878692, -103.449231562845], [-72.7135486929958, -103.449327701628], [-72.7135214935883, -103.449408803311], [-72.7134949867616, -103.449480163977], [-72.7134862981955, -103.449473175578], [-72.7134774838855, -103.449424894729], [-72.7134873061543, -103.449329816623], [-72.7135015355567, -103.449258878804]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_e4f5ae545e6041b882284d4e3a0c9447);
+        
+    
+        var popup_7e579f5a9dd34d11ba9d00a523fded98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b548dbae57d4d3dab5ab83e86f3701f = $(`<div id="html_8b548dbae57d4d3dab5ab83e86f3701f" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_10</div>`)[0];
+            popup_7e579f5a9dd34d11ba9d00a523fded98.setContent(html_8b548dbae57d4d3dab5ab83e86f3701f);
+        
+
+        polygon_4e043eb279874c8f832c883b9cb9db36.bindPopup(popup_7e579f5a9dd34d11ba9d00a523fded98)
+        ;
+
+        
+    
+    
+            var feature_group_c0510e96292947359ffc402177742621 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_52237f3e6c934b7483372d66a222a6fd = L.circleMarker(
+                [-72.7135486929958, -103.449327701628],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_cc8e6719d85e4f87bea3b01188558468 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9ee92a4bcf449819343571c2d3b0cf7 = $(`<div id="html_d9ee92a4bcf449819343571c2d3b0cf7" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_cc8e6719d85e4f87bea3b01188558468.setContent(html_d9ee92a4bcf449819343571c2d3b0cf7);
+        
+
+        circle_marker_52237f3e6c934b7483372d66a222a6fd.bindPopup(popup_cc8e6719d85e4f87bea3b01188558468)
+        ;
+
+        
+    
+    
+            var circle_marker_c636aa02a33e4b549b27e538a032293e = L.circleMarker(
+                [-72.7135214935883, -103.449408803311],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_cbaca30e8b414e6ab988b318190a61ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3db473b7c0524bebbb0bcb0b744bc2d4 = $(`<div id="html_3db473b7c0524bebbb0bcb0b744bc2d4" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_cbaca30e8b414e6ab988b318190a61ee.setContent(html_3db473b7c0524bebbb0bcb0b744bc2d4);
+        
+
+        circle_marker_c636aa02a33e4b549b27e538a032293e.bindPopup(popup_cbaca30e8b414e6ab988b318190a61ee)
+        ;
+
+        
+    
+    
+            var circle_marker_d73f4c2466fe4d709aa04138df513a9f = L.circleMarker(
+                [-72.7135042421997, -103.449436119095],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_6087dc065a60477ca5b48fca1a3fce6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cff7508ffee0432c8b5dab9a576ab559 = $(`<div id="html_cff7508ffee0432c8b5dab9a576ab559" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_6087dc065a60477ca5b48fca1a3fce6a.setContent(html_cff7508ffee0432c8b5dab9a576ab559);
+        
+
+        circle_marker_d73f4c2466fe4d709aa04138df513a9f.bindPopup(popup_6087dc065a60477ca5b48fca1a3fce6a)
+        ;
+
+        
+    
+    
+            var circle_marker_1d83d6ce72614a74b36086d12728bbe6 = L.circleMarker(
+                [-72.7134949867616, -103.449480163977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_79a5bab6ebe54cdca7ad2ff42e714496 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b54b6fd0ff084597aaa975adaf76adc2 = $(`<div id="html_b54b6fd0ff084597aaa975adaf76adc2" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_79a5bab6ebe54cdca7ad2ff42e714496.setContent(html_b54b6fd0ff084597aaa975adaf76adc2);
+        
+
+        circle_marker_1d83d6ce72614a74b36086d12728bbe6.bindPopup(popup_79a5bab6ebe54cdca7ad2ff42e714496)
+        ;
+
+        
+    
+    
+            var circle_marker_31d1a6c4bb40416fa0abb8754ab75501 = L.circleMarker(
+                [-72.7134862981955, -103.449473175578],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_c70528c1998c470289a161986078603f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e53122a4a6ad4fdfb343b0017d5e092d = $(`<div id="html_e53122a4a6ad4fdfb343b0017d5e092d" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_c70528c1998c470289a161986078603f.setContent(html_e53122a4a6ad4fdfb343b0017d5e092d);
+        
+
+        circle_marker_31d1a6c4bb40416fa0abb8754ab75501.bindPopup(popup_c70528c1998c470289a161986078603f)
+        ;
+
+        
+    
+    
+            var circle_marker_278571bfab4548a0baa2ecf1f2704638 = L.circleMarker(
+                [-72.7134774838855, -103.449424894729],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_6b9071251ca445e1b5892e36c3f3b908 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d0460e08bdd4c03a8bb152e5aa186e5 = $(`<div id="html_5d0460e08bdd4c03a8bb152e5aa186e5" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_6b9071251ca445e1b5892e36c3f3b908.setContent(html_5d0460e08bdd4c03a8bb152e5aa186e5);
+        
+
+        circle_marker_278571bfab4548a0baa2ecf1f2704638.bindPopup(popup_6b9071251ca445e1b5892e36c3f3b908)
+        ;
+
+        
+    
+    
+            var circle_marker_5e00507f549342458e9fa055be965b17 = L.circleMarker(
+                [-72.7134873061543, -103.449329816623],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_6028c09a63be48e89d5cc56388dfad14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2e5ea0653c141d8a6360efbfde24017 = $(`<div id="html_f2e5ea0653c141d8a6360efbfde24017" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_6028c09a63be48e89d5cc56388dfad14.setContent(html_f2e5ea0653c141d8a6360efbfde24017);
+        
+
+        circle_marker_5e00507f549342458e9fa055be965b17.bindPopup(popup_6028c09a63be48e89d5cc56388dfad14)
+        ;
+
+        
+    
+    
+            var circle_marker_4c400747407945118e6f6c25ea370da0 = L.circleMarker(
+                [-72.7135015355567, -103.449258878804],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_11bce154c24e4a37b65aabb52cb75657 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f76560acf9941ba8c6fd83610eca520 = $(`<div id="html_4f76560acf9941ba8c6fd83610eca520" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_11bce154c24e4a37b65aabb52cb75657.setContent(html_4f76560acf9941ba8c6fd83610eca520);
+        
+
+        circle_marker_4c400747407945118e6f6c25ea370da0.bindPopup(popup_11bce154c24e4a37b65aabb52cb75657)
+        ;
+
+        
+    
+    
+            var circle_marker_c255c4089a36479a98d05f9ef47182d3 = L.circleMarker(
+                [-72.71351878692, -103.449231562845],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_f7fdfc02aa044f87abbbbfc5c616a0ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40f17ec0bebd439486294b0b6a80b75b = $(`<div id="html_40f17ec0bebd439486294b0b6a80b75b" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_f7fdfc02aa044f87abbbbfc5c616a0ae.setContent(html_40f17ec0bebd439486294b0b6a80b75b);
+        
+
+        circle_marker_c255c4089a36479a98d05f9ef47182d3.bindPopup(popup_f7fdfc02aa044f87abbbbfc5c616a0ae)
+        ;
+
+        
+    
+    
+            var circle_marker_5bf3698a17dd4271822fde4e62b40b98 = L.circleMarker(
+                [-72.7135486929958, -103.449327701628],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c0510e96292947359ffc402177742621);
+        
+    
+        var popup_831ef31df30c4884bd462c889d68f2ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf1babc0f9a24cc99c10196ac567922c = $(`<div id="html_bf1babc0f9a24cc99c10196ac567922c" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_10</div>`)[0];
+            popup_831ef31df30c4884bd462c889d68f2ac.setContent(html_bf1babc0f9a24cc99c10196ac567922c);
+        
+
+        circle_marker_5bf3698a17dd4271822fde4e62b40b98.bindPopup(popup_831ef31df30c4884bd462c889d68f2ac)
+        ;
+
+        
+    
+    
+            var feature_group_8014eff00c494ec4bd7b4fbac8a1b7cf = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_74948c47afa14f539f0a6d043e6ad06f = L.polygon(
+                [[-72.7132129773238, -103.450561148095], [-72.7132581213815, -103.450442994833], [-72.7132877757968, -103.450456550259], [-72.7133248589263, -103.450537867906], [-72.7133150360658, -103.450632944409], [-72.7132977845127, -103.450660258623], [-72.7132379085222, -103.450684179545], [-72.7132183279886, -103.450658131554]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_8014eff00c494ec4bd7b4fbac8a1b7cf);
+        
+    
+        var popup_f0cc1a538b424c40aac0305ee028bc12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e55154f89261489f81ed01fe97b50353 = $(`<div id="html_e55154f89261489f81ed01fe97b50353" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_11</div>`)[0];
+            popup_f0cc1a538b424c40aac0305ee028bc12.setContent(html_e55154f89261489f81ed01fe97b50353);
+        
+
+        polygon_74948c47afa14f539f0a6d043e6ad06f.bindPopup(popup_f0cc1a538b424c40aac0305ee028bc12)
+        ;
+
+        
+    
+    
+            var feature_group_485a60d6ae1e4641b2c74e0833cb7300 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_c2b2a722c47f4e1a975e14707f189b92 = L.circleMarker(
+                [-72.7133248589263, -103.450537867906],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_42616354b96e4940b71a2ead79f66ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec7d74871cec4ca78e990aef198b0109 = $(`<div id="html_ec7d74871cec4ca78e990aef198b0109" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_42616354b96e4940b71a2ead79f66ae6.setContent(html_ec7d74871cec4ca78e990aef198b0109);
+        
+
+        circle_marker_c2b2a722c47f4e1a975e14707f189b92.bindPopup(popup_42616354b96e4940b71a2ead79f66ae6)
+        ;
+
+        
+    
+    
+            var circle_marker_b739511f56ca4faba4ada414e621dfe7 = L.circleMarker(
+                [-72.7133150360658, -103.450632944409],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_97b97db0aa2946939cb3652131569b65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c27490be320444d80c76b367f543db3 = $(`<div id="html_7c27490be320444d80c76b367f543db3" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_97b97db0aa2946939cb3652131569b65.setContent(html_7c27490be320444d80c76b367f543db3);
+        
+
+        circle_marker_b739511f56ca4faba4ada414e621dfe7.bindPopup(popup_97b97db0aa2946939cb3652131569b65)
+        ;
+
+        
+    
+    
+            var circle_marker_89027d36afec4961b27db9008433996f = L.circleMarker(
+                [-72.7132977845127, -103.450660258623],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_f218ba313ca345b5b310a6749aeeeea0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a02a961b0e843e8b0156b5904390c6f = $(`<div id="html_0a02a961b0e843e8b0156b5904390c6f" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_f218ba313ca345b5b310a6749aeeeea0.setContent(html_0a02a961b0e843e8b0156b5904390c6f);
+        
+
+        circle_marker_89027d36afec4961b27db9008433996f.bindPopup(popup_f218ba313ca345b5b310a6749aeeeea0)
+        ;
+
+        
+    
+    
+            var circle_marker_72609381ed2e4d0eb3934a34e8980c91 = L.circleMarker(
+                [-72.7132861998207, -103.450650940065],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_f64f548540f543e6aa6d4615540300df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5931504c25cf49e9ac44a69e1023fc0f = $(`<div id="html_5931504c25cf49e9ac44a69e1023fc0f" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_f64f548540f543e6aa6d4615540300df.setContent(html_5931504c25cf49e9ac44a69e1023fc0f);
+        
+
+        circle_marker_72609381ed2e4d0eb3934a34e8980c91.bindPopup(popup_f64f548540f543e6aa6d4615540300df)
+        ;
+
+        
+    
+    
+            var circle_marker_dac2a59dc96547c9b2afacb9a2f7c7c0 = L.circleMarker(
+                [-72.7132572380902, -103.450627643727],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_fa3321be7d604bd29ab71dffa6c7b0bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c5bbe15cb65498a9bb0eec555205547 = $(`<div id="html_9c5bbe15cb65498a9bb0eec555205547" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_fa3321be7d604bd29ab71dffa6c7b0bf.setContent(html_9c5bbe15cb65498a9bb0eec555205547);
+        
+
+        circle_marker_dac2a59dc96547c9b2afacb9a2f7c7c0.bindPopup(popup_fa3321be7d604bd29ab71dffa6c7b0bf)
+        ;
+
+        
+    
+    
+            var circle_marker_29d1e20a92cd46de850b8c2cfe4608a0 = L.circleMarker(
+                [-72.7132379085222, -103.450684179545],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_348913baabe34475bd503cf2a8fc8420 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dab4b62ea08b4cb09a42e8ce9cdf5bec = $(`<div id="html_dab4b62ea08b4cb09a42e8ce9cdf5bec" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_348913baabe34475bd503cf2a8fc8420.setContent(html_dab4b62ea08b4cb09a42e8ce9cdf5bec);
+        
+
+        circle_marker_29d1e20a92cd46de850b8c2cfe4608a0.bindPopup(popup_348913baabe34475bd503cf2a8fc8420)
+        ;
+
+        
+    
+    
+            var circle_marker_a617ae377c3c4dfbadfa8b02207f9563 = L.circleMarker(
+                [-72.7132183279886, -103.450658131554],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_5c4692e083574a5dbeaafb56570e6658 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0270ffb7f994afaab22e384ec846895 = $(`<div id="html_e0270ffb7f994afaab22e384ec846895" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_5c4692e083574a5dbeaafb56570e6658.setContent(html_e0270ffb7f994afaab22e384ec846895);
+        
+
+        circle_marker_a617ae377c3c4dfbadfa8b02207f9563.bindPopup(popup_5c4692e083574a5dbeaafb56570e6658)
+        ;
+
+        
+    
+    
+            var circle_marker_dba9fbf39dfa4b299dfcc706db630f2e = L.circleMarker(
+                [-72.7132129773238, -103.450561148095],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_0f4ac8bbb31d4515ab556705ec580fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdd6ed14e0664ed4b6a557ba6515be68 = $(`<div id="html_fdd6ed14e0664ed4b6a557ba6515be68" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_0f4ac8bbb31d4515ab556705ec580fb0.setContent(html_fdd6ed14e0664ed4b6a557ba6515be68);
+        
+
+        circle_marker_dba9fbf39dfa4b299dfcc706db630f2e.bindPopup(popup_0f4ac8bbb31d4515ab556705ec580fb0)
+        ;
+
+        
+    
+    
+            var circle_marker_16c2bcf3cbee40a8ae8770ac239475dd = L.circleMarker(
+                [-72.7132581213815, -103.450442994833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_7cb06b672f4a4915ae8a571ff4552980 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b51c49e5f1f145f4a03d827a53b478cb = $(`<div id="html_b51c49e5f1f145f4a03d827a53b478cb" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_7cb06b672f4a4915ae8a571ff4552980.setContent(html_b51c49e5f1f145f4a03d827a53b478cb);
+        
+
+        circle_marker_16c2bcf3cbee40a8ae8770ac239475dd.bindPopup(popup_7cb06b672f4a4915ae8a571ff4552980)
+        ;
+
+        
+    
+    
+            var circle_marker_f46e832180034ec2a67bada661cc1ee9 = L.circleMarker(
+                [-72.7132877757968, -103.450456550259],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_8bc1baf72e5d4c36b288431bd16d1cb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8654f8d90086483cb7fc2965a6d960ca = $(`<div id="html_8654f8d90086483cb7fc2965a6d960ca" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_8bc1baf72e5d4c36b288431bd16d1cb2.setContent(html_8654f8d90086483cb7fc2965a6d960ca);
+        
+
+        circle_marker_f46e832180034ec2a67bada661cc1ee9.bindPopup(popup_8bc1baf72e5d4c36b288431bd16d1cb2)
+        ;
+
+        
+    
+    
+            var circle_marker_a79cf248cfce4c28a1188713af2e59aa = L.circleMarker(
+                [-72.7133248589263, -103.450537867906],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_485a60d6ae1e4641b2c74e0833cb7300);
+        
+    
+        var popup_a5094a5c07cd449396a0da282306e006 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9a55e6969b54e7995b1fb414e1a7e24 = $(`<div id="html_f9a55e6969b54e7995b1fb414e1a7e24" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_11</div>`)[0];
+            popup_a5094a5c07cd449396a0da282306e006.setContent(html_f9a55e6969b54e7995b1fb414e1a7e24);
+        
+
+        circle_marker_a79cf248cfce4c28a1188713af2e59aa.bindPopup(popup_a5094a5c07cd449396a0da282306e006)
+        ;
+
+        
+    
+    
+            var feature_group_153dfebb5b164913b90f642d3f54d49a = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_76340304668c453f8671b307a69018bd = L.polygon(
+                [[-72.7131089008345, -103.450776064063], [-72.7131202345845, -103.450702799404], [-72.7131507071147, -103.450747906336], [-72.7131753872957, -103.450788354137], [-72.7131583866093, -103.450898251359], [-72.7131346500028, -103.450930646219], [-72.7131150695076, -103.450904598103]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_153dfebb5b164913b90f642d3f54d49a);
+        
+    
+        var popup_d4428b387103468a91d4395475d452bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3a7d09ecda54260926dd2d8e7b73deb = $(`<div id="html_e3a7d09ecda54260926dd2d8e7b73deb" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_12</div>`)[0];
+            popup_d4428b387103468a91d4395475d452bd.setContent(html_e3a7d09ecda54260926dd2d8e7b73deb);
+        
+
+        polygon_76340304668c453f8671b307a69018bd.bindPopup(popup_d4428b387103468a91d4395475d452bd)
+        ;
+
+        
+    
+    
+            var feature_group_a5dedf2f344341bea3a0e8912fcec64d = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_2e3ff706c01d420a8e80606c86487b7b = L.circleMarker(
+                [-72.7131753872957, -103.450788354137],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a5dedf2f344341bea3a0e8912fcec64d);
+        
+    
+        var popup_f591b6df13a846e7864593b777fa1bfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d185647f6de4434187edbd07d9de3c16 = $(`<div id="html_d185647f6de4434187edbd07d9de3c16" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_12</div>`)[0];
+            popup_f591b6df13a846e7864593b777fa1bfd.setContent(html_d185647f6de4434187edbd07d9de3c16);
+        
+
+        circle_marker_2e3ff706c01d420a8e80606c86487b7b.bindPopup(popup_f591b6df13a846e7864593b777fa1bfd)
+        ;
+
+        
+    
+    
+            var circle_marker_c09f420294854537b147fb2e15a8403a = L.circleMarker(
+                [-72.7131583866093, -103.450898251359],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a5dedf2f344341bea3a0e8912fcec64d);
+        
+    
+        var popup_6da6e766a9ca4aed958b1a7c7d052b15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee3a55cf5bd341ed87f075567c044df2 = $(`<div id="html_ee3a55cf5bd341ed87f075567c044df2" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_12</div>`)[0];
+            popup_6da6e766a9ca4aed958b1a7c7d052b15.setContent(html_ee3a55cf5bd341ed87f075567c044df2);
+        
+
+        circle_marker_c09f420294854537b147fb2e15a8403a.bindPopup(popup_6da6e766a9ca4aed958b1a7c7d052b15)
+        ;
+
+        
+    
+    
+            var circle_marker_402c8e541de240e484c80e4db9f8320e = L.circleMarker(
+                [-72.7131346500028, -103.450930646219],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a5dedf2f344341bea3a0e8912fcec64d);
+        
+    
+        var popup_51da168d872243d1b67c49e63ebef17b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e33f4bc9840140cc9c6a974dad518c4f = $(`<div id="html_e33f4bc9840140cc9c6a974dad518c4f" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_12</div>`)[0];
+            popup_51da168d872243d1b67c49e63ebef17b.setContent(html_e33f4bc9840140cc9c6a974dad518c4f);
+        
+
+        circle_marker_402c8e541de240e484c80e4db9f8320e.bindPopup(popup_51da168d872243d1b67c49e63ebef17b)
+        ;
+
+        
+    
+    
+            var circle_marker_bfcc28ad51a1434682c18263c890f798 = L.circleMarker(
+                [-72.7131150695076, -103.450904598103],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a5dedf2f344341bea3a0e8912fcec64d);
+        
+    
+        var popup_958bc91e2a00478e8aaca384f5548c54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_412eb01ed3ab404db20a234323303f9a = $(`<div id="html_412eb01ed3ab404db20a234323303f9a" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_12</div>`)[0];
+            popup_958bc91e2a00478e8aaca384f5548c54.setContent(html_412eb01ed3ab404db20a234323303f9a);
+        
+
+        circle_marker_bfcc28ad51a1434682c18263c890f798.bindPopup(popup_958bc91e2a00478e8aaca384f5548c54)
+        ;
+
+        
+    
+    
+            var circle_marker_127812b3b73547c3a4f8f5dc975f706e = L.circleMarker(
+                [-72.7131089008345, -103.450776064063],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a5dedf2f344341bea3a0e8912fcec64d);
+        
+    
+        var popup_2feacae197844f88a389ea5de3fa91ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_663ece1c9dc54b54b0c163b11332f91a = $(`<div id="html_663ece1c9dc54b54b0c163b11332f91a" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_12</div>`)[0];
+            popup_2feacae197844f88a389ea5de3fa91ae.setContent(html_663ece1c9dc54b54b0c163b11332f91a);
+        
+
+        circle_marker_127812b3b73547c3a4f8f5dc975f706e.bindPopup(popup_2feacae197844f88a389ea5de3fa91ae)
+        ;
+
+        
+    
+    
+            var circle_marker_cf1207e0805b42959a60ef1052d769f5 = L.circleMarker(
+                [-72.7131202345845, -103.450702799404],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a5dedf2f344341bea3a0e8912fcec64d);
+        
+    
+        var popup_0c3604591f3f42b783f5d17134704629 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ddaff16fdea42dcad9db1a038baaa42 = $(`<div id="html_1ddaff16fdea42dcad9db1a038baaa42" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_12</div>`)[0];
+            popup_0c3604591f3f42b783f5d17134704629.setContent(html_1ddaff16fdea42dcad9db1a038baaa42);
+        
+
+        circle_marker_cf1207e0805b42959a60ef1052d769f5.bindPopup(popup_0c3604591f3f42b783f5d17134704629)
+        ;
+
+        
+    
+    
+            var circle_marker_6e5fb15e327146a2bf7e4a030561ca46 = L.circleMarker(
+                [-72.7131507071147, -103.450747906336],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a5dedf2f344341bea3a0e8912fcec64d);
+        
+    
+        var popup_5b30ea7c84164f45b3f17a6a5bbb5de5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66d0a0a6d9cc406093fbf5c58d96667a = $(`<div id="html_66d0a0a6d9cc406093fbf5c58d96667a" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_12</div>`)[0];
+            popup_5b30ea7c84164f45b3f17a6a5bbb5de5.setContent(html_66d0a0a6d9cc406093fbf5c58d96667a);
+        
+
+        circle_marker_6e5fb15e327146a2bf7e4a030561ca46.bindPopup(popup_5b30ea7c84164f45b3f17a6a5bbb5de5)
+        ;
+
+        
+    
+    
+            var circle_marker_6abb37506c224a798938d383594f4cca = L.circleMarker(
+                [-72.7131753872957, -103.450788354137],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a5dedf2f344341bea3a0e8912fcec64d);
+        
+    
+        var popup_84104b71585540718500b0ed91cbd54b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8876f4265d2e4ed18518f23c7cccf9af = $(`<div id="html_8876f4265d2e4ed18518f23c7cccf9af" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_12</div>`)[0];
+            popup_84104b71585540718500b0ed91cbd54b.setContent(html_8876f4265d2e4ed18518f23c7cccf9af);
+        
+
+        circle_marker_6abb37506c224a798938d383594f4cca.bindPopup(popup_84104b71585540718500b0ed91cbd54b)
+        ;
+
+        
+    
+    
+            var feature_group_3c1ac6b3d6344fac9dbb0bbb9521b686 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_c566c0f43921440682f0b3890d10d5c4 = L.polygon(
+                [[-72.7126110933806, -103.4313494405], [-72.7126265315461, -103.431407968277], [-72.7126216619797, -103.43147654487], [-72.7126144130711, -103.431523441074], [-72.7125926114151, -103.431499340936], [-72.7125859161253, -103.431428065794], [-72.7125917539996, -103.431373446592]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_3c1ac6b3d6344fac9dbb0bbb9521b686);
+        
+    
+        var popup_dbf43de8f185480a998d187b60547ddc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae4c976aff244370b84485ce49753219 = $(`<div id="html_ae4c976aff244370b84485ce49753219" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_2</div>`)[0];
+            popup_dbf43de8f185480a998d187b60547ddc.setContent(html_ae4c976aff244370b84485ce49753219);
+        
+
+        polygon_c566c0f43921440682f0b3890d10d5c4.bindPopup(popup_dbf43de8f185480a998d187b60547ddc)
+        ;
+
+        
+    
+    
+            var feature_group_bae611915f12477aa3090f2403312729 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_7813b21b639947bc86f886ce6f4c2ec2 = L.circleMarker(
+                [-72.7126265315461, -103.431407968277],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bae611915f12477aa3090f2403312729);
+        
+    
+        var popup_0d6acd3abc8d4d4dbb496e261715615a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b33c649717bd486baa31ca6925bfc8f5 = $(`<div id="html_b33c649717bd486baa31ca6925bfc8f5" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_2</div>`)[0];
+            popup_0d6acd3abc8d4d4dbb496e261715615a.setContent(html_b33c649717bd486baa31ca6925bfc8f5);
+        
+
+        circle_marker_7813b21b639947bc86f886ce6f4c2ec2.bindPopup(popup_0d6acd3abc8d4d4dbb496e261715615a)
+        ;
+
+        
+    
+    
+            var circle_marker_eddec67f93254d83b72add1bdfc7a693 = L.circleMarker(
+                [-72.7126216619797, -103.43147654487],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bae611915f12477aa3090f2403312729);
+        
+    
+        var popup_e8e51b0873e2465993fd4433c5bce5fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5faeafb84d44cc4b35c5e426c7ab8eb = $(`<div id="html_e5faeafb84d44cc4b35c5e426c7ab8eb" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_2</div>`)[0];
+            popup_e8e51b0873e2465993fd4433c5bce5fd.setContent(html_e5faeafb84d44cc4b35c5e426c7ab8eb);
+        
+
+        circle_marker_eddec67f93254d83b72add1bdfc7a693.bindPopup(popup_e8e51b0873e2465993fd4433c5bce5fd)
+        ;
+
+        
+    
+    
+            var circle_marker_c359ea12aae14910bf44fb4aaf9c6237 = L.circleMarker(
+                [-72.7126144130711, -103.431523441074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bae611915f12477aa3090f2403312729);
+        
+    
+        var popup_5f2fec5cc164430d818ea86a42641270 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4da6c47c14f14d0996266591e77e0984 = $(`<div id="html_4da6c47c14f14d0996266591e77e0984" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_2</div>`)[0];
+            popup_5f2fec5cc164430d818ea86a42641270.setContent(html_4da6c47c14f14d0996266591e77e0984);
+        
+
+        circle_marker_c359ea12aae14910bf44fb4aaf9c6237.bindPopup(popup_5f2fec5cc164430d818ea86a42641270)
+        ;
+
+        
+    
+    
+            var circle_marker_1e4604ec44bc4ac38cf090b0bcce3f03 = L.circleMarker(
+                [-72.7125926114151, -103.431499340936],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bae611915f12477aa3090f2403312729);
+        
+    
+        var popup_33933c074d604354a76772f25d03d231 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac30776428da49dc99af62eafc31ac45 = $(`<div id="html_ac30776428da49dc99af62eafc31ac45" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_2</div>`)[0];
+            popup_33933c074d604354a76772f25d03d231.setContent(html_ac30776428da49dc99af62eafc31ac45);
+        
+
+        circle_marker_1e4604ec44bc4ac38cf090b0bcce3f03.bindPopup(popup_33933c074d604354a76772f25d03d231)
+        ;
+
+        
+    
+    
+            var circle_marker_f6650ff289804f6b9755657bbb721da6 = L.circleMarker(
+                [-72.7125859161253, -103.431428065794],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bae611915f12477aa3090f2403312729);
+        
+    
+        var popup_df7d206be7fb41b7a44b424344a02de4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bca342a3279b4226a19c61215b5792da = $(`<div id="html_bca342a3279b4226a19c61215b5792da" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_2</div>`)[0];
+            popup_df7d206be7fb41b7a44b424344a02de4.setContent(html_bca342a3279b4226a19c61215b5792da);
+        
+
+        circle_marker_f6650ff289804f6b9755657bbb721da6.bindPopup(popup_df7d206be7fb41b7a44b424344a02de4)
+        ;
+
+        
+    
+    
+            var circle_marker_4f67d1f518624b3b8f539ca173cbe6e3 = L.circleMarker(
+                [-72.7125917539996, -103.431373446592],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bae611915f12477aa3090f2403312729);
+        
+    
+        var popup_bcf6c4bfc4f24c658c4d5f27ac5d904c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57ba8893d506409b9074b64f04bd6b40 = $(`<div id="html_57ba8893d506409b9074b64f04bd6b40" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_2</div>`)[0];
+            popup_bcf6c4bfc4f24c658c4d5f27ac5d904c.setContent(html_57ba8893d506409b9074b64f04bd6b40);
+        
+
+        circle_marker_4f67d1f518624b3b8f539ca173cbe6e3.bindPopup(popup_bcf6c4bfc4f24c658c4d5f27ac5d904c)
+        ;
+
+        
+    
+    
+            var circle_marker_571ad22483134ad58794120f7e1f9bbd = L.circleMarker(
+                [-72.7126110933806, -103.4313494405],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bae611915f12477aa3090f2403312729);
+        
+    
+        var popup_645f404c5c66496b9ac014b9be5e97c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c847af62e140648aa3555a905294ff = $(`<div id="html_03c847af62e140648aa3555a905294ff" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_2</div>`)[0];
+            popup_645f404c5c66496b9ac014b9be5e97c4.setContent(html_03c847af62e140648aa3555a905294ff);
+        
+
+        circle_marker_571ad22483134ad58794120f7e1f9bbd.bindPopup(popup_645f404c5c66496b9ac014b9be5e97c4)
+        ;
+
+        
+    
+    
+            var circle_marker_f8b0501e2b4c43fcad6b73170c6d30b3 = L.circleMarker(
+                [-72.7126265315461, -103.431407968277],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bae611915f12477aa3090f2403312729);
+        
+    
+        var popup_87a048cb7a9c422f93c9c1f7bcd5c4ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0001e5a7bc7c44f986d822d352a67fa0 = $(`<div id="html_0001e5a7bc7c44f986d822d352a67fa0" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_2</div>`)[0];
+            popup_87a048cb7a9c422f93c9c1f7bcd5c4ec.setContent(html_0001e5a7bc7c44f986d822d352a67fa0);
+        
+
+        circle_marker_f8b0501e2b4c43fcad6b73170c6d30b3.bindPopup(popup_87a048cb7a9c422f93c9c1f7bcd5c4ec)
+        ;
+
+        
+    
+    
+            var feature_group_32c53e6c288a4c16988225a1919275f9 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_41316b07818c4db3937b10dbfa7c29bb = L.polygon(
+                [[-72.7149821591303, -103.446835473758], [-72.714993937269, -103.446909400011], [-72.7149916173444, -103.446971988244], [-72.7149801026728, -103.446984212415], [-72.714963990634, -103.44697125458], [-72.7149476151406, -103.446872146477], [-72.714950898118, -103.446796009861], [-72.7149678854156, -103.446766702177]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_32c53e6c288a4c16988225a1919275f9);
+        
+    
+        var popup_1dcd0e068e7a4b008b3cceb787dbe71c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b81d6db54cb3414abe2b44901ceb5cf9 = $(`<div id="html_b81d6db54cb3414abe2b44901ceb5cf9" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_3</div>`)[0];
+            popup_1dcd0e068e7a4b008b3cceb787dbe71c.setContent(html_b81d6db54cb3414abe2b44901ceb5cf9);
+        
+
+        polygon_41316b07818c4db3937b10dbfa7c29bb.bindPopup(popup_1dcd0e068e7a4b008b3cceb787dbe71c)
+        ;
+
+        
+    
+    
+            var feature_group_314f77689628422c8020c12e2ba25381 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_8ecaf7f2d0d14a148d1edf029dae0cb1 = L.circleMarker(
+                [-72.714993937269, -103.446909400011],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_5e0078d0cdea4d47a919d5288a0f2be6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f661184eb2ff4aff95bbd871dfa41a95 = $(`<div id="html_f661184eb2ff4aff95bbd871dfa41a95" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_5e0078d0cdea4d47a919d5288a0f2be6.setContent(html_f661184eb2ff4aff95bbd871dfa41a95);
+        
+
+        circle_marker_8ecaf7f2d0d14a148d1edf029dae0cb1.bindPopup(popup_5e0078d0cdea4d47a919d5288a0f2be6)
+        ;
+
+        
+    
+    
+            var circle_marker_b4a3cc2df43e44e9827399cb63663a06 = L.circleMarker(
+                [-72.7149916173444, -103.446971988244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_98c84fb129ed4e4ea42db3b354573881 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_825c8a78cc4c41cba97ec8f6fa65e98b = $(`<div id="html_825c8a78cc4c41cba97ec8f6fa65e98b" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_98c84fb129ed4e4ea42db3b354573881.setContent(html_825c8a78cc4c41cba97ec8f6fa65e98b);
+        
+
+        circle_marker_b4a3cc2df43e44e9827399cb63663a06.bindPopup(popup_98c84fb129ed4e4ea42db3b354573881)
+        ;
+
+        
+    
+    
+            var circle_marker_e299e6827dde4e8987014dc70217e5b0 = L.circleMarker(
+                [-72.7149801026728, -103.446984212415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_0b87ed7ad40e45a09f026b4cf45ceeba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50f56553d29846de9745cd5790567d16 = $(`<div id="html_50f56553d29846de9745cd5790567d16" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_0b87ed7ad40e45a09f026b4cf45ceeba.setContent(html_50f56553d29846de9745cd5790567d16);
+        
+
+        circle_marker_e299e6827dde4e8987014dc70217e5b0.bindPopup(popup_0b87ed7ad40e45a09f026b4cf45ceeba)
+        ;
+
+        
+    
+    
+            var circle_marker_c4738457150946d183c1af007e46d51a = L.circleMarker(
+                [-72.714963990634, -103.44697125458],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_9d166088895e46b1aad2dd5916b25fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_620584aae28c43cab9e9309f1cc3633e = $(`<div id="html_620584aae28c43cab9e9309f1cc3633e" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_9d166088895e46b1aad2dd5916b25fb7.setContent(html_620584aae28c43cab9e9309f1cc3633e);
+        
+
+        circle_marker_c4738457150946d183c1af007e46d51a.bindPopup(popup_9d166088895e46b1aad2dd5916b25fb7)
+        ;
+
+        
+    
+    
+            var circle_marker_e6f81d29a76b40f196adfffb1e7b4866 = L.circleMarker(
+                [-72.7149476151406, -103.446872146477],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_fcbb8d73c7394ccba6f5a23f4c372004 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5642584eb7a421a866685f9dd6cf04b = $(`<div id="html_b5642584eb7a421a866685f9dd6cf04b" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_fcbb8d73c7394ccba6f5a23f4c372004.setContent(html_b5642584eb7a421a866685f9dd6cf04b);
+        
+
+        circle_marker_e6f81d29a76b40f196adfffb1e7b4866.bindPopup(popup_fcbb8d73c7394ccba6f5a23f4c372004)
+        ;
+
+        
+    
+    
+            var circle_marker_64b27479565d4c348188504ac9c26ecf = L.circleMarker(
+                [-72.714950898118, -103.446796009861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_14498108897f42c9b16e4d0dadfbd60e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aeb5b2985c440bbaada750abd236161 = $(`<div id="html_6aeb5b2985c440bbaada750abd236161" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_14498108897f42c9b16e4d0dadfbd60e.setContent(html_6aeb5b2985c440bbaada750abd236161);
+        
+
+        circle_marker_64b27479565d4c348188504ac9c26ecf.bindPopup(popup_14498108897f42c9b16e4d0dadfbd60e)
+        ;
+
+        
+    
+    
+            var circle_marker_aed2fbf5d0b6483baa6aadf653b65c7e = L.circleMarker(
+                [-72.7149678854156, -103.446766702177],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_7283aa3ebfe14c109086ccd2346e3890 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb680cdaeec34edeb045ec8e43600392 = $(`<div id="html_bb680cdaeec34edeb045ec8e43600392" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_7283aa3ebfe14c109086ccd2346e3890.setContent(html_bb680cdaeec34edeb045ec8e43600392);
+        
+
+        circle_marker_aed2fbf5d0b6483baa6aadf653b65c7e.bindPopup(popup_7283aa3ebfe14c109086ccd2346e3890)
+        ;
+
+        
+    
+    
+            var circle_marker_05d0fd2f86594731aa949d729b9a69d3 = L.circleMarker(
+                [-72.7149821591303, -103.446835473758],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_406cf69ba30644ff952a0df3a7b112fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1ec1116d0744740a738b4e907d750be = $(`<div id="html_e1ec1116d0744740a738b4e907d750be" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_406cf69ba30644ff952a0df3a7b112fc.setContent(html_e1ec1116d0744740a738b4e907d750be);
+        
+
+        circle_marker_05d0fd2f86594731aa949d729b9a69d3.bindPopup(popup_406cf69ba30644ff952a0df3a7b112fc)
+        ;
+
+        
+    
+    
+            var circle_marker_ed19cfad619e42c59765d8d61fd48200 = L.circleMarker(
+                [-72.714993937269, -103.446909400011],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_314f77689628422c8020c12e2ba25381);
+        
+    
+        var popup_61fe70eef3ed4bda82b7af1b78b91724 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bfe4fcccfa24f29ad6e250e7dc57a28 = $(`<div id="html_6bfe4fcccfa24f29ad6e250e7dc57a28" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_3</div>`)[0];
+            popup_61fe70eef3ed4bda82b7af1b78b91724.setContent(html_6bfe4fcccfa24f29ad6e250e7dc57a28);
+        
+
+        circle_marker_ed19cfad619e42c59765d8d61fd48200.bindPopup(popup_61fe70eef3ed4bda82b7af1b78b91724)
+        ;
+
+        
+    
+    
+            var feature_group_246aa24de8db4aa9b0fe9b850570c839 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_eb148a6585d247599301cb1ea4ef40f1 = L.polygon(
+                [[-72.7152542740535, -103.449267284366], [-72.7152724874002, -103.449310581948], [-72.7152656570884, -103.449376705114], [-72.7152467428403, -103.449433107947], [-72.7152346589264, -103.449423387679], [-72.7152284420706, -103.449361093049], [-72.7152352723765, -103.449294970021]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_246aa24de8db4aa9b0fe9b850570c839);
+        
+    
+        var popup_8c1a517eed3f47dc9be3ed4a25a08059 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eaf398322fc435bb83ce05468afd8c1 = $(`<div id="html_8eaf398322fc435bb83ce05468afd8c1" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_4</div>`)[0];
+            popup_8c1a517eed3f47dc9be3ed4a25a08059.setContent(html_8eaf398322fc435bb83ce05468afd8c1);
+        
+
+        polygon_eb148a6585d247599301cb1ea4ef40f1.bindPopup(popup_8c1a517eed3f47dc9be3ed4a25a08059)
+        ;
+
+        
+    
+    
+            var feature_group_3ee83ebe489845b7bb1064d9e0f842ad = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_18733d10d17a4310839b05085b76e4ae = L.circleMarker(
+                [-72.7152724874002, -103.449310581948],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3ee83ebe489845b7bb1064d9e0f842ad);
+        
+    
+        var popup_9ad13a3bf003483dbc3dc5986bb72281 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ee0d38a07f642a4834f6135ff548ef1 = $(`<div id="html_0ee0d38a07f642a4834f6135ff548ef1" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_4</div>`)[0];
+            popup_9ad13a3bf003483dbc3dc5986bb72281.setContent(html_0ee0d38a07f642a4834f6135ff548ef1);
+        
+
+        circle_marker_18733d10d17a4310839b05085b76e4ae.bindPopup(popup_9ad13a3bf003483dbc3dc5986bb72281)
+        ;
+
+        
+    
+    
+            var circle_marker_910fa23e97784bf7891861738c26b224 = L.circleMarker(
+                [-72.7152656570884, -103.449376705114],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3ee83ebe489845b7bb1064d9e0f842ad);
+        
+    
+        var popup_56243f72be2740f5a21b1dd8d5d00a29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de81764e60874ecf8ff5f2802ead7748 = $(`<div id="html_de81764e60874ecf8ff5f2802ead7748" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_4</div>`)[0];
+            popup_56243f72be2740f5a21b1dd8d5d00a29.setContent(html_de81764e60874ecf8ff5f2802ead7748);
+        
+
+        circle_marker_910fa23e97784bf7891861738c26b224.bindPopup(popup_56243f72be2740f5a21b1dd8d5d00a29)
+        ;
+
+        
+    
+    
+            var circle_marker_6d3e941a68fa45eb815f03b6f3a45bc2 = L.circleMarker(
+                [-72.7152467428403, -103.449433107947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3ee83ebe489845b7bb1064d9e0f842ad);
+        
+    
+        var popup_cacf7c5d9bee441c9b37499ad5602ebd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_129ce54900504425a81734950f993f3a = $(`<div id="html_129ce54900504425a81734950f993f3a" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_4</div>`)[0];
+            popup_cacf7c5d9bee441c9b37499ad5602ebd.setContent(html_129ce54900504425a81734950f993f3a);
+        
+
+        circle_marker_6d3e941a68fa45eb815f03b6f3a45bc2.bindPopup(popup_cacf7c5d9bee441c9b37499ad5602ebd)
+        ;
+
+        
+    
+    
+            var circle_marker_cad72ebed9934be6acd345329cffe346 = L.circleMarker(
+                [-72.7152346589264, -103.449423387679],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3ee83ebe489845b7bb1064d9e0f842ad);
+        
+    
+        var popup_2b338e6ec301463abfdcdd942d836666 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7b19db4c74a4cddaef0eaeabb56a5fc = $(`<div id="html_a7b19db4c74a4cddaef0eaeabb56a5fc" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_4</div>`)[0];
+            popup_2b338e6ec301463abfdcdd942d836666.setContent(html_a7b19db4c74a4cddaef0eaeabb56a5fc);
+        
+
+        circle_marker_cad72ebed9934be6acd345329cffe346.bindPopup(popup_2b338e6ec301463abfdcdd942d836666)
+        ;
+
+        
+    
+    
+            var circle_marker_5aa71932d8934bcea03ba32040207fb2 = L.circleMarker(
+                [-72.7152284420706, -103.449361093049],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3ee83ebe489845b7bb1064d9e0f842ad);
+        
+    
+        var popup_83aa72427acc416fb8f31b1fc802acbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69bc748db511482aaef98c5bf3a545cb = $(`<div id="html_69bc748db511482aaef98c5bf3a545cb" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_4</div>`)[0];
+            popup_83aa72427acc416fb8f31b1fc802acbb.setContent(html_69bc748db511482aaef98c5bf3a545cb);
+        
+
+        circle_marker_5aa71932d8934bcea03ba32040207fb2.bindPopup(popup_83aa72427acc416fb8f31b1fc802acbb)
+        ;
+
+        
+    
+    
+            var circle_marker_4b8bbe8f80ff4bc0a90f583f23f8b84d = L.circleMarker(
+                [-72.7152352723765, -103.449294970021],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3ee83ebe489845b7bb1064d9e0f842ad);
+        
+    
+        var popup_9e55be8c0fb0433c956d62c41bf8c461 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1546d4a9d3340c6816bab552f179741 = $(`<div id="html_c1546d4a9d3340c6816bab552f179741" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_4</div>`)[0];
+            popup_9e55be8c0fb0433c956d62c41bf8c461.setContent(html_c1546d4a9d3340c6816bab552f179741);
+        
+
+        circle_marker_4b8bbe8f80ff4bc0a90f583f23f8b84d.bindPopup(popup_9e55be8c0fb0433c956d62c41bf8c461)
+        ;
+
+        
+    
+    
+            var circle_marker_f5b8558a16364b058ae61561e943b246 = L.circleMarker(
+                [-72.7152542740535, -103.449267284366],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3ee83ebe489845b7bb1064d9e0f842ad);
+        
+    
+        var popup_435d1a444ce1443888010ecbfebb2db2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54a7d651913a4e6fbde9855ce5065241 = $(`<div id="html_54a7d651913a4e6fbde9855ce5065241" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_4</div>`)[0];
+            popup_435d1a444ce1443888010ecbfebb2db2.setContent(html_54a7d651913a4e6fbde9855ce5065241);
+        
+
+        circle_marker_f5b8558a16364b058ae61561e943b246.bindPopup(popup_435d1a444ce1443888010ecbfebb2db2)
+        ;
+
+        
+    
+    
+            var circle_marker_8c41156fc98f4c1f855c1227bd644c98 = L.circleMarker(
+                [-72.7152724874002, -103.449310581948],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3ee83ebe489845b7bb1064d9e0f842ad);
+        
+    
+        var popup_446113878fda40d98b1e109b5f2ca89f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d746cf5fd5134022af8fdcca228bfa21 = $(`<div id="html_d746cf5fd5134022af8fdcca228bfa21" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_4</div>`)[0];
+            popup_446113878fda40d98b1e109b5f2ca89f.setContent(html_d746cf5fd5134022af8fdcca228bfa21);
+        
+
+        circle_marker_8c41156fc98f4c1f855c1227bd644c98.bindPopup(popup_446113878fda40d98b1e109b5f2ca89f)
+        ;
+
+        
+    
+    
+            var feature_group_2d9b780730dd4f05a56b8a2ecb1c631b = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_6430be6a40f341df979391891946c3b3 = L.polygon(
+                [[-72.7130446777774, -103.451033333121], [-72.7130271096335, -103.451194261058], [-72.7130106760745, -103.451253125171], [-72.7129862467136, -103.45129525965], [-72.712959488543, -103.451284032705], [-72.7129519347309, -103.45117498046], [-72.7129434373582, -103.45099308634], [-72.7129481607354, -103.450883612463], [-72.7129956339061, -103.450818823231], [-72.713031331486, -103.450919621144]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2d9b780730dd4f05a56b8a2ecb1c631b);
+        
+    
+        var popup_2509d571f0ba4001844f89e895cce3cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3932a01e0b9e480d950a56823b98baaa = $(`<div id="html_3932a01e0b9e480d950a56823b98baaa" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_5</div>`)[0];
+            popup_2509d571f0ba4001844f89e895cce3cf.setContent(html_3932a01e0b9e480d950a56823b98baaa);
+        
+
+        polygon_6430be6a40f341df979391891946c3b3.bindPopup(popup_2509d571f0ba4001844f89e895cce3cf)
+        ;
+
+        
+    
+    
+            var feature_group_0a312412911442ea8e5ee75d1876b6ae = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_1658c9aa9f444250b508d3752d9b8ed7 = L.circleMarker(
+                [-72.7130446777774, -103.451033333121],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_b6a330c770db4375b2bfdcfe9607dac6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a12fc006d83247f0b684bfe5c6dc0ad1 = $(`<div id="html_a12fc006d83247f0b684bfe5c6dc0ad1" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_b6a330c770db4375b2bfdcfe9607dac6.setContent(html_a12fc006d83247f0b684bfe5c6dc0ad1);
+        
+
+        circle_marker_1658c9aa9f444250b508d3752d9b8ed7.bindPopup(popup_b6a330c770db4375b2bfdcfe9607dac6)
+        ;
+
+        
+    
+    
+            var circle_marker_f1827f41967c4f048f230f705d756419 = L.circleMarker(
+                [-72.7130271096335, -103.451194261058],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_e57f462797294bf0b5bd39e127e8f065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f5e748f4c4346b98b58ee3fe077caf4 = $(`<div id="html_4f5e748f4c4346b98b58ee3fe077caf4" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_e57f462797294bf0b5bd39e127e8f065.setContent(html_4f5e748f4c4346b98b58ee3fe077caf4);
+        
+
+        circle_marker_f1827f41967c4f048f230f705d756419.bindPopup(popup_e57f462797294bf0b5bd39e127e8f065)
+        ;
+
+        
+    
+    
+            var circle_marker_44310bdda3df4c9aa565c447ce3f9ed2 = L.circleMarker(
+                [-72.7130106760745, -103.451253125171],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_5984d8e496064377b7c5e3e73b771760 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3ccf0fd755e4c3eabad78d5f0c9136b = $(`<div id="html_d3ccf0fd755e4c3eabad78d5f0c9136b" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_5984d8e496064377b7c5e3e73b771760.setContent(html_d3ccf0fd755e4c3eabad78d5f0c9136b);
+        
+
+        circle_marker_44310bdda3df4c9aa565c447ce3f9ed2.bindPopup(popup_5984d8e496064377b7c5e3e73b771760)
+        ;
+
+        
+    
+    
+            var circle_marker_ec7d4e002e134e73901e6ba8219ba91b = L.circleMarker(
+                [-72.7129862467136, -103.45129525965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_a452c784dc214531906cc4dbc79418dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_873c837eb66c4c0486c776e457ff0d89 = $(`<div id="html_873c837eb66c4c0486c776e457ff0d89" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_a452c784dc214531906cc4dbc79418dc.setContent(html_873c837eb66c4c0486c776e457ff0d89);
+        
+
+        circle_marker_ec7d4e002e134e73901e6ba8219ba91b.bindPopup(popup_a452c784dc214531906cc4dbc79418dc)
+        ;
+
+        
+    
+    
+            var circle_marker_c75ae9bcad394e50acb9a30466d677d3 = L.circleMarker(
+                [-72.712959488543, -103.451284032705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_065bc5fe6d7e4554a65b8cf6b2844416 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef988098e1944e2b89f6a9e996e324d9 = $(`<div id="html_ef988098e1944e2b89f6a9e996e324d9" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_065bc5fe6d7e4554a65b8cf6b2844416.setContent(html_ef988098e1944e2b89f6a9e996e324d9);
+        
+
+        circle_marker_c75ae9bcad394e50acb9a30466d677d3.bindPopup(popup_065bc5fe6d7e4554a65b8cf6b2844416)
+        ;
+
+        
+    
+    
+            var circle_marker_5ad0ea490f3543538c5353f94c9e28b3 = L.circleMarker(
+                [-72.7129519347309, -103.45117498046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_06c6e2ea0a29452ba2c63ef78dc474fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dc16dffd2d14df895c8c117b50f17d9 = $(`<div id="html_0dc16dffd2d14df895c8c117b50f17d9" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_06c6e2ea0a29452ba2c63ef78dc474fc.setContent(html_0dc16dffd2d14df895c8c117b50f17d9);
+        
+
+        circle_marker_5ad0ea490f3543538c5353f94c9e28b3.bindPopup(popup_06c6e2ea0a29452ba2c63ef78dc474fc)
+        ;
+
+        
+    
+    
+            var circle_marker_58f82a26ca3248f08a2510d9aeb7580c = L.circleMarker(
+                [-72.7129434373582, -103.45099308634],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_c637c5d9382c4f08a8233b8240b21b95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_752d0fd22ca2437c9b4d676483071098 = $(`<div id="html_752d0fd22ca2437c9b4d676483071098" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_c637c5d9382c4f08a8233b8240b21b95.setContent(html_752d0fd22ca2437c9b4d676483071098);
+        
+
+        circle_marker_58f82a26ca3248f08a2510d9aeb7580c.bindPopup(popup_c637c5d9382c4f08a8233b8240b21b95)
+        ;
+
+        
+    
+    
+            var circle_marker_8b7d18b36e86461d8e02e51dcc3858eb = L.circleMarker(
+                [-72.7129481607354, -103.450883612463],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_006bb06f41e14417acb776693fd70031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f0aafe736b94e82965d2da16ee31846 = $(`<div id="html_8f0aafe736b94e82965d2da16ee31846" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_006bb06f41e14417acb776693fd70031.setContent(html_8f0aafe736b94e82965d2da16ee31846);
+        
+
+        circle_marker_8b7d18b36e86461d8e02e51dcc3858eb.bindPopup(popup_006bb06f41e14417acb776693fd70031)
+        ;
+
+        
+    
+    
+            var circle_marker_f11a1011b000494aa6ef2bbed250ed34 = L.circleMarker(
+                [-72.7129956339061, -103.450818823231],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_adb97b0725ab4d388c6ee44dc03520a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_128ab8f253b64f39859779ddfdc0b615 = $(`<div id="html_128ab8f253b64f39859779ddfdc0b615" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_adb97b0725ab4d388c6ee44dc03520a6.setContent(html_128ab8f253b64f39859779ddfdc0b615);
+        
+
+        circle_marker_f11a1011b000494aa6ef2bbed250ed34.bindPopup(popup_adb97b0725ab4d388c6ee44dc03520a6)
+        ;
+
+        
+    
+    
+            var circle_marker_46f31563a8494c76bee1de3adec104ed = L.circleMarker(
+                [-72.713031331486, -103.450919621144],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_e446bc6d942b48e48e59b89de1908206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f5677fc5a054855b363cf23040ba3d1 = $(`<div id="html_7f5677fc5a054855b363cf23040ba3d1" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_e446bc6d942b48e48e59b89de1908206.setContent(html_7f5677fc5a054855b363cf23040ba3d1);
+        
+
+        circle_marker_46f31563a8494c76bee1de3adec104ed.bindPopup(popup_e446bc6d942b48e48e59b89de1908206)
+        ;
+
+        
+    
+    
+            var circle_marker_0a0cbe67bfc544798074cd8b7b99ad93 = L.circleMarker(
+                [-72.7130446777774, -103.451033333121],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0a312412911442ea8e5ee75d1876b6ae);
+        
+    
+        var popup_c6677b6db1094ca1806e757bfa74ecf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_552fe3b253754d3198fe541b23dca4f2 = $(`<div id="html_552fe3b253754d3198fe541b23dca4f2" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_5</div>`)[0];
+            popup_c6677b6db1094ca1806e757bfa74ecf7.setContent(html_552fe3b253754d3198fe541b23dca4f2);
+        
+
+        circle_marker_0a0cbe67bfc544798074cd8b7b99ad93.bindPopup(popup_c6677b6db1094ca1806e757bfa74ecf7)
+        ;
+
+        
+    
+    
+            var feature_group_b5953b0873674b63bd965d2085288989 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_48b05b7176e745579b7fd149dabc7e21 = L.polygon(
+                [[-72.7131734286049, -103.451332557519], [-72.7131860226086, -103.451198520168], [-72.713233495914, -103.451133730909], [-72.7132868869294, -103.451114892715], [-72.7132715221683, -103.451287893156], [-72.7132353167077, -103.45149561732], [-72.7132034589206, -103.45146998985]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_b5953b0873674b63bd965d2085288989);
+        
+    
+        var popup_82cb291b3c5a41ebaca83f97f0d68232 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03a4b98c0093419095fb0496624adb13 = $(`<div id="html_03a4b98c0093419095fb0496624adb13" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_6</div>`)[0];
+            popup_82cb291b3c5a41ebaca83f97f0d68232.setContent(html_03a4b98c0093419095fb0496624adb13);
+        
+
+        polygon_48b05b7176e745579b7fd149dabc7e21.bindPopup(popup_82cb291b3c5a41ebaca83f97f0d68232)
+        ;
+
+        
+    
+    
+            var feature_group_6e0f4843df2e44a6994d4a9f4787f3d1 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_6281482551da4e9f8d506bf99e8871fc = L.circleMarker(
+                [-72.7132868869294, -103.451114892715],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_a31d082b8f3042e5b9c89dde1a55ad1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71e6de5d40eb493db0d14e94fcc48e79 = $(`<div id="html_71e6de5d40eb493db0d14e94fcc48e79" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_a31d082b8f3042e5b9c89dde1a55ad1a.setContent(html_71e6de5d40eb493db0d14e94fcc48e79);
+        
+
+        circle_marker_6281482551da4e9f8d506bf99e8871fc.bindPopup(popup_a31d082b8f3042e5b9c89dde1a55ad1a)
+        ;
+
+        
+    
+    
+            var circle_marker_7bf56e24dfc84cc3bb224b238e5cdd47 = L.circleMarker(
+                [-72.7132715221683, -103.451287893156],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_7571c4158ace49dd91bc5f6fbf7f5039 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05970c7f9c454fc78c01bacba1d1d6cc = $(`<div id="html_05970c7f9c454fc78c01bacba1d1d6cc" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_7571c4158ace49dd91bc5f6fbf7f5039.setContent(html_05970c7f9c454fc78c01bacba1d1d6cc);
+        
+
+        circle_marker_7bf56e24dfc84cc3bb224b238e5cdd47.bindPopup(popup_7571c4158ace49dd91bc5f6fbf7f5039)
+        ;
+
+        
+    
+    
+            var circle_marker_56f28d3bd82e4197b2f0389059ba9e27 = L.circleMarker(
+                [-72.7132530104469, -103.451375979655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_398ac978a7a84052995b7d7fe088895d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95646a21b5de447a9f888b37e05c96b8 = $(`<div id="html_95646a21b5de447a9f888b37e05c96b8" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_398ac978a7a84052995b7d7fe088895d.setContent(html_95646a21b5de447a9f888b37e05c96b8);
+        
+
+        circle_marker_56f28d3bd82e4197b2f0389059ba9e27.bindPopup(popup_398ac978a7a84052995b7d7fe088895d)
+        ;
+
+        
+    
+    
+            var circle_marker_165d9c046eca4122a7cd4e8491b024e5 = L.circleMarker(
+                [-72.7132353167077, -103.45149561732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_ffee8d89bb954a5caae6d421a7f829f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7272ec78ab73409282eb68b10072610c = $(`<div id="html_7272ec78ab73409282eb68b10072610c" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_ffee8d89bb954a5caae6d421a7f829f9.setContent(html_7272ec78ab73409282eb68b10072610c);
+        
+
+        circle_marker_165d9c046eca4122a7cd4e8491b024e5.bindPopup(popup_ffee8d89bb954a5caae6d421a7f829f9)
+        ;
+
+        
+    
+    
+            var circle_marker_699b7d572cc84ed18a07b4f9313c14fc = L.circleMarker(
+                [-72.7132034589206, -103.45146998985],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_eb75f1723955485a809e4d622ae827fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e992206ad15470fb85766f03569bd97 = $(`<div id="html_9e992206ad15470fb85766f03569bd97" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_eb75f1723955485a809e4d622ae827fb.setContent(html_9e992206ad15470fb85766f03569bd97);
+        
+
+        circle_marker_699b7d572cc84ed18a07b4f9313c14fc.bindPopup(popup_eb75f1723955485a809e4d622ae827fb)
+        ;
+
+        
+    
+    
+            var circle_marker_df707071858f4a0187cda9c05e8baad9 = L.circleMarker(
+                [-72.7131734286049, -103.451332557519],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_90fd3c91d8884c82af1f03e92d791cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_673ccbc1991549e19539002514141705 = $(`<div id="html_673ccbc1991549e19539002514141705" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_90fd3c91d8884c82af1f03e92d791cb6.setContent(html_673ccbc1991549e19539002514141705);
+        
+
+        circle_marker_df707071858f4a0187cda9c05e8baad9.bindPopup(popup_90fd3c91d8884c82af1f03e92d791cb6)
+        ;
+
+        
+    
+    
+            var circle_marker_13eb988ef1e6448fa702d93bdbcf7322 = L.circleMarker(
+                [-72.7131860226086, -103.451198520168],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_2556db1548b745cba4b58fd9363cb4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a74b4eac3854617bdcf1ed08bfc4540 = $(`<div id="html_9a74b4eac3854617bdcf1ed08bfc4540" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_2556db1548b745cba4b58fd9363cb4a0.setContent(html_9a74b4eac3854617bdcf1ed08bfc4540);
+        
+
+        circle_marker_13eb988ef1e6448fa702d93bdbcf7322.bindPopup(popup_2556db1548b745cba4b58fd9363cb4a0)
+        ;
+
+        
+    
+    
+            var circle_marker_1d79686710214e229a0cbec9b9baa775 = L.circleMarker(
+                [-72.713233495914, -103.451133730909],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_50df88c1434b44138897eaac802ee960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2e8ecfe5f1e49fd862398100d143f5f = $(`<div id="html_e2e8ecfe5f1e49fd862398100d143f5f" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_50df88c1434b44138897eaac802ee960.setContent(html_e2e8ecfe5f1e49fd862398100d143f5f);
+        
+
+        circle_marker_1d79686710214e229a0cbec9b9baa775.bindPopup(popup_50df88c1434b44138897eaac802ee960)
+        ;
+
+        
+    
+    
+            var circle_marker_48505808be254b51bed108ea863a6034 = L.circleMarker(
+                [-72.7132868869294, -103.451114892715],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e0f4843df2e44a6994d4a9f4787f3d1);
+        
+    
+        var popup_4f9a8ac3e59f4e52812e144152517f53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd8913355a2d491199d47233bcad8903 = $(`<div id="html_cd8913355a2d491199d47233bcad8903" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_6</div>`)[0];
+            popup_4f9a8ac3e59f4e52812e144152517f53.setContent(html_cd8913355a2d491199d47233bcad8903);
+        
+
+        circle_marker_48505808be254b51bed108ea863a6034.bindPopup(popup_4f9a8ac3e59f4e52812e144152517f53)
+        ;
+
+        
+    
+    
+            var feature_group_88c3b1ae275d43d286986eeeda381c20 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_ff9538f009c5464a8564293226683727 = L.polygon(
+                [[-72.7131372231052, -103.451540280393], [-72.7131627211213, -103.451612280537], [-72.7131726033721, -103.451774696348], [-72.7131787713801, -103.45190323123], [-72.7131717188049, -103.451959344246], [-72.7131573632261, -103.451988986734], [-72.7130736251108, -103.452004004481], [-72.7130278541564, -103.451915695385], [-72.7130022310283, -103.451802404033], [-72.7130197996789, -103.451641476958]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_88c3b1ae275d43d286986eeeda381c20);
+        
+    
+        var popup_7678b953e48240ba9677ae1eabaa6f1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a79872dca87c40f8a831b30d908a7ca3 = $(`<div id="html_a79872dca87c40f8a831b30d908a7ca3" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_7</div>`)[0];
+            popup_7678b953e48240ba9677ae1eabaa6f1e.setContent(html_a79872dca87c40f8a831b30d908a7ca3);
+        
+
+        polygon_ff9538f009c5464a8564293226683727.bindPopup(popup_7678b953e48240ba9677ae1eabaa6f1e)
+        ;
+
+        
+    
+    
+            var feature_group_2e004a3738d04330bb64719062f54ab1 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_dd76e2dba04e43e6ba303d84a1d78699 = L.circleMarker(
+                [-72.7131726033721, -103.451774696348],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_acee7da61f274ddeb4fda6683d7ea7c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4f80fe4f37448499dfc400c15d53170 = $(`<div id="html_c4f80fe4f37448499dfc400c15d53170" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_acee7da61f274ddeb4fda6683d7ea7c7.setContent(html_c4f80fe4f37448499dfc400c15d53170);
+        
+
+        circle_marker_dd76e2dba04e43e6ba303d84a1d78699.bindPopup(popup_acee7da61f274ddeb4fda6683d7ea7c7)
+        ;
+
+        
+    
+    
+            var circle_marker_49a0a392d9f846359e71d6ab0f6f7dd4 = L.circleMarker(
+                [-72.7131787713801, -103.45190323123],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_8ce238e046ac46c5a3147212c0bdf01c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_015618cedf7e4aefb2be613fea49c2bf = $(`<div id="html_015618cedf7e4aefb2be613fea49c2bf" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_8ce238e046ac46c5a3147212c0bdf01c.setContent(html_015618cedf7e4aefb2be613fea49c2bf);
+        
+
+        circle_marker_49a0a392d9f846359e71d6ab0f6f7dd4.bindPopup(popup_8ce238e046ac46c5a3147212c0bdf01c)
+        ;
+
+        
+    
+    
+            var circle_marker_c18215b81b9f4809ad5f775688142507 = L.circleMarker(
+                [-72.7131717188049, -103.451959344246],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_cc7a3821d0f14a1a8a0a4d6960f59a63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a6c8cf2f5994459a22f3c69504a2d91 = $(`<div id="html_7a6c8cf2f5994459a22f3c69504a2d91" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_cc7a3821d0f14a1a8a0a4d6960f59a63.setContent(html_7a6c8cf2f5994459a22f3c69504a2d91);
+        
+
+        circle_marker_c18215b81b9f4809ad5f775688142507.bindPopup(popup_cc7a3821d0f14a1a8a0a4d6960f59a63)
+        ;
+
+        
+    
+    
+            var circle_marker_2971dd639c29499586457587bf6e9656 = L.circleMarker(
+                [-72.7131573632261, -103.451988986734],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_a0bbcb6eb69c4697b5aacbcd30145a3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a794656bf814d638069b99418d1c616 = $(`<div id="html_4a794656bf814d638069b99418d1c616" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_a0bbcb6eb69c4697b5aacbcd30145a3c.setContent(html_4a794656bf814d638069b99418d1c616);
+        
+
+        circle_marker_2971dd639c29499586457587bf6e9656.bindPopup(popup_a0bbcb6eb69c4697b5aacbcd30145a3c)
+        ;
+
+        
+    
+    
+            var circle_marker_4910b64d61e142d584ec31c98e1dde49 = L.circleMarker(
+                [-72.7131270161895, -103.451985169191],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_31b34ce9500f46078f63eee958d8a8c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaf8d1db97ff4ab284194bab9ec6f0ae = $(`<div id="html_aaf8d1db97ff4ab284194bab9ec6f0ae" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_31b34ce9500f46078f63eee958d8a8c5.setContent(html_aaf8d1db97ff4ab284194bab9ec6f0ae);
+        
+
+        circle_marker_4910b64d61e142d584ec31c98e1dde49.bindPopup(popup_31b34ce9500f46078f63eee958d8a8c5)
+        ;
+
+        
+    
+    
+            var circle_marker_885128389a434547aaf9260354fc725e = L.circleMarker(
+                [-72.7130944657383, -103.451969281396],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_7086d1e7c70848b79ce7a4b8177a6c18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1571c32676f4ef38aa18e06f363efd9 = $(`<div id="html_d1571c32676f4ef38aa18e06f363efd9" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_7086d1e7c70848b79ce7a4b8177a6c18.setContent(html_d1571c32676f4ef38aa18e06f363efd9);
+        
+
+        circle_marker_885128389a434547aaf9260354fc725e.bindPopup(popup_7086d1e7c70848b79ce7a4b8177a6c18)
+        ;
+
+        
+    
+    
+            var circle_marker_b229a2109eec4c41b0e61e9b9ce63623 = L.circleMarker(
+                [-72.7130736251108, -103.452004004481],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_0ed228f039d04509bcc1c14b6f278136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18706dda7c2f44ea9da446117db31fe8 = $(`<div id="html_18706dda7c2f44ea9da446117db31fe8" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_0ed228f039d04509bcc1c14b6f278136.setContent(html_18706dda7c2f44ea9da446117db31fe8);
+        
+
+        circle_marker_b229a2109eec4c41b0e61e9b9ce63623.bindPopup(popup_0ed228f039d04509bcc1c14b6f278136)
+        ;
+
+        
+    
+    
+            var circle_marker_54cf8bcaa6774754b8a7e1125c383595 = L.circleMarker(
+                [-72.7130278541564, -103.451915695385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_f6341562590643c495ddd3a8e0a6ca45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f99ca78cb94f4f48b9ed96976cfd4ab5 = $(`<div id="html_f99ca78cb94f4f48b9ed96976cfd4ab5" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_f6341562590643c495ddd3a8e0a6ca45.setContent(html_f99ca78cb94f4f48b9ed96976cfd4ab5);
+        
+
+        circle_marker_54cf8bcaa6774754b8a7e1125c383595.bindPopup(popup_f6341562590643c495ddd3a8e0a6ca45)
+        ;
+
+        
+    
+    
+            var circle_marker_e46fc6b024364c4cb286b50046be3f89 = L.circleMarker(
+                [-72.7130022310283, -103.451802404033],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_cce39e3f880a4b9eb4bf9151e2d6523b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_292c51df87fe4ec0b04cbdd8a1246d33 = $(`<div id="html_292c51df87fe4ec0b04cbdd8a1246d33" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_cce39e3f880a4b9eb4bf9151e2d6523b.setContent(html_292c51df87fe4ec0b04cbdd8a1246d33);
+        
+
+        circle_marker_e46fc6b024364c4cb286b50046be3f89.bindPopup(popup_cce39e3f880a4b9eb4bf9151e2d6523b)
+        ;
+
+        
+    
+    
+            var circle_marker_4cff3d9315484a43a547047ec9c4c784 = L.circleMarker(
+                [-72.7130197996789, -103.451641476958],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_6f45408c81774ee3b1a4c0d0c6ec2938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff54e6098db041eeafb38c4be43d4f4b = $(`<div id="html_ff54e6098db041eeafb38c4be43d4f4b" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_6f45408c81774ee3b1a4c0d0c6ec2938.setContent(html_ff54e6098db041eeafb38c4be43d4f4b);
+        
+
+        circle_marker_4cff3d9315484a43a547047ec9c4c784.bindPopup(popup_6f45408c81774ee3b1a4c0d0c6ec2938)
+        ;
+
+        
+    
+    
+            var circle_marker_43479dc3bbd34a4aad40f791c804b2b4 = L.circleMarker(
+                [-72.7130567570229, -103.45168150445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_e99a04510b4842c3bd1f56f6dccd7478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00a1554ea172418e990b01cbe2888b03 = $(`<div id="html_00a1554ea172418e990b01cbe2888b03" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_e99a04510b4842c3bd1f56f6dccd7478.setContent(html_00a1554ea172418e990b01cbe2888b03);
+        
+
+        circle_marker_43479dc3bbd34a4aad40f791c804b2b4.bindPopup(popup_e99a04510b4842c3bd1f56f6dccd7478)
+        ;
+
+        
+    
+    
+            var circle_marker_cf0cc20770d84fdd90a110f7373f7950 = L.circleMarker(
+                [-72.71308861477, -103.451707132096],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_cdec87f3d22c4a4a9cd719604dca1c12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_660924ed0e1a4779a2a454720368208c = $(`<div id="html_660924ed0e1a4779a2a454720368208c" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_cdec87f3d22c4a4a9cd719604dca1c12.setContent(html_660924ed0e1a4779a2a454720368208c);
+        
+
+        circle_marker_cf0cc20770d84fdd90a110f7373f7950.bindPopup(popup_cdec87f3d22c4a4a9cd719604dca1c12)
+        ;
+
+        
+    
+    
+            var circle_marker_51a8e93d98104a199e4c0259399e3542 = L.circleMarker(
+                [-72.7131079446308, -103.451650597934],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_fc301fe19a0942e59c3792d4cd16e634 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a013109fbf8948168bd8471e5682fe84 = $(`<div id="html_a013109fbf8948168bd8471e5682fe84" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_fc301fe19a0942e59c3792d4cd16e634.setContent(html_a013109fbf8948168bd8471e5682fe84);
+        
+
+        circle_marker_51a8e93d98104a199e4c0259399e3542.bindPopup(popup_fc301fe19a0942e59c3792d4cd16e634)
+        ;
+
+        
+    
+    
+            var circle_marker_773838537e4745db8fd506f9a483c9e7 = L.circleMarker(
+                [-72.7131372231052, -103.451540280393],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_8d43ecd68a5f4e319cb60bdacd95e5b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a95966860994aeeab4f532e430ea6a0 = $(`<div id="html_5a95966860994aeeab4f532e430ea6a0" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_8d43ecd68a5f4e319cb60bdacd95e5b5.setContent(html_5a95966860994aeeab4f532e430ea6a0);
+        
+
+        circle_marker_773838537e4745db8fd506f9a483c9e7.bindPopup(popup_8d43ecd68a5f4e319cb60bdacd95e5b5)
+        ;
+
+        
+    
+    
+            var circle_marker_decb9e0b48a84891a7e6890bb173660d = L.circleMarker(
+                [-72.7131627211213, -103.451612280537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_35e560a143b246bdb4723f4da187e26a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36bc937fb9e04f2b96d7822c612fd47b = $(`<div id="html_36bc937fb9e04f2b96d7822c612fd47b" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_35e560a143b246bdb4723f4da187e26a.setContent(html_36bc937fb9e04f2b96d7822c612fd47b);
+        
+
+        circle_marker_decb9e0b48a84891a7e6890bb173660d.bindPopup(popup_35e560a143b246bdb4723f4da187e26a)
+        ;
+
+        
+    
+    
+            var circle_marker_1f936017c35840db8a91dcd77b61cbee = L.circleMarker(
+                [-72.7131726033721, -103.451774696348],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e004a3738d04330bb64719062f54ab1);
+        
+    
+        var popup_3f74f112d61d42dcbadf53dfd345f81c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66d4e4c25f3d464cbc9f659e889f6671 = $(`<div id="html_66d4e4c25f3d464cbc9f659e889f6671" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_7</div>`)[0];
+            popup_3f74f112d61d42dcbadf53dfd345f81c.setContent(html_66d4e4c25f3d464cbc9f659e889f6671);
+        
+
+        circle_marker_1f936017c35840db8a91dcd77b61cbee.bindPopup(popup_3f74f112d61d42dcbadf53dfd345f81c)
+        ;
+
+        
+    
+    
+            var feature_group_e7229dfcf8974223ac4e8139cbff5ae7 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_68ec578791a64bad9775674a21df129a = L.polygon(
+                [[-72.713182827181, -103.449435044842], [-72.7131832682775, -103.449342720769], [-72.7132313077745, -103.449226893873], [-72.7132609622732, -103.44924044716], [-72.7132498806014, -103.449396297209], [-72.7132464175531, -103.449445000307], [-72.7132243178738, -103.449540499842], [-72.7131909488688, -103.449493065446]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_e7229dfcf8974223ac4e8139cbff5ae7);
+        
+    
+        var popup_edbf8cdc7a6d4a4ca2aa526aa2dca99e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aec515a54474e92b62d8ee4b3df0a5b = $(`<div id="html_6aec515a54474e92b62d8ee4b3df0a5b" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_8</div>`)[0];
+            popup_edbf8cdc7a6d4a4ca2aa526aa2dca99e.setContent(html_6aec515a54474e92b62d8ee4b3df0a5b);
+        
+
+        polygon_68ec578791a64bad9775674a21df129a.bindPopup(popup_edbf8cdc7a6d4a4ca2aa526aa2dca99e)
+        ;
+
+        
+    
+    
+            var feature_group_f8e753c0d6f14556a4cc1bd8df784442 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_72be4afb1c734f59a2ff642ef84c4bae = L.circleMarker(
+                [-72.7132609622732, -103.44924044716],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_fac271c85d914eefa8ebb9d957c28a6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29958b3dd3874b53ab0334382a19541e = $(`<div id="html_29958b3dd3874b53ab0334382a19541e" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_fac271c85d914eefa8ebb9d957c28a6d.setContent(html_29958b3dd3874b53ab0334382a19541e);
+        
+
+        circle_marker_72be4afb1c734f59a2ff642ef84c4bae.bindPopup(popup_fac271c85d914eefa8ebb9d957c28a6d)
+        ;
+
+        
+    
+    
+            var circle_marker_935b66a818224311bde080c5ee0a5960 = L.circleMarker(
+                [-72.7132498806014, -103.449396297209],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_3979c5e751ac4d58b0811ba0a9c62f59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fe049f2a05b4857813ffa7cc46aef3f = $(`<div id="html_4fe049f2a05b4857813ffa7cc46aef3f" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_3979c5e751ac4d58b0811ba0a9c62f59.setContent(html_4fe049f2a05b4857813ffa7cc46aef3f);
+        
+
+        circle_marker_935b66a818224311bde080c5ee0a5960.bindPopup(popup_3979c5e751ac4d58b0811ba0a9c62f59)
+        ;
+
+        
+    
+    
+            var circle_marker_6b49842fae4047ca9ab2b451154e083d = L.circleMarker(
+                [-72.7132464175531, -103.449445000307],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_ccf4d29bd2d3476e8f547422ce051cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f41baebef2124e1ea9bcd3608dd3d4b1 = $(`<div id="html_f41baebef2124e1ea9bcd3608dd3d4b1" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_ccf4d29bd2d3476e8f547422ce051cb6.setContent(html_f41baebef2124e1ea9bcd3608dd3d4b1);
+        
+
+        circle_marker_6b49842fae4047ca9ab2b451154e083d.bindPopup(popup_ccf4d29bd2d3476e8f547422ce051cb6)
+        ;
+
+        
+    
+    
+            var circle_marker_3ab7d578f037497dbabeebc0987523d1 = L.circleMarker(
+                [-72.7132243178738, -103.449540499842],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_72ee157914b4430581a5cbf4cb7ba382 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22ce918b366e437cb3a97b8a174bc977 = $(`<div id="html_22ce918b366e437cb3a97b8a174bc977" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_72ee157914b4430581a5cbf4cb7ba382.setContent(html_22ce918b366e437cb3a97b8a174bc977);
+        
+
+        circle_marker_3ab7d578f037497dbabeebc0987523d1.bindPopup(popup_72ee157914b4430581a5cbf4cb7ba382)
+        ;
+
+        
+    
+    
+            var circle_marker_0274dfbfae0d4975b3171dd13a57e84f = L.circleMarker(
+                [-72.7131909488688, -103.449493065446],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_a0cc6a1d3c5d4fc893b1fedb28e3c017 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c42a07e60c1243c197c994286d605c76 = $(`<div id="html_c42a07e60c1243c197c994286d605c76" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_a0cc6a1d3c5d4fc893b1fedb28e3c017.setContent(html_c42a07e60c1243c197c994286d605c76);
+        
+
+        circle_marker_0274dfbfae0d4975b3171dd13a57e84f.bindPopup(popup_a0cc6a1d3c5d4fc893b1fedb28e3c017)
+        ;
+
+        
+    
+    
+            var circle_marker_d65f726a92684501ab7f134d7ac405bc = L.circleMarker(
+                [-72.713182827181, -103.449435044842],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_269144fe5ff8422ea99ab8abde0074ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d49a51a82f58448c88defc44d6c2f42a = $(`<div id="html_d49a51a82f58448c88defc44d6c2f42a" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_269144fe5ff8422ea99ab8abde0074ed.setContent(html_d49a51a82f58448c88defc44d6c2f42a);
+        
+
+        circle_marker_d65f726a92684501ab7f134d7ac405bc.bindPopup(popup_269144fe5ff8422ea99ab8abde0074ed)
+        ;
+
+        
+    
+    
+            var circle_marker_29927b79e24e42899616549766b5bc04 = L.circleMarker(
+                [-72.7131832682775, -103.449342720769],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_eb65118cbf9c4fa486c225cced68a4ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5edf97cdf2ad4541867d4ff4154d41e6 = $(`<div id="html_5edf97cdf2ad4541867d4ff4154d41e6" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_eb65118cbf9c4fa486c225cced68a4ae.setContent(html_5edf97cdf2ad4541867d4ff4154d41e6);
+        
+
+        circle_marker_29927b79e24e42899616549766b5bc04.bindPopup(popup_eb65118cbf9c4fa486c225cced68a4ae)
+        ;
+
+        
+    
+    
+            var circle_marker_596c054b54f94ceab204249ea88ef71c = L.circleMarker(
+                [-72.7132313077745, -103.449226893873],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_d2af9b0caa074ef9ab9a22273cb47c95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03e755e952a44094a05a9c3772525ff3 = $(`<div id="html_03e755e952a44094a05a9c3772525ff3" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_d2af9b0caa074ef9ab9a22273cb47c95.setContent(html_03e755e952a44094a05a9c3772525ff3);
+        
+
+        circle_marker_596c054b54f94ceab204249ea88ef71c.bindPopup(popup_d2af9b0caa074ef9ab9a22273cb47c95)
+        ;
+
+        
+    
+    
+            var circle_marker_43ff75660b824003b25fb0b428150494 = L.circleMarker(
+                [-72.7132609622732, -103.44924044716],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f8e753c0d6f14556a4cc1bd8df784442);
+        
+    
+        var popup_121cf4932e514a66af905eb28782533b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80281d854363479aaa7d96b55323d602 = $(`<div id="html_80281d854363479aaa7d96b55323d602" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_8</div>`)[0];
+            popup_121cf4932e514a66af905eb28782533b.setContent(html_80281d854363479aaa7d96b55323d602);
+        
+
+        circle_marker_43ff75660b824003b25fb0b428150494.bindPopup(popup_121cf4932e514a66af905eb28782533b)
+        ;
+
+        
+    
+    
+            var feature_group_87d54157cd814eaabaab13703a171949 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var polygon_d407b87f3799464983184c05da3a8e59 = L.polygon(
+                [[-72.7129613261646, -103.450224860745], [-72.7131092887804, -103.449478873881], [-72.7131481986844, -103.449448383555], [-72.7131578313246, -103.449528214603], [-72.7131536756262, -103.449586657971], [-72.7131452384836, -103.449662252966], [-72.7131054459737, -103.449877390086], [-72.7130756014364, -103.450038742266], [-72.712989846392, -103.450340478997], [-72.7129630881656, -103.450329253549]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_87d54157cd814eaabaab13703a171949);
+        
+    
+        var popup_9c971c9809a34d079031b6267baa89b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b1763d589c54dfd8befaf66574124c8 = $(`<div id="html_8b1763d589c54dfd8befaf66574124c8" style="width: 100.0%; height: 100.0%;">Example convex hullwaites_region_9</div>`)[0];
+            popup_9c971c9809a34d079031b6267baa89b9.setContent(html_8b1763d589c54dfd8befaf66574124c8);
+        
+
+        polygon_d407b87f3799464983184c05da3a8e59.bindPopup(popup_9c971c9809a34d079031b6267baa89b9)
+        ;
+
+        
+    
+    
+            var feature_group_af7ba958f8ef40c18b9fe382a7d5f904 = L.featureGroup(
+                {}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var circle_marker_ea891ecd90c2446fbed1707d12e5d8f6 = L.circleMarker(
+                [-72.7131481986844, -103.449448383555],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_6706671459d047a4a5144bd9b378fe3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec280608ede04f1f87effb3c7380b8ec = $(`<div id="html_ec280608ede04f1f87effb3c7380b8ec" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_6706671459d047a4a5144bd9b378fe3c.setContent(html_ec280608ede04f1f87effb3c7380b8ec);
+        
+
+        circle_marker_ea891ecd90c2446fbed1707d12e5d8f6.bindPopup(popup_6706671459d047a4a5144bd9b378fe3c)
+        ;
+
+        
+    
+    
+            var circle_marker_783984bb3bd44dc1844580afd5e4b86b = L.circleMarker(
+                [-72.7131578313246, -103.449528214603],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_0dd4a50b29524d1ca5d9ea5cf2d50b32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6789829bb044e2c984b01967110abae = $(`<div id="html_f6789829bb044e2c984b01967110abae" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_0dd4a50b29524d1ca5d9ea5cf2d50b32.setContent(html_f6789829bb044e2c984b01967110abae);
+        
+
+        circle_marker_783984bb3bd44dc1844580afd5e4b86b.bindPopup(popup_0dd4a50b29524d1ca5d9ea5cf2d50b32)
+        ;
+
+        
+    
+    
+            var circle_marker_84cb702584a84734a0b766e602fd6c76 = L.circleMarker(
+                [-72.7131536756262, -103.449586657971],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_f3ce4a3a2da64c71af77662d93dc7f57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93c86e34098b4c88ad88a5f69ed61441 = $(`<div id="html_93c86e34098b4c88ad88a5f69ed61441" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_f3ce4a3a2da64c71af77662d93dc7f57.setContent(html_93c86e34098b4c88ad88a5f69ed61441);
+        
+
+        circle_marker_84cb702584a84734a0b766e602fd6c76.bindPopup(popup_f3ce4a3a2da64c71af77662d93dc7f57)
+        ;
+
+        
+    
+    
+            var circle_marker_e4d81334bc3d4210bc77d11109f455ca = L.circleMarker(
+                [-72.7131452384836, -103.449662252966],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_e6b413bd931d4a9a920e89e4a9a5bc59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_095ec649512a41ab9c219df5e2f6c946 = $(`<div id="html_095ec649512a41ab9c219df5e2f6c946" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_e6b413bd931d4a9a920e89e4a9a5bc59.setContent(html_095ec649512a41ab9c219df5e2f6c946);
+        
+
+        circle_marker_e4d81334bc3d4210bc77d11109f455ca.bindPopup(popup_e6b413bd931d4a9a920e89e4a9a5bc59)
+        ;
+
+        
+    
+    
+            var circle_marker_aa42feb8ae2e418aa398e891face2e29 = L.circleMarker(
+                [-72.7131266018287, -103.449709048969],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_c29c5ab520594940bcbc945ade929906 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ee3fa2e85e04458bd9439f28a86e280 = $(`<div id="html_8ee3fa2e85e04458bd9439f28a86e280" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_c29c5ab520594940bcbc945ade929906.setContent(html_8ee3fa2e85e04458bd9439f28a86e280);
+        
+
+        circle_marker_aa42feb8ae2e418aa398e891face2e29.bindPopup(popup_c29c5ab520594940bcbc945ade929906)
+        ;
+
+        
+    
+    
+            var circle_marker_4d6b1ec4956148f1acdfb631b5b6f0c1 = L.circleMarker(
+                [-72.7131145758284, -103.449792054845],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_c9cc61aea6bf491cb4038217aba39fcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79ca0ca9d4b44826a4595bc6908fc278 = $(`<div id="html_79ca0ca9d4b44826a4595bc6908fc278" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_c9cc61aea6bf491cb4038217aba39fcd.setContent(html_79ca0ca9d4b44826a4595bc6908fc278);
+        
+
+        circle_marker_4d6b1ec4956148f1acdfb631b5b6f0c1.bindPopup(popup_c9cc61aea6bf491cb4038217aba39fcd)
+        ;
+
+        
+    
+    
+            var circle_marker_0d0bf027928142bd8b927fc871ce3826 = L.circleMarker(
+                [-72.7131054459737, -103.449877390086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_66458b7897154181b7268e2fc9b3f77e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7c1ec1e8900459e893204ff9c72793a = $(`<div id="html_e7c1ec1e8900459e893204ff9c72793a" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_66458b7897154181b7268e2fc9b3f77e.setContent(html_e7c1ec1e8900459e893204ff9c72793a);
+        
+
+        circle_marker_0d0bf027928142bd8b927fc871ce3826.bindPopup(popup_66458b7897154181b7268e2fc9b3f77e)
+        ;
+
+        
+    
+    
+            var circle_marker_abb2598365ac4e3e84f59e4b3d511115 = L.circleMarker(
+                [-72.7130826534506, -103.449982628772],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_4227795d644548e0af52d4cb8b1b7513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9abcb8f78b4488d823d31fa4df00dc4 = $(`<div id="html_f9abcb8f78b4488d823d31fa4df00dc4" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_4227795d644548e0af52d4cb8b1b7513.setContent(html_f9abcb8f78b4488d823d31fa4df00dc4);
+        
+
+        circle_marker_abb2598365ac4e3e84f59e4b3d511115.bindPopup(popup_4227795d644548e0af52d4cb8b1b7513)
+        ;
+
+        
+    
+    
+            var circle_marker_b090999c23ed47448a94746edb5b1733 = L.circleMarker(
+                [-72.7130756014364, -103.450038742266],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_a31b1df1fbd1435696698348202a5503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0622f0c4e4a9458bb1722d8b7e7cdc64 = $(`<div id="html_0622f0c4e4a9458bb1722d8b7e7cdc64" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_a31b1df1fbd1435696698348202a5503.setContent(html_0622f0c4e4a9458bb1722d8b7e7cdc64);
+        
+
+        circle_marker_b090999c23ed47448a94746edb5b1733.bindPopup(popup_a31b1df1fbd1435696698348202a5503)
+        ;
+
+        
+    
+    
+            var circle_marker_91f076ecab3d4381b1a348d4a145fa46 = L.circleMarker(
+                [-72.7130290723534, -103.450176376262],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_d627e60a202f444d8f5f447e298bdaff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_597a5c392d29400785e370b570a1e2d7 = $(`<div id="html_597a5c392d29400785e370b570a1e2d7" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_d627e60a202f444d8f5f447e298bdaff.setContent(html_597a5c392d29400785e370b570a1e2d7);
+        
+
+        circle_marker_91f076ecab3d4381b1a348d4a145fa46.bindPopup(popup_d627e60a202f444d8f5f447e298bdaff)
+        ;
+
+        
+    
+    
+            var circle_marker_05d021d8e5e1481a88d6f8ff782c5754 = L.circleMarker(
+                [-72.7130218947044, -103.450191198139],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_e124390e2cd44e79ae715dc967b7392d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aa1b8879f0a49debbc376184a74c16d = $(`<div id="html_5aa1b8879f0a49debbc376184a74c16d" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_e124390e2cd44e79ae715dc967b7392d.setContent(html_5aa1b8879f0a49debbc376184a74c16d);
+        
+
+        circle_marker_05d021d8e5e1481a88d6f8ff782c5754.bindPopup(popup_e124390e2cd44e79ae715dc967b7392d)
+        ;
+
+        
+    
+    
+            var circle_marker_36db700e71f948e9ba16abf05e762ca4 = L.circleMarker(
+                [-72.712989846392, -103.450340478997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_6a9ba67c30a444e796c7889bbaf5ce2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59deecbbe6d34b6ab9f99b1a07e16daf = $(`<div id="html_59deecbbe6d34b6ab9f99b1a07e16daf" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_6a9ba67c30a444e796c7889bbaf5ce2b.setContent(html_59deecbbe6d34b6ab9f99b1a07e16daf);
+        
+
+        circle_marker_36db700e71f948e9ba16abf05e762ca4.bindPopup(popup_6a9ba67c30a444e796c7889bbaf5ce2b)
+        ;
+
+        
+    
+    
+            var circle_marker_d1e1345adfda489bbd960cc47d4aa0cd = L.circleMarker(
+                [-72.7129630881656, -103.450329253549],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_d6e914eac62d46629e38bad76ef53b26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_387052f7fb814e3988d2568a2d5809fc = $(`<div id="html_387052f7fb814e3988d2568a2d5809fc" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_d6e914eac62d46629e38bad76ef53b26.setContent(html_387052f7fb814e3988d2568a2d5809fc);
+        
+
+        circle_marker_d1e1345adfda489bbd960cc47d4aa0cd.bindPopup(popup_d6e914eac62d46629e38bad76ef53b26)
+        ;
+
+        
+    
+    
+            var circle_marker_c8fe556312d8456c883c2c077dfb77b4 = L.circleMarker(
+                [-72.7129613261646, -103.450224860745],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_f70faacb384b4682be0798256c63824c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a26dfebe7d47ed900acb0a44b4efd1 = $(`<div id="html_55a26dfebe7d47ed900acb0a44b4efd1" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_f70faacb384b4682be0798256c63824c.setContent(html_55a26dfebe7d47ed900acb0a44b4efd1);
+        
+
+        circle_marker_c8fe556312d8456c883c2c077dfb77b4.bindPopup(popup_f70faacb384b4682be0798256c63824c)
+        ;
+
+        
+    
+    
+            var circle_marker_004373e696074d3abc39faaecf3a2f5a = L.circleMarker(
+                [-72.712979837346, -103.450136774503],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_26cdef98497744c68695e54dab948120 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9087934360df46599da39bd61cbeeef3 = $(`<div id="html_9087934360df46599da39bd61cbeeef3" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_26cdef98497744c68695e54dab948120.setContent(html_9087934360df46599da39bd61cbeeef3);
+        
+
+        circle_marker_004373e696074d3abc39faaecf3a2f5a.bindPopup(popup_26cdef98497744c68695e54dab948120)
+        ;
+
+        
+    
+    
+            var circle_marker_d45489d449d74f47a5f88de2b2149ec4 = L.circleMarker(
+                [-72.7130027555608, -103.45007282797],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_b5e6f7444f6e43d0a44fac970db4dca5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a881f5e330334b4db809e6986cb8c036 = $(`<div id="html_a881f5e330334b4db809e6986cb8c036" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_b5e6f7444f6e43d0a44fac970db4dca5.setContent(html_a881f5e330334b4db809e6986cb8c036);
+        
+
+        circle_marker_d45489d449d74f47a5f88de2b2149ec4.bindPopup(popup_b5e6f7444f6e43d0a44fac970db4dca5)
+        ;
+
+        
+    
+    
+            var circle_marker_3f5c5741e0214b6cbf7e99c729b46d16 = L.circleMarker(
+                [-72.7130552025596, -103.449981144312],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_2e2691428a1f450f9228ebb72f35059d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e396d010ca1145d78fe1462c3b160090 = $(`<div id="html_e396d010ca1145d78fe1462c3b160090" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_2e2691428a1f450f9228ebb72f35059d.setContent(html_e396d010ca1145d78fe1462c3b160090);
+        
+
+        circle_marker_3f5c5741e0214b6cbf7e99c729b46d16.bindPopup(popup_2e2691428a1f450f9228ebb72f35059d)
+        ;
+
+        
+    
+    
+            var circle_marker_21af0444c1af4e1d8253acff7ce5fb46 = L.circleMarker(
+                [-72.713063765466, -103.449946841333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_30b58953a7784db9b418f71f51f2bfbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8b7c26864e946e1afc310a69bee8f03 = $(`<div id="html_e8b7c26864e946e1afc310a69bee8f03" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_30b58953a7784db9b418f71f51f2bfbc.setContent(html_e8b7c26864e946e1afc310a69bee8f03);
+        
+
+        circle_marker_21af0444c1af4e1d8253acff7ce5fb46.bindPopup(popup_30b58953a7784db9b418f71f51f2bfbc)
+        ;
+
+        
+    
+    
+            var circle_marker_202b349a96b5495a8e9bebeb18f0407f = L.circleMarker(
+                [-72.7130955621255, -103.449714976016],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_13ab1237eae1401c983658ac8f53b0bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70e9e569be8344ca9b0bf0dec46c0c8b = $(`<div id="html_70e9e569be8344ca9b0bf0dec46c0c8b" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_13ab1237eae1401c983658ac8f53b0bd.setContent(html_70e9e569be8344ca9b0bf0dec46c0c8b);
+        
+
+        circle_marker_202b349a96b5495a8e9bebeb18f0407f.bindPopup(popup_13ab1237eae1401c983658ac8f53b0bd)
+        ;
+
+        
+    
+    
+            var circle_marker_48ba8a3223644338a89fef8b86fd0c4d = L.circleMarker(
+                [-72.7130880074227, -103.449605923596],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_6b1e6a861be54623a371b702632fc5e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62ca1c2c28da44559ab2bab07525a179 = $(`<div id="html_62ca1c2c28da44559ab2bab07525a179" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_6b1e6a861be54623a371b702632fc5e1.setContent(html_62ca1c2c28da44559ab2bab07525a179);
+        
+
+        circle_marker_48ba8a3223644338a89fef8b86fd0c4d.bindPopup(popup_6b1e6a861be54623a371b702632fc5e1)
+        ;
+
+        
+    
+    
+            var circle_marker_365dc80cad9749908c237cb6c910e0c2 = L.circleMarker(
+                [-72.7131092887804, -103.449478873881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_20358b11e79345198eb4a3888b707d56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cbad5643fae4fb38110b875a51da96f = $(`<div id="html_0cbad5643fae4fb38110b875a51da96f" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_20358b11e79345198eb4a3888b707d56.setContent(html_0cbad5643fae4fb38110b875a51da96f);
+        
+
+        circle_marker_365dc80cad9749908c237cb6c910e0c2.bindPopup(popup_20358b11e79345198eb4a3888b707d56)
+        ;
+
+        
+    
+    
+            var circle_marker_7f6934aefdc5496bb55509ea5cd5eeb0 = L.circleMarker(
+                [-72.7131481986844, -103.449448383555],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_af7ba958f8ef40c18b9fe382a7d5f904);
+        
+    
+        var popup_3b02f5d14c4d44c0ba71f8a523ee40a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c02ff2a94e6422a83619e2e4858575c = $(`<div id="html_4c02ff2a94e6422a83619e2e4858575c" style="width: 100.0%; height: 100.0%;">Example point for convex hullwaites_region_9</div>`)[0];
+            popup_3b02f5d14c4d44c0ba71f8a523ee40a3.setContent(html_4c02ff2a94e6422a83619e2e4858575c);
+        
+
+        circle_marker_7f6934aefdc5496bb55509ea5cd5eeb0.bindPopup(popup_3b02f5d14c4d44c0ba71f8a523ee40a3)
+        ;
+
+        
+    
+    
+            var tile_layer_12e1fe3f8704424494ac1d7e39253b40 = L.tileLayer(
+                "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/b1f6f94d7c1330d6c1d07595c9f10b0c-9246020c8f1902cfaf0333802a2554ba/tiles/{z}/{x}/{y}",
+                {"attribution": "Map Data \u0026copy; \u003ca href=\"https://earthengine.google.com/\"\u003eGoogle Earth Engine\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+    
+            var layer_control_b745aef71ede4e68bd81dbf4afbcacd0 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_79a570935276434f9b8aa85eabfe4d8c,
+                },
+                overlays :  {
+                    "Example convex hullwaites_region_1" : feature_group_c0ad8dc142244b17b29682975800b145,
+                    "Example points for convex hullwaites_region_1" : feature_group_ff7869ddf91b40bda7d487fee05e5dfb,
+                    "Example convex hullwaites_region_10" : feature_group_e4f5ae545e6041b882284d4e3a0c9447,
+                    "Example points for convex hullwaites_region_10" : feature_group_c0510e96292947359ffc402177742621,
+                    "Example convex hullwaites_region_11" : feature_group_8014eff00c494ec4bd7b4fbac8a1b7cf,
+                    "Example points for convex hullwaites_region_11" : feature_group_485a60d6ae1e4641b2c74e0833cb7300,
+                    "Example convex hullwaites_region_12" : feature_group_153dfebb5b164913b90f642d3f54d49a,
+                    "Example points for convex hullwaites_region_12" : feature_group_a5dedf2f344341bea3a0e8912fcec64d,
+                    "Example convex hullwaites_region_2" : feature_group_3c1ac6b3d6344fac9dbb0bbb9521b686,
+                    "Example points for convex hullwaites_region_2" : feature_group_bae611915f12477aa3090f2403312729,
+                    "Example convex hullwaites_region_3" : feature_group_32c53e6c288a4c16988225a1919275f9,
+                    "Example points for convex hullwaites_region_3" : feature_group_314f77689628422c8020c12e2ba25381,
+                    "Example convex hullwaites_region_4" : feature_group_246aa24de8db4aa9b0fe9b850570c839,
+                    "Example points for convex hullwaites_region_4" : feature_group_3ee83ebe489845b7bb1064d9e0f842ad,
+                    "Example convex hullwaites_region_5" : feature_group_2d9b780730dd4f05a56b8a2ecb1c631b,
+                    "Example points for convex hullwaites_region_5" : feature_group_0a312412911442ea8e5ee75d1876b6ae,
+                    "Example convex hullwaites_region_6" : feature_group_b5953b0873674b63bd965d2085288989,
+                    "Example points for convex hullwaites_region_6" : feature_group_6e0f4843df2e44a6994d4a9f4787f3d1,
+                    "Example convex hullwaites_region_7" : feature_group_88c3b1ae275d43d286986eeeda381c20,
+                    "Example points for convex hullwaites_region_7" : feature_group_2e004a3738d04330bb64719062f54ab1,
+                    "Example convex hullwaites_region_8" : feature_group_e7229dfcf8974223ac4e8139cbff5ae7,
+                    "Example points for convex hullwaites_region_8" : feature_group_f8e753c0d6f14556a4cc1bd8df784442,
+                    "Example convex hullwaites_region_9" : feature_group_87d54157cd814eaabaab13703a171949,
+                    "Example points for convex hullwaites_region_9" : feature_group_af7ba958f8ef40c18b9fe382a7d5f904,
+                    "median composite" : tile_layer_12e1fe3f8704424494ac1d7e39253b40,
+                },
+            };
+            L.control.layers(
+                layer_control_b745aef71ede4e68bd81dbf4afbcacd0.base_layers,
+                layer_control_b745aef71ede4e68bd81dbf4afbcacd0.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_9949ff99ee974776be82ad7197d7df10);
+        
+</script>

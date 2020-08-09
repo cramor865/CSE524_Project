@@ -51,11 +51,11 @@ Capebatterbee
 
 Original Image:
 
-![img](file:///C:/Users/janap/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)
+![img](/fig1.png)
 
 Ground Truth Image:
 
-![img](file:///C:/Users/janap/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)
+![img](/fig2.png)
 
 For all the locations, the images are ready for segmentation except acuna and wpec which returned the following results:
 
@@ -65,17 +65,17 @@ Acuna
 
 Original Image:
 
-![img](file:///C:/Users/janap/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)
+![img](/fig3.png)
 
 Wpec
 
-![img](file:///C:/Users/janap/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png)
+![img](/fig4.png)
 
 This has happened because the Sentinel 2A didn’t have a capture for these locations for the year 2019. Hence, we discard these two for the further steps of segmentation. 
 
 Next, we create the U-Net model as follows:
 
-![https://miro.medium.com/max/800/1*OkUrpDD6I0FpugA_bbYBJQ.png](file:///C:/Users/janap/AppData/Local/Temp/msohtmlclip1/01/clip_image011.jpg)
+![https://miro.medium.com/max/800/1*OkUrpDD6I0FpugA_bbYBJQ.png](/fig5.png)
 
 This model is now ready for training. Hence, we take the dataset and split it into training and testing data.
 
@@ -85,7 +85,7 @@ This model is now ready for training. Hence, we take the dataset and split it in
 
 For the 19 locations provided, after the segmentation process is done, there is a marker placed at every location. Upon clicking the marker, the relevant segmentation result is displayed in a pop-up box. This has been implemented using the folium’s Iframe package and the result is shown below:
 
-![img](file:///C:/Users/janap/AppData/Local/Temp/msohtmlclip1/01/clip_image013.jpg)
+![img](/fig6.png)
 
  
 

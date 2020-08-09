@@ -39,7 +39,7 @@ For the 19 locations, the KML file is parsed to capture details and generate the
 
 For a better understanding, we represent the process using a flowchart as below:
 
-![img](file:///C:/Users/janap/AppData/Local/Temp/msohtmlclip1/01/clip_image001.jpg)
+![img](/flochart.png)
 
  
 

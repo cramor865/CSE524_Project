@@ -39,7 +39,7 @@ For the 19 locations, the KML file is parsed to capture details and generate the
 
 For a better understanding, we represent the process using a flowchart as below:
 
-![img](/flochart.png)
+![img](/flochart.jpg)
 
  
 
